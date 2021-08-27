@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap);
+
+* {
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  color: #0f1f2c;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  padding-bottom: 3rem;
+  top: 72px;
+}
+
+.container {
+  align-items: center;
+  width: 100%;
+}
+
+.small-container {
+  align-items: center;
+  width: 95%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-size: 32px;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin: .5rem 0 1rem;
+  padding: 0;
+}
+
+li {
+    font-family: "Playfair Display", serif; 
+}
+
+p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: initial;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 1025px) {
+  .h1 {
+    font-size: 40px;
+  }
+
+  .h2 {
+    font-size: 28px;
+  }
+
+  .h3 {
+    font-size:24px
+  }
+
+  .small-container {
+    align-items: center;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .container {
+    max-width: 1790px;
+    margin: 0 auto;
+  }
+}

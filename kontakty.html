@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Krkonošská vila Montana</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/navigation.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/buttons.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/20.4.0/i18next.min.js"
+        integrity="sha512-6aFqg0ZOAUhCb0OhX3GMEvIbv7lR1fkjveiR1YLBMChmtMcvW6UiIkpSOS6/smY75Uak77zgG6X/sPbJDg1rag=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/i18next-browser-languagedetector/6.1.2/i18nextBrowserLanguageDetector.min.js"
+        integrity="sha512-lHKx8SXD7tK/Wczwf1mv7U1BPKt/p/28k1z7aB9piBho/421DihqrNK5GquW+9keY0PYcl0mjTJnEC72aQS1QA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/i18next-http-backend.js"></script>
+    <script src="js/loc-i18next.min.js"></script>
+    <script src="./main.js"></script>
+</head>
+
+<body onload="init()">
+    <div class="column container" id="translation-initialization">
+        <div class="row header">
+            <nav class="row navbar">
+                <div>
+                    <a href="index.html" class="navigation-logo">
+                        <img class="logo" src="images/vilaMontana_logo.png" alt="Vila Montana logo" />
+                    </a>
+                </div>
+                <ul class="row nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link" data-i18n="about">O vile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="okoli.html" class="nav-link" data-i18n="vicinity">Typy v okolí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="rezervace.html" class="nav-link" data-i18n="rezervation">Rezervace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="kontakty.html" class="nav-link" data-i18n="contact">Kontakty</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+        <div class="column map-content">
+            <h1>Kde nás najdete</h1>
+            <div class="google-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.840936548524!2d15.455399515959687!3d50.72289007557728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470ec663bf9ecc45%3A0xc6123248ac13a02c!2sHorn%C3%AD%20Rokytnice%2026%2C%20512%2044%20Rokytnice%20nad%20Jizerou!5e0!3m2!1sen!2scz!4v1625763329569!5m2!1sen!2scz"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <div class="column contact-content">
+            <h1>Kontaktní údaje</h1>
+            <div class="column contact-split">
+                <div class="column contact-info">
+                    <div class="row details">
+                        <img class="contact-form-icon" src="images/icon_adress.png">
+                        <div class="personal-detail">
+                            <p>
+                                Adresa </br>
+                                Horní Rokytnice 26 </br>
+                                512 44 Rokytnice nad Jizerou
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row details">
+                        <img class="contact-form-icon" src="images/icon_email.png">
+                        <div>
+                            <p>
+                                Email</br>
+                                alter@alter.cz
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row details">
+                        <img class="contact-form-icon" src="images/icon_phone.png">
+                        <div>
+                            <p>
+                                Mobil</br>
+                                +420 272 760 329
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column formular">
+                    <h3>Napište nám</h3>
+                    <form>
+                        <div>
+                            <input type="text" id="firstname" placeholder="Jméno">
+                            <input type="text" id="lastname" placeholder="Příjmení">
+                            <input type="email" id="inputemail" placeholder="Email">
+                            <input type="text" id="inputsubject" placeholder="Předmět zprávy">
+                        </div>
+                            <textarea name="message" type="text" id="inputmessage" placeholder="Vaše zpráva"></textarea>
+                            <button class="primary-button" type="submit" id="inputsubmit">Odeslat zprávu</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

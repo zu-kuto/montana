@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Krkonošská vila Montana</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/navigation.css">
+    <link rel="stylesheet" href="styles/switcher.css">
+    <link rel="stylesheet" href="styles/homepage.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/20.4.0/i18next.min.js"
+        integrity="sha512-6aFqg0ZOAUhCb0OhX3GMEvIbv7lR1fkjveiR1YLBMChmtMcvW6UiIkpSOS6/smY75Uak77zgG6X/sPbJDg1rag=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/i18next-browser-languagedetector/6.1.2/i18nextBrowserLanguageDetector.min.js"
+        integrity="sha512-lHKx8SXD7tK/Wczwf1mv7U1BPKt/p/28k1z7aB9piBho/421DihqrNK5GquW+9keY0PYcl0mjTJnEC72aQS1QA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/i18next-http-backend.js"></script>
+    <script src="js/loc-i18next.min.js"></script>
+    <script src="./main.js"></script>
+</head>
+
+<body onload="init()">
+    <div class="column container" id="translation-initialization">
+        <div class="row header">
+            <nav class="row navbar">
+                <div>
+                    <a href="index.html" class="navigation-logo">
+                        <img class="logo" src="images/vilaMontana_logo.png" alt="Vila Montana logo" />
+                    </a>
+                </div>
+                <ul class="row nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link" data-i18n="about">O vile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="okoli.html" class="nav-link" data-i18n="vicinity">Typy v okolí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="rezervace.html" class="nav-link" data-i18n="rezervation">Rezervace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="kontakty.html" class="nav-link" data-i18n="contact">Kontakty</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+
+        <div class="banner">
+            <img class="banner-image" src="images/montana_uvod.jpg">
+            <div>
+                <h1>Vila Montana</h1>
+                <h2>Rokytnice nad Jizerou</h2>
+            </div>
+        </div>
+        <div class="column container important">
+            <h2 data-i18n="info.header">
+                Co byste měli vědět:
+            </h2>
+            <div class="row info">
+                <div class="column badge">
+                    <img class="info-icon" src="images/icon_smoke-free.png">
+                    <p data-i18n="info.noSmoking">Vila Montana je nekuřácká</p>
+                </div>
+                <div class="column badge">
+                    <img class="info-icon" src="images/icon_pet.png">
+                    <p data-i18n="info.petFriendly">Domácí mazlíčci jsou vítáni</p>
+                </div>
+                <div class="column badge">
+                    <img class="info-icon" src="images/icon_wifi.png">
+                    <p data-i18n="info.wifi">Wifi připojení máte volně k dispozici</p>
+                </div>
+                <div class="column badge">
+                    <img class="info-icon" src="images/icon_car.png">
+                    <p data-i18n="info.parking">Parkovat můžete přímo u objektu</p>
+                </div>
+            </div>
+        </div>
+        <div class="column container">
+            <div class="row split-content">
+                <div class="left-content">
+                    <p data-i18n="details.prgrph1">
+                        Vila Montana leží ve svahu Sachrova hřebenu na polosamotě zvané Horní ves. Z Dolního náměstí
+                        Rokytnice vede k vile úzká silnice (cca 700m), která se v zimě udržuje a která je průjezdná až k
+                        Hornímu náměstí a ke skiareálu Modrá Hvězda (cca 1km). Ve vile je možno ubytovat 10 až 13 osob
+                        ve 4 pokojích s příslušenstvím. Je tu plně vybavená kuchyň, která umožňuje plnohodnotné vlastní
+                        stravování. Ze stylové světnice s krbovými kamny je přímý východ na venkovní terasu a zahradu,
+                        kde můžete v létě grilovat a v zimě třeba stavět sněhuláky nebo jezdit ze svahu na pekáči. V
+                        časných ranních hodinách přicházejí nezřídka na zahradu plaché srny. Z terasy i z oken pokojů je
+                        fascinující výhled do údolí a na protější svahy Krkonoš. Parkoviště pro 2 – 3 auta se nachází
+                        přímo u domu. V zimní sezóně (od 20. prosince do 30. března) je možný pouze pronájem celé vily v
+                        týdenních turnusech, v ostatních termínech se lze individuálně dohodnout na pronájmu
+                        jednotlivých pokojů a na libovolný počet dní
+                    </p>
+                </div>
+                <div class="right-content">
+                    <img class="split-content-image" src="images/parking_place.JPG">
+                </div>
+            </div>
+            <div class="row split-content">
+                <div class="left-content">
+                    <img class="split-content-image" src="images/loznice.jpg">
+                </div>
+                <div class="right-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quos velit, iusto a maiores
+                        doloribus ipsam dicta nobis sed magni! Deserunt aut ea aspernatur numquam animi saepe ipsa, vel
+                        porro?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

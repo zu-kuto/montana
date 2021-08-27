@@ -1,0 +1,129 @@
+.google-map {
+  overflow: hidden;
+  height: 400px;
+  width: 95%;
+  margin-top: .5rem;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.contact-content, .map-content {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.contact-content {
+  background-color: rgba(50, 145, 239, 0.05);
+  margin-top: 2rem;
+  padding: 1rem 0 2rem 0;
+}
+
+.contact-split {
+  width: 95%;
+  margin-top: .5rem;
+  align-items: flex-start;
+}
+
+.contact-info {
+  margin-bottom: .5rem;
+  width: 100%;
+}
+
+.details {
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin: .5rem 0;
+  line-height: 2;
+  align-items: center;
+}
+
+.personal-detail {
+  margin: .5rem 0;
+  padding-right: .5rem;
+}
+
+.contact-form-icon {
+  width: 4rem;
+  margin: 1rem;
+}
+
+.formular {
+  background-color: #ffffff;
+  padding: 1rem;
+  width: 100%;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: rgba(15, 31, 44, .5);
+  border: 1px solid rgba(15, 31, 44, .5);
+  margin: .5rem 0;
+  padding: 0;
+  border-radius: 4px;
+}
+#firstname, #lastname, #inputemail, #inputsubject, #inputmessage {
+  padding: .5rem;
+  width: 100%;
+}
+
+#inputmessage {
+  min-height: 200px;
+  max-height: fit-content;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: rgba(15, 31, 44, .5);
+  border: 1px solid rgba(15, 31, 44, .5);
+  margin: .5rem 0;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 992px) {
+  .contact-split {
+    flex-direction: row;
+    justify-content: center;
+    width: 95%;
+  }
+
+  .contact-info {
+    margin-right: 1rem;
+    flex-basis: 35%;
+  }
+
+  .details {
+    margin: 0 0 1rem 0;
+  }
+
+  .formular {
+    flex-basis: 60%;
+  }
+
+  #firstname, #lastname {
+    width: 49.6%;
+  }
+}
+
+@media screen and (min-width: 1392px) {
+  .google-map {
+    height: 600px;
+    width: 70%;
+  }
+
+  .contact-split {
+    flex-direction: row;
+    justify-content: center;
+    width: 55%;
+  }
+
+}
