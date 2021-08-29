@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/navigation.css">
-    <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="styles/switcher.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/20.4.0/i18next.min.js"
         integrity="sha512-6aFqg0ZOAUhCb0OhX3GMEvIbv7lR1fkjveiR1YLBMChmtMcvW6UiIkpSOS6/smY75Uak77zgG6X/sPbJDg1rag=="
@@ -34,33 +33,40 @@
                 </div>
                 <ul class="row nav-menu">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link" data-i18n="menu.about">O vile</a>
+                        <a href="index.html" class="nav-link" data-i18n="menu.about"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="okoli.html" class="nav-link" data-i18n="menu.vicinity">Typy v okolí</a>
+                        <a href="okoli.html" class="nav-link" data-i18n="menu.vicinity"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="rezervace.html" class="nav-link" data-i18n="menu.reservation">Rezervace</a>
+                        <a href="rezervace.html" class="nav-link" data-i18n="menu.reservation"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="kontakty.html" class="nav-link" data-i18n="menu.contact">Kontakty</a>
+                        <a href="kontakty.html" class="nav-link" data-i18n="menu.contact"></a>
                     </li>
-                    
                     <li class="nav-item">
-                        <div>
+                        <div class="column switcher">
                             <!-- zobrazovaci komponenta (stavova) -->
-                            <div onclick="toggleLangStatus()">
+                            <div onclick="toggleLangStatus()" class="switcher-top">
                                 <span id="lang-state">
                                     DEFAULT
                                 </span>
-                                <img src="images/icon_arrow_down.png" />
+                                <img class="arrow" src="images/icon_arrow_down.png" />
                             </div>
                             <!-- rozbalovaci list -->
                             <ul id="lang-list">
-                                <li id="lang-cs" lang="cs"><img src="images/flag_cze.png" alt="CZ flag" /> CZ</li>
-                                <li id="lang-de" lang="de"><img src="images/flag_ger.png" alt="CZ flag" /> DE</li>
-                                <li id="lang-en" lang="en"><img src="images/flag_gbr.png" alt="CZ flag" /> EN</li>
-                                <li id="lang-pl" lang="pl"><img src="images/flag_pol.png" alt="CZ flag" /> PL</li>
+                                <li id="lang-cs" class="lang" lang="cs">
+                                    <img class="flag" src="images/flag_cze.png" alt="CZ flag" />
+                                    Čeština</li>
+                                <li id="lang-en" class="lang" lang="en">
+                                    <img class="flag" src="images/flag_gbr.png" alt="CZ flag" />
+                                    English</li>
+                                <li id="lang-de" class="lang" lang="de">
+                                    <img class="flag" src="images/flag_ger.png" alt="CZ flag" />
+                                    Deutsch</li>
+                                <li id="lang-pl" class="lang" lang="pl">
+                                    <img class="flag" src="images/flag_pol.png" alt="CZ flag" />
+                                    Polskie</li>
                             </ul>
                         </div>
                     </li>

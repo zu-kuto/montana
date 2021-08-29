@@ -1,7 +1,46 @@
-#lang-state {
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap);
 
+.switcher {
+  align-content: center;
+  color: #0f1f2c;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+
+.switcher-top {
+  padding: 0 1rem;
 }
 
 #lang-list {
   display: none;
+  justify-content: flex-end;
+  position: absolute;
+  border-top: solid 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  padding: 0 1rem;
+  margin-top: 1.4rem;
+  width: 100%;
+  height: fit-content;
+}
+
+.arrow {
+  width: 1rem;
+  margin-left: 1rem;
+}
+
+.lang {
+  margin: 1rem 0;
+  color: #0f1f2c;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.flag {
+  width: 2rem;
+  height: auto;
+  margin-right: 1rem;
 }

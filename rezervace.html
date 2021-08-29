@@ -9,7 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/navigation.css">
+    <link rel="stylesheet" href="styles/switcher.css">
     <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/reservation.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/20.4.0/i18next.min.js"
         integrity="sha512-6aFqg0ZOAUhCb0OhX3GMEvIbv7lR1fkjveiR1YLBMChmtMcvW6UiIkpSOS6/smY75Uak77zgG6X/sPbJDg1rag=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -33,16 +35,46 @@
                 </div>
                 <ul class="row nav-menu">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link" data-i18n="about">O vile</a>
+                        <a href="index.html" class="nav-link" data-i18n="menu.about"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="okoli.html" class="nav-link" data-i18n="vicinity">Typy v okolí</a>
+                        <a href="okoli.html" class="nav-link" data-i18n="menu.vicinity"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="rezervace.html" class="nav-link" data-i18n="rezervation">Rezervace</a>
+                        <a href="rezervace.html" class="nav-link" data-i18n="menu.reservation"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="kontakty.html" class="nav-link" data-i18n="contact">Kontakty</a>
+                        <a href="kontakty.html" class="nav-link" data-i18n="menu.contact"></a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="column switcher">
+                            <!-- zobrazovaci komponenta (stavova) -->
+                            <div onclick="toggleLangStatus()" class="switcher-top">
+                                <span id="lang-state">
+                                    DEFAULT
+                                </span>
+                                <img class="arrow" src="images/icon_arrow_down.png" />
+                            </div>
+                            <!-- rozbalovaci list -->
+                            <ul id="lang-list">
+                                <li id="lang-cs" class="lang" lang="cs">
+                                    <img class="flag" src="images/flag_cze.png" alt="CZ flag" />
+                                    Čeština
+                                </li>
+                                <li id="lang-en" class="lang" lang="en">
+                                    <img class="flag" src="images/flag_gbr.png" alt="CZ flag" />
+                                    English
+                                </li>
+                                <li id="lang-de" class="lang" lang="de">
+                                    <img class="flag" src="images/flag_ger.png" alt="CZ flag" />
+                                    Deutsch
+                                </li>
+                                <li id="lang-pl" class="lang" lang="pl">
+                                    <img class="flag" src="images/flag_pol.png" alt="CZ flag" />
+                                    Polskie
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
                 <div class="hamburger">
@@ -52,14 +84,103 @@
                 </div>
             </nav>
         </div>
-        <div>
-            <table class="table">
-                <tr>
-                  <th>Lorem ipsum, dolor sit amet conse</th>
-                  <th>Lorem ipsum, dolor sit amet conse</th>
-                </tr>
-              </table>
+        <div class="column container">
+            <h1>Ceník</h1>
+            <div class="pricing-table">
+                <div class="row pricing-row title-row">
+                    <div class="column">
+                        <div class="term">Termín</div>
+                    </div>
+                    <div class="column">
+                        <div class="price">Cena pronájmu</div>
+                    </div>
+                </div>
+                <div class="row pricing-row odd-row">
+                    <div class="column">
+                        <div class="term">Datum</div>
+                    </div>
+                    <div class="column">
+                        <div class="price">17.500 Kč</div>
+                    </div>
+                </div>
+                <div class="row pricing-row even-row">
+                    <div class="column">
+                        <div class="term">Datum</div>
+                    </div>
+                    <div class="column">
+                        <div class="price">23.000 Kč</div>
+                    </div>
+                </div>
+                <div class="row pricing-row odd-row">
+                    <div class="column">
+                        <div class="term">Datum</div>
+                    </div>
+                    <div class="column">
+                        <div class="price">35.000 Kč</div>
+                    </div>
+                </div>
+                <div class="row pricing-row even-row">
+                    <div class="column">
+                        <div class="term">Datum</div>
+                    </div>
+                    <div class="column">
+                        <div class="price">21.000 Kč</div>
+                    </div>
+                </div>
+                <div class="row pricing-row odd-row">
+                    <div class="column">
+                        <div class="term">Datum</div>
+                    </div>
+                    <div class="column">
+                        <div class="price">28.000 Kč</div>
+                    </div>
+                </div>
+                <div class="row pricing-row even-row">
+                    <div class="column">
+                        <div class="term">Datum</div>
+                    </div>
+                    <div class="column">
+                        <div class="price">23.000 Kč</div>
+                    </div>
+                </div>
+                <div class="row pricing-row odd-row">
+                    <div class="column">
+                        <div class="term">Datum</div>
+                    </div>
+                    <div class="column">
+                        <div class="price">14.000 Kč</div>
+                    </div>
+                </div>
+            </div>
+            <div class="column dog">
+                <div class="dog-pricing">
+                    <img class="info-icon" src="images/icon_pet.png">
+                </div>
+                <div>
+                    <p style="font-weight: 600;">Poplatek za psa je 50 Kč/noc.</p>
+                    <p>
+                        Vezměte prosím na věděmí, že území obce Rokytnice nad Jizerou je součástí Krkonošského národního
+                        parku (KRNAP) s vymezeným ochranným pásmem a zónami odstupňované ochrany přírody. Na české straně hor není vodítko nutné, psa ale musíte mít pod jednoznačnou kontrolou.
+                    </p>
+                </div>
+            </div>
+            <div class="column container important">
+                <div class="pricing-container">
+                    <p>Vila se pronajímá jako celek za výše uvedenou cenu - konkrétní výše ceny závisí na zvoleném termínu.</p>
+                    <p>V ceně je již zahrnuta spotřeba energií.</p>
+                    <p>Cena <strong>nezahrnuje</strong> vratnou kauci 5.000 Kč.</p>
+                    <p>Základní úklid při ukončení pobytu provádí klient sám.</p>
+                </div>
+            </div>
+            
+            <h1>Rezervace</h1>
+            <div class="small-container">
+                <p>V zimní sezóně (od 20. prosince do 30. března) je možný pouze pronájem celé vily v týdenních turnusech, v ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a na libovolný počet dní.</p>
+                <p>Při rezervaci zvoleného termínu se skládá vratná kauce 5.000 Kč. Rezervace se stává závaznou až po uhrazení zálohy - zálohu je nutné uhradit do 5 dnů od provedení předběžné rezervace.</p>
+            </div>
+
         </div>
     </div>
 </body>
+
 </html>

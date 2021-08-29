@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap);
+
+.pricing-table {
+    width: 90%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    margin: 1rem 0 2rem 0;
+}
+
+.title-row {
+    background-color: rgb(50, 145, 239);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.odd-row {
+    background-color: rgba(50, 145, 239, 0.05);
+}
+
+.even-row {
+    background-color: rgb(255, 255, 255);
+}
+
+.term, .price {
+    padding: 1rem .5rem;
+}
+
+.dog {
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.dog-pricing {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.pricing-container {
+    width: 90%;
+    margin: 1rem 0;
+}
+
+
+@media screen and (min-width: 992px) {
+    .pricing-table, .dog, .pricing-container {
+        width: 40%;
+    }
+
+    .dog {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .dog-pricing {
+        margin-right: 2rem;
+    }
+
+/* 
+    .pricing-row {
+        flex-direction: row;
+    } */
+}
+

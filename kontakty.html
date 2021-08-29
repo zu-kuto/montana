@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/navigation.css">
+    <link rel="stylesheet" href="styles/switcher.css">
     <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="styles/buttons.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/20.4.0/i18next.min.js"
@@ -34,16 +35,42 @@
                 </div>
                 <ul class="row nav-menu">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link" data-i18n="about">O vile</a>
+                        <a href="index.html" class="nav-link" data-i18n="menu.about"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="okoli.html" class="nav-link" data-i18n="vicinity">Typy v okolí</a>
+                        <a href="okoli.html" class="nav-link" data-i18n="menu.vicinity"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="rezervace.html" class="nav-link" data-i18n="rezervation">Rezervace</a>
+                        <a href="rezervace.html" class="nav-link" data-i18n="menu.reservation"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="kontakty.html" class="nav-link" data-i18n="contact">Kontakty</a>
+                        <a href="kontakty.html" class="nav-link" data-i18n="menu.contact"></a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="column switcher">
+                            <!-- zobrazovaci komponenta (stavova) -->
+                            <div onclick="toggleLangStatus()" class="switcher-top">
+                                <span id="lang-state">
+                                    DEFAULT
+                                </span>
+                                <img class="arrow" src="images/icon_arrow_down.png" />
+                            </div>
+                            <!-- rozbalovaci list -->
+                            <ul id="lang-list">
+                                <li id="lang-cs" class="lang" lang="cs">
+                                    <img class="flag" src="images/flag_cze.png" alt="CZ flag" />
+                                    Čeština</li>
+                                <li id="lang-en" class="lang" lang="en">
+                                    <img class="flag" src="images/flag_gbr.png" alt="CZ flag" />
+                                    English</li>
+                                <li id="lang-de" class="lang" lang="de">
+                                    <img class="flag" src="images/flag_ger.png" alt="CZ flag" />
+                                    Deutsch</li>
+                                <li id="lang-pl" class="lang" lang="pl">
+                                    <img class="flag" src="images/flag_pol.png" alt="CZ flag" />
+                                    Polskie</li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
                 <div class="hamburger">
@@ -68,8 +95,8 @@
                     <div class="row details">
                         <img class="contact-form-icon" src="images/icon_adress.png">
                         <div class="personal-detail">
+                            <p>Adresa</p>
                             <p>
-                                Adresa </br>
                                 Horní Rokytnice 26 </br>
                                 512 44 Rokytnice nad Jizerou
                             </p>
@@ -77,7 +104,7 @@
                     </div>
                     <div class="row details">
                         <img class="contact-form-icon" src="images/icon_email.png">
-                        <div>
+                        <div class="personal-detail">
                             <p>
                                 Email</br>
                                 alter@alter.cz
@@ -86,7 +113,7 @@
                     </div>
                     <div class="row details">
                         <img class="contact-form-icon" src="images/icon_phone.png">
-                        <div>
+                        <div class="personal-detail">
                             <p>
                                 Mobil</br>
                                 +420 272 760 329

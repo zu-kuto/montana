@@ -4,26 +4,5 @@
     "vicinity": "What to see",
     "reservation": "Reservation",
     "contact": "Contact"
-  },
-  "about": "About",
-  "contact": "Contact",
-  "prices": "Prices",
-  "homeDescription": "Eng description",
-  "noSmoking": "Vila Montana is is strictly non-smoking.",
-  "dogFriendly": "Pets are welcome.",
-  "homeTitle": "Enjoy unforgettable holiday with friends or family in spectacular Villa Montana",
-  "gallery": "Gallery",
-  "reservationContact": "Contact for reservation",
-  "telephone": "Telephone",
-  "email": "Email",
-  "address": "Address",
-  "street": "Street",
-  "locality": "City",
-  "winterSeason": "Winter season",
-  "summerSeason": "Summer season",
-  "pricePerWeek": "Price per week",
-  "date": "Date",
-  "week": "week",
-  "additionalForDog": "Additional charges for a dog",
-  "night": "night"
+  }
 }

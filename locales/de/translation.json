@@ -1,8 +1,18 @@
 {
   "menu": {
-    "about": "Über die Hütte",
+    "about": "Über die Villa",
     "vicinity": "Was zu sehen",
-    "reservation": "Resevacion",
-    "contact": "Kontakt"
+    "reservation": "Reservierung",
+    "contact": "Kontakten"
+  },
+  "info": {
+    "header": "",
+    "noSmoking": "Villa Montana ist rauchfrei",
+    "petFriendly": "",
+    "wifi": "",
+    "parking": ""
+  },
+  "details": {
+    "prgrph1": ""
   }
 }
