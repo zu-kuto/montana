@@ -23,7 +23,7 @@
 
 .nav-item {
     margin-left: 2rem;
-    margin: 1.15rem 3rem;
+    margin: 1rem 3rem;
     list-style: none;
     font-size: 18px;
     cursor: pointer;
@@ -34,6 +34,19 @@
     color: #0F1F2C;
     text-decoration: none;
     cursor: pointer;
+}
+
+.nav-link:hover, .nav-link:active {
+    color: rgb(50, 145, 239)
+}
+
+.nav-link:active::before {
+    content: "";
+    position: absolute;
+    bottom: 8px;
+    background: rgb(50, 145, 239);
+    width: 4rem;
+    height: 3px;
 }
 
 .navigation-logo{
