@@ -1,0 +1,27 @@
+
+.split-content {
+    flex-flow: row wrap;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .left-content, .right-content {
+    width: 100%;
+  }
+  
+  .split-content-image {
+    width: 100%;
+  }
+
+  
+  @media screen and (min-width: 1025px) {
+    .split-content {
+        width: 70%;
+        margin: 1rem 0;
+    }
+
+    .left-content, .right-content {
+        width: 50%;
+    }  
+}
+  

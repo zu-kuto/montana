@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 
 <head>
     <title>Krkonošská vila Montana</title>
@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/navigation.css">
     <link rel="stylesheet" href="styles/switcher.css">
     <link rel="stylesheet" href="styles/homepage.css">
+    <link rel="stylesheet" href="styles/splitcontent.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/20.4.0/i18next.min.js"
         integrity="sha512-6aFqg0ZOAUhCb0OhX3GMEvIbv7lR1fkjveiR1YLBMChmtMcvW6UiIkpSOS6/smY75Uak77zgG6X/sPbJDg1rag=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -20,7 +21,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/i18next-http-backend.js"></script>
     <script src="js/loc-i18next.min.js"></script>
-    <script src="./main.js"></script>
+    <script src="./js/main.js"></script>
 </head>
 
 <body onload="init()">
@@ -45,7 +46,7 @@
                     <li class="nav-item">
                         <a href="kontakty.html" class="nav-link" data-i18n="menu.contact"></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item lang-switch">
                         <div class="column switcher">
                             <!-- zobrazovaci komponenta (stavova) -->
                             <div onclick="toggleLangStatus()" class="switcher-top">
@@ -80,92 +81,116 @@
             </nav>
         </div>
 
-        <div class="banner">
+        <div class="center">
             <img class="banner-image" src="images/montana_uvod.jpg">
-            <div>
+            <div class="section-primary">
                 <h1>Vila Montana</h1>
                 <h2>Rokytnice nad Jizerou</h2>
             </div>
         </div>
-        <div class="column container important">
+        <div class="column container section-primary">
             <h2 data-i18n="info.header">
                 
             </h2>
-            <div class="row info">
-                <div class="column badge">
+            <div class="row center">
+                <div class="column center section-small">
                     <img class="info-icon" src="images/icon_smoke-free.png">
                     <p data-i18n="info.noSmoking"></p>
                 </div>
-                <div class="column badge">
+                <div class="column center section-small">
                     <img class="info-icon" src="images/icon_pet.png">
                     <p data-i18n="info.petFriendly"></p>
                 </div>
-                <div class="column badge">
+                <div class="column center section-small">
                     <img class="info-icon" src="images/icon_wifi.png">
                     <p data-i18n="info.wifi"></p>
                 </div>
-                <div class="column badge">
+                <div class="column center section-small">
                     <img class="info-icon" src="images/icon_car.png">
                     <p data-i18n="info.parking"></p>
                 </div>
             </div>
         </div>
-        <div class="column container">
-            <div class="row split-content">
+        <div class="column container section-primary light-blue">
+            <h2 data-i18n="info.header">
+                
+            </h2>
+            <div class="row split-content light-blue">
                 <div class="left-content">
-                    <p data-i18n="details.prgrph1"></p>
+                    <div class="text-section" >
+                        <h3>Parkování</h3>
+                        <p data-i18n="details.prgrph1"></p>
+                    </div>
                 </div>
                 <div class="right-content">
                     <img class="split-content-image" src="images/montana_zdola.JPG">
                 </div>
             </div>
-            <div class="row split-content">
+            <div class="row split-content ">
                 <div class="left-content">
-                    <img class="split-content-image" src="images/parking_place.JPG">
+                    <img class="split-content-image" src="images/loznice2.jpg">
                 </div>
                 <div class="right-content">
-                    <p data-i18n="details.prgrph2"></p>
+                    <div class="text-section" >
+                        <h3>Parkování</h3>
+                        <p data-i18n="details.prgrph2"></p>
+                    </div>
                 </div>
             </div>
-            <div class="row split-content">
+            <div class="row split-content ">
                 <div class="left-content">
-                    <p data-i18n="details.prgrph3"></p>
+                    <div class="text-section" >
+                        <h3>Ubytování</h3>
+                        <p data-i18n="details.prgrph3"></p>
+                    </div>
                 </div>
                 <div class="right-content">
                     <img class="split-content-image" src="images/loznice.jpg">
                 </div>
             </div>
         </div>
-        <div class="row small-container">
-            <div class="column">
+        <div class="row small-container section-primary wrapper-small-gallery">
+            <div class="column small-gallery">
                 <div>
-                    <img class="" style="width: 100%;" src="images/parking_place.JPG"> 
+                    <img class="small-image"  src="images/parking_place.JPG"> 
                 </div>
+                <div class="text-section">
+                    <h3>Parkování</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta beatae, eaque placeat laudantium exercitationem harum tempore reprehenderit dolor obcaecati asperiores quos fuga consectetur nemo fugit atque? Facilis dicta ipsum in?</p>
+                </div>
+            </div>
+            <div class="column small-gallery">
                 <div>
-                    <h2>Parkování</h2>
+                    <img class="small-image" src="images/parking_place.JPG"> 
+                </div>
+                <div class="text-section">
+                    <h3>Parkování</h3>
                     <p>Parkování je možné přímo u chalupy.</p>
                 </div>
             </div>
-            <div class="column">
+            <div class="column small-gallery">
                 <div>
-                    <img class="" style="width: 100%;" src="images/parking_place.JPG"> 
+                    <img class="small-image"  src="images/parking_place.JPG"> 
                 </div>
-                <div>
-                    <h2>Parkování</h2>
+                <div class="text-section">
+                    <h3>Parkování</h3>
                     <p>Parkování je možné přímo u chalupy.</p>
                 </div>
             </div>
-            <div class="column">
-                <div>
-                    <img class="" style="width: 100%;" src="images/parking_place.JPG"> 
+        </div>
+        <div class="column container section-primary light-blue">
+            <div class="row split-content ">
+                <div class="left-content">
+                    <img class="split-content-image" src="images/loznice2.jpg">
                 </div>
-                <div>
-                    <h2>Parkování</h2>
-                    <p>Parkování je možné přímo u chalupy.</p>
+                <div class="right-content">
+                    <div class="text-section" >
+                        <h3>Parkování</h3>
+                        <p data-i18n="details.prgrph2"></p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </body>
-<script src="./main.js"></script>
 </html>

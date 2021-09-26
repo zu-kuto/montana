@@ -2,7 +2,6 @@
   overflow: hidden;
   height: 400px;
   width: 90%;
-  margin-top: .5rem;
 }
 
 .map-responsive iframe {
@@ -21,14 +20,7 @@
 
 .contact-content {
   background-color: rgba(50, 145, 239, 0.05);
-  margin-top: 2rem;
   padding: 1rem 0 2rem 0;
-}
-
-.contact-split {
-  width: 90%;
-  margin-top: .5rem;
-  align-items: flex-start;
 }
 
 .contact-info {
@@ -88,7 +80,7 @@ input {
   margin: .5rem 0;
   border-radius: 4px;
 }
-
+/* 
 @media screen and (min-width: 992px) {
   .contact-split {
     flex-direction: row;
@@ -97,16 +89,11 @@ input {
   }
 
   .contact-info {
-    margin-right: 1rem;
-    flex-basis: 35%;
-  }
-
-  .details {
-    margin: 0 0 1rem 0;
+    flex-basis: 100%;
   }
 
   .formular {
-    flex-basis: 60%;
+    flex-basis: 100%;
   }
 
   #firstname, #lastname {
@@ -126,4 +113,4 @@ input {
     width: 55%;
   }
 
-}
+} */

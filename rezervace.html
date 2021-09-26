@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/navigation.css">
     <link rel="stylesheet" href="styles/switcher.css">
-    <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="styles/reservation.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/20.4.0/i18next.min.js"
         integrity="sha512-6aFqg0ZOAUhCb0OhX3GMEvIbv7lR1fkjveiR1YLBMChmtMcvW6UiIkpSOS6/smY75Uak77zgG6X/sPbJDg1rag=="
@@ -21,7 +20,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/i18next-http-backend.js"></script>
     <script src="js/loc-i18next.min.js"></script>
-    <script src="./main.js"></script>
+    <script src="./js/main.js"></script>
 </head>
 
 <body onload="init()">
@@ -46,7 +45,7 @@
                     <li class="nav-item">
                         <a href="kontakty.html" class="nav-link" data-i18n="menu.contact"></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item lang-switch">
                         <div class="column switcher">
                             <!-- zobrazovaci komponenta (stavova) -->
                             <div onclick="toggleLangStatus()" class="switcher-top">
@@ -84,9 +83,9 @@
                 </div>
             </nav>
         </div>
-        <div class="column container">
+        <div class="column container section-primary">
             <h1>Ceník</h1>
-            <div class="pricing-table">
+            <div class="pricing-table section-primary">
                 <div class="row pricing-row title-row">
                     <div class="column">
                         <div class="term">Termín</div>
@@ -145,14 +144,14 @@
                 </div>
                 <div class="row pricing-row odd-row">
                     <div class="column">
-                        <div class="term">31. bžezna - 30. listopadu</div>
+                        <div class="term">31. března - 30. listopadu</div>
                     </div>
                     <div class="column">
                         <div class="price">14.000 Kč</div>
                     </div>
                 </div>
             </div>
-            <div class="column dog">
+            <div class="column small-container section-primary dog">
                 <div class="dog-pricing">
                     <img class="info-icon" src="images/icon_pet.png">
                 </div>
@@ -164,21 +163,19 @@
                     </p>
                 </div>
             </div>
-            <div class="column container important">
-                <div class="pricing-container">
-                    <p>Vila se pronajímá jako celek za výše uvedenou cenu - konkrétní výše ceny závisí na zvoleném termínu.</p>
-                    <p>V ceně je již zahrnuta spotřeba energií.</p>
-                    <p>Cena <strong>nezahrnuje</strong> vratnou kauci 5.000 Kč.</p>
-                    <p>Základní úklid při ukončení pobytu provádí klient sám.</p>
+            <div class="small-container important section-primary">
+                <p>Vila se pronajímá jako celek za výše uvedenou cenu - konkrétní výše ceny závisí na zvoleném termínu.</p>
+                <p>V ceně je již zahrnuta spotřeba energií.</p>
+                <p>Cena <strong>nezahrnuje</strong> vratnou kauci 5.000 Kč.</p>
+                <p>Základní úklid při ukončení pobytu provádí klient sám.</p>
+            </div>
+            <div class="column small-container section-primary">
+                <h1>Rezervace</h1>
+                <div >
+                    <p>V zimní sezóně (od 20. prosince do 30. března) je možný pouze pronájem celé vily v týdenních turnusech (od soboty do soboty), v ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a na libovolný počet dní.</p>
+                    <p>Při rezervaci zvoleného termínu se skládá vratná kauce 5.000 Kč. Rezervace se stává závaznou až po uhrazení zálohy - zálohu je nutné uhradit do 5 dnů od provedení předběžné rezervace.</p>
                 </div>
             </div>
-            
-            <h1>Rezervace</h1>
-            <div class="small-container">
-                <p>V zimní sezóně (od 20. prosince do 30. března) je možný pouze pronájem celé vily v týdenních turnusech (od soboty do soboty), v ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a na libovolný počet dní.</p>
-                <p>Při rezervaci zvoleného termínu se skládá vratná kauce 5.000 Kč. Rezervace se stává závaznou až po uhrazení zálohy - zálohu je nutné uhradit do 5 dnů od provedení předběžné rezervace.</p>
-            </div>
-
         </div>
     </div>
 </body>

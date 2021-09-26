@@ -4,7 +4,7 @@
     width: 90%;
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
-    margin: 1rem 0 2rem 0;
+    /* margin: 1rem 0 2rem 0; */
 }
 
 .title-row {
@@ -23,25 +23,22 @@
 }
 
 .term, .price {
-    padding: 1rem .5rem;
-}
-
-.dog {
-    width: 90%;
-    margin-bottom: 1rem;
+    padding: .4rem .5rem;
 }
 
 .dog-pricing {
-    margin: 1rem 0;
     text-align: center;
+    margin-bottom: 2rem;
+    margin-right: 0;
 }
 
-.pricing-container {
-    width: 90%;
-    margin: 1rem 0;
-}
+.info-icon {
+    width: 4rem;
+    margin-bottom: .5rem;
+  }
 
 
+/* 
 @media screen and (min-width: 992px) {
     .pricing-table, .dog, .pricing-container {
         width: 40%;
@@ -53,12 +50,7 @@
     }
 
     .dog-pricing {
-        margin-right: 2rem;
+        margin-right: 1.5rem;
     }
-
-/* 
-    .pricing-row {
-        flex-direction: row;
-    } */
-}
+} */
 
