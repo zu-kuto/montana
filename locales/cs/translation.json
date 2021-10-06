@@ -1,12 +1,18 @@
 {
   "menu": {
     "about": "O vile",
-    "vicinity": "Typy v okolí",
+    "tipsaround": "Typy v okolí",
     "reservation": "Rezervace",
     "contact": "Kontakty"
   },
+
+  "title": {
+    "main": "Vila Montana",
+    "sub": "Rokytnice nad Jizerou",
+    "quote": "Pronajměte si vilu Montanu v Krkonoších a prožijte nezapomenutelnou dovolenou společně s rodinou nebo přáteli."
+  },
   
-  "homeTitle": "Pronajměte si vilu Montanu a prožijte nezapomenutelnou dovolenou společně s rodinou nebo přáteli.",
+  
   "gallery": "Galerie",
   "reservationContact": "Kontakt pro rezervaci",
   "telephone": "Telefon",
@@ -30,9 +36,14 @@
     "wifi": "Wifi připojení máte volně k dispozici",
     "parking": "Parkovat můžete přímo u objektu"
   },
+
   "details": {
+    "header": "Základní informace o vile",
+    "placement": "Umístění Vily Montany",
     "prgrph1": "Vila Montana leží ve svahu Sachrova hřebenu na polosamotě zvané Horní ves. Z Dolního náměstí Rokytnice vede k vile úzká silnice (cca 700m), která se v zimě udržuje a která je průjezdná až k Hornímu náměstí a ke skiareálu Modrá Hvězda (cca 1km).",
-    "prgrph2": "Parkoviště pro 2 – 3 auta se nachází přímo u domu.",
-    "prgrph3": "Ve vile je možno ubytovat 10 až 13 osob ve 4 pokojích s příslušenstvím. Je tu plně vybavená kuchyň, která umožňuje plnohodnotné vlastní stravování. Ze stylové světnice s krbovými kamny je přímý východ na venkovní terasu a zahradu, kde můžete v létě grilovat a v zimě třeba stavět sněhuláky nebo jezdit ze svahu na pekáči. V časných ranních hodinách přicházejí nezřídka na zahradu plaché srny. Z terasy i z oken pokojů je fascinující výhled do údolí a na protější svahy Krkonoš."
+    "prgrph2": "Ve vile je možno pohodlně ubytovat 13 osob ve 4 pokojích s příslušenstvím. Je tu plně vybavená kuchyň, která umožňuje plnohodnotné vlastní stravování. Ze stylové světnice s krbovými kamny je přímý východ na venkovní terasu a zahradu, kde můžete v létě grilovat a v zimě třeba stavět sněhuláky nebo jezdit ze svahu na pekáči. V časných ranních hodinách přicházejí nezřídka na zahradu plaché srny. Z terasy i z oken pokojů je fascinující výhled do údolí a na protější svahy Krkonoš.",
+    "prgrph3": "",
+    "parking" : "Parkování",
+    "prgrph4": "Soukromé parkoviště pro dvě až tři auta se nachází přímo u domu."
   }
 }

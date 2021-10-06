@@ -43,6 +43,12 @@ body {
   width: 90%;
 }
 
+.mini-container {
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
 .center {
   justify-content: center;
   align-items: center;
@@ -53,7 +59,7 @@ h1 {
   font-family: "Playfair Display", serif;
   font-weight: 600;
   font-size: 32px;
-  margin: 0 0 1rem;
+  margin: 1rem 0 1.5rem 0;
   padding: 0;
 }
 
@@ -61,7 +67,7 @@ h2 {
   font-family: "Playfair Display", serif;
   font-weight: 600;
   font-size: 26px;
-  margin: 1rem 0 2rem;
+  margin: 2rem 0;
   padding: 0;
 }
 
@@ -70,8 +76,8 @@ h3 {
   font-weight: 600;
   font-size: 20px;
   margin: 1rem 0 1.5rem 0;
-  padding: 0 0 1rem 0;
-  border-bottom: solid 2px #0f1f2c;
+  /* padding: 0 0 1rem 0;
+  border-bottom: solid 2px #0f1f2c; */
 }
 
 li {
@@ -101,13 +107,36 @@ p {
 }
 
 .section-small {
-  margin: 1rem 2rem;
-  padding: 0 4rem;
+  margin: 1rem .5rem;
+  padding: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .row {
+    flex-wrap: nowrap;
+    width: 80%;
+  }
+
+  .small-container {
+    width: 90%;
+  }
+
+  .mini-container {
+    width: 60%;
+  }
+
+  .section-small {
+    margin: 1rem;
+    padding: 0 1rem;
+  }
+
+  .text-section {
+    padding: 7% 12%;
+  }
 }
 
 @media screen and (min-width: 1025px) {
   .row {
-    flex-wrap: nowrap;
     width: 60%;
   }
 
@@ -115,8 +144,8 @@ p {
     width: 60%;
   }
 
-  .text-section {
-    padding: 7% 12%;
+  .mini-container {
+    width: 40%;
   }
 
   .text-section, .split-content-image {
@@ -124,11 +153,10 @@ p {
   }
 
   .light-blue {
-    background-color: rgba(50, 145, 239, .05);
+    background-color: rgba(50, 145, 239, .1);
   }
-}
   
- /*  .h1 {
+  .h1 {
     font-size: 40px;
   }
 
@@ -139,43 +167,6 @@ p {
   .h3 {
     font-size:24px
   }
-
-
-
-  .text-section {
-    padding: 4rem;
-  }
-  
-  .section-split-right {
-    margin-left: 1rem;
-  }
-  
-  .section-split-left {
-    margin-right: 1rem;
-  }
-
-  .split-content {
-    justify-content: center;
-    flex: 2;
-    width: 90%;
-  }
-
-  .left-content {
-    flex: 1;
-    order: 1;
-  }
-
-  .right-content {
-    flex: 1;
-    order: 2;
-  }
-
-}
-
-@media screen and (min-width: 1280px) {
-  .split-content {
-    width: 70%;
-  }
 }
 
 @media screen and (min-width: 1981px) {
@@ -183,4 +174,4 @@ p {
     max-width: 1980px;
     margin: 0 auto;
   }
-} */
+} 
