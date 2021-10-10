@@ -1,15 +1,13 @@
 window.addEventListener("load", e => {
-    const openModalButtons = document.querySelectorAll('[data-modal-target]')
     const closeModalButtons = document.querySelectorAll('[data-close-button]')
-    const overlay = document.getElementById('overlay')
-
-    openModalButtons.forEach(button => {
+    closeModalButtons.forEach(button => {
         button.addEventListener('click', () => {
-            const modal = document.querySelector(button.dataset.modalTarget)
-            openModal(modal)
+            const modal = button.closest('.modal')
+            closeModal(modal)
         })
     })
-
+    
+    const overlay = document.getElementById('overlay')
     overlay.addEventListener('click', () => {
         const modals = document.querySelectorAll('.modal.active')
         modals.forEach(modal => {
@@ -17,16 +15,13 @@ window.addEventListener("load", e => {
         })
     })
     
-    closeModalButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            const modal = button.closest('.modal')
-            closeModal(modal)
-        })
-    })
-
     const form = document.querySelector("#contact-form")
+    form.addEventListener("submit", e => {
+        e.preventDefault()
+    })
+    
     document.querySelector("#inputsubmit").addEventListener("click", e => {
-        const data = form.serialize()
+        const data = new URLSearchParams(new FormData(form)).toString()
         e.preventDefault()
         fetch("montmail.php", {
             method: "POST",
