@@ -23,6 +23,22 @@ window.addEventListener("load", e => {
             closeModal(modal)
         })
     })
+
+    const form = document.querySelector("#contact-form")
+    document.querySelector("#inputsubmit").addEventListener("click", e => {
+        const data = form.serialize()
+        e.preventDefault()
+        fetch("montmail.php", {
+            method: "POST",
+            body: data
+        }).then(res => {
+            if (res.status == 200) {
+                showModal("modal-success")
+            } else {
+                showModal("modal-fail")
+            }
+        })
+    })
 })
 
 
@@ -37,4 +53,9 @@ function closeModal(modal) {
     if (modal == null) return
     modal.classList.remove('active')
     overlay.classList.remove('active')
+}
+
+const showModal = modalName => {
+    const mod = document.querySelector("#" + modalName)
+    openModal(mod)
 }

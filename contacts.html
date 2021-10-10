@@ -119,7 +119,7 @@
                 </div>
                 <div class="formular">
                     <h3 id="napistenam" data-i18n="form.header"></h3>
-                    <form>
+                    <form id="contact-form">
                         <div>
                             <input type="text" id="firstname" placeholder="Jméno">
                             <input type="text" id="lastname" placeholder="Příjmení">
@@ -130,7 +130,7 @@
                             <button data-modal-target="#modal" class="primary-button" type="submit" id="inputsubmit" data-i18n="form.submit"></button>
                     </form>
                 </div>
-                <div class="modal" id="modal">
+                <div class="modal" id="modal-success">
                     <div class="modal-header">
                         <div class="title" data-i18n="popup.success"></div>
                     </div>
@@ -139,7 +139,7 @@
                         <button data-close-button class="close-button">&times;</button>
                     </div>
                 </div>
-                <div class="modal" id="modal">
+                <div class="modal" id="modal-fail">
                     <div class="modal-header column">
                         <div class="title" data-i18n="popup.failed"></div>
                         <p class="note" data-i18n="popup.failedInfo"></p>
