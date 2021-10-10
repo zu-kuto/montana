@@ -1,18 +1,112 @@
 {
   "menu": {
     "about": "Über die Villa",
-    "vicinity": "Was zu sehen",
+    "tipsaround": "Tipps rund um",
     "reservation": "Reservierung",
     "contact": "Kontakten"
   },
-  "info": {
-    "header": "",
-    "noSmoking": "Villa Montana ist rauchfrei",
-    "petFriendly": "",
-    "wifi": "",
-    "parking": ""
+
+  "title": {
+    "main": "Vila Montana",
+    "sub": "Rokytnice nad Jizerou",
+    "quote": "Erleben Sie einen unvergesslichen Urlaub mit Freunden und Familie in der Villa Montana im schönen Riesengebirge Krkonoše.",
+    "tipsaround": "Tipps rund um",
+    "pricing" : "Preisliste",
+    "reservation": "Rezervace",
+    "location" : "Kde nás najdete",
+    "contactUs": "Kontaktujte nás"
   },
+    
+  "info": {
+    "header": "Sachen zu wissen:",
+    "noSmoking": "Villa Montana ist rauchfrei",
+    "petFriendly": "Haustiere sind willkommen",
+    "wifi": "Wifi ist frei verfügbar",
+    "parking": "Sie können direkt am Gebäude parken"
+  },
+
   "details": {
-    "prgrph1": ""
+    "header": "Grundlegende Informationen zur Villa",
+    "placement": "Lage der Villa Montana",
+    "prgrph1": "Die Villa Montana liegt an einem dünn besiedelten Hang des Sachr Berges (Sachrův hřeben) mit schönem Blick ins Tal und die Umgebung. Sie ist nur wenige Wegeminuten über eine auch im Winter geräumte Asphaltstraße vom Unteren Platz (Dolní Náměstí) Rokytnice nad Jizerou zu erreichen. Folgt man der Straße weiter, gelangt man zum Oberen Platz (Horní Náměstí) Rokytnice nad Jizerou und zum nächstgelegenen Skiareal Modrá Hvězda (ca. 1km).",
+    "accomodation": "der Unterkunft",
+    "prgrph2": "Ve vile se čtyřmi pokoji a čtyřmi koupelnami je možno pohodlně ubytovat 13 osob. V nejspodnějším patře se nachází plně vybavená kuchyň, která umožňuje plnohodnotné vlastní stravování. K dispozici je lednička s mrazákem, elektrický sporák s troubou a myčka. Prostorná jídelna, která slouží zároveň jako společenská místnost, vás zve k společnému posezení a zábavným večerům při hrách se třemi stoly, velkou pohovkou a krbem.",
+    "prgrph3": "Z jídelny je přímý východ na venkovní terasu a zahradu, kde můžete v létě grilovat a v zimě třeba stavět sněhuláky nebo jezdit ze svahu na bobech. V časných ranních hodinách přicházejí nezřídka na zahradu plaché srny. Z terasy i z oken pokojů je fascinující výhled do údolí a na protější svahy Krkonoš.",
+    "rent" : "die Vermietung",
+    "prgrph4": "V zimní sezóně (od 20. prosince do 30. března) je možný pouze pronájem celé vily v týdenních turnusech (od soboty do soboty), v ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a na libovolný počet dní.",
+    "parking" : "Parkplatz",
+    "prgrph5": "Soukromé parkoviště pro dvě až tři auta se nachází přímo u domu.",
+    "town": "Občanská vybavenost",
+    "prgrph6": "V Rokytnici najdete vše, co byste mohli potřebovat. Četné nákupní a stravovací možnosti jsou jen pár minut chůze, město disponuje také lékarnou a několika půjčovnami sportovního vybavení.",
+    "prgrph7" : "Die Villa Montana ist ein idealer Ausgangspunkt für zahlreiche sportliche und erholsame Aktivitäten. Die malerische Umgebung bietet zahlreiche Ausflugsziele für die ganze Familie an – seien es im Sommer kürzere Spaziergänge, längere Wanderungen oder Radtouren bis zu den Gipfeln des Riesengebirges oder im Winter Langlaufskirouten und Skipisten der nahegelegenen Skigebiete (zum Beispiel Rokytnice nad Jizerou, Studenov, Paseky nad Jizerou, Harrachov)."
+  },
+
+  "tag" : {
+    "summer" : "Sommeraktivität",
+    "winter" : "Winteraktivität",
+    "trip" : "Ausflugstipp"
+  },
+
+  "tip1" : {
+    "title": "Bikepark Rock-it-nice",
+    "info": "Der Bikepark Rokytnice nad Jizerou oder Rock it nice nutzt die Pisten des Skigebiets Horní Domky. Es gibt drei Loipen mit einer Gesamtlänge von 7 Kilometern, eine Downhill-T-Line-Strecke für erfahrene Biker, eine Freeride-Strecke für weniger Geübte und ein neues Kaprun, das von den Liften durch den Wald führt und für alle befahrbar ist. Neben der Seilbahn gibt es einen Fahrradservice, einen Fahrradverleih, Einkehrmöglichkeiten, Parkplätze und vielfältige Übernachtungsmöglichkeiten."
+  },
+
+  "tip2" : {
+    "title" : "Poznávací okruh okolo Rokytnice",
+    "info" : "Frühling, Sommer und Herbst sind die idealen Zeiten, um die Schönheit und Attraktionen von Rokytnice nad Jizerou und unseren höchsten Bergen - dem Riesengebirge - zu entdecken. Der Weg führt Sie durch eine malerische Landschaft mit schöner Aussicht auf das gesamte Rokytnice-Tal. Sie erfahren mehr über seine Geschichte, natürliche Schönheit und kulturelle Sehenswürdigkeiten. Du musst nicht die ganze Tour durchlaufen, sondern kannst sie überall abkürzen und am nächsten Tag fortsetzen. Sie können den Rundgang auch mit anderen interessanten Stopps beim Felsenaussichtspunkt Stráž oder bei Dvoračky erweitern."
+  },
+
+  "pricingTable" : {
+    "term" : "Termín",
+    "price" : "Cena pronájmu za týden",
+    "term1" : "01. prosince - 20. prosince",
+    "price1" : "17.500 Kč",
+    "term2" : "20. prosince - 27. prosince",
+    "price2" : "23.000 Kč",
+    "term3" : "27. prosince - 03. ledna",
+    "price3" : "35.000 Kč",
+    "term4" : "03. ledna - 17. ledna",
+    "price4" : "21.000 Kč",
+    "term5" : "17. ledna - 28. února",
+    "price5" : "28.000 Kč",
+    "term6" : "28. února - 31. března",
+    "price6" : "23.000 Kč",
+    "term7" : "31. března - 30. listopadu",
+    "price7" : "14.000 Kč"
+  },
+
+  "pricing" : {
+    "chargeForDog" : "Poplatek za psa je 50 Kč/noc.",
+    "dog": "Vezměte prosím na vědomí, že území obce Rokytnice nad Jizerou je součástí Krkonošského národního parku (KRNAP) s vymezeným ochranným pásmem a zónami odstupňované ochrany přírody. Na české straně hor není vodítko nutné, psa ale musíte mít pod jednoznačnou kontrolou.",
+    "info1" : "Vila se pronajímá jako celek za výše uvedenou cenu - konkrétní výše ceny závisí na zvoleném termínu.",
+    "info2" : "V ceně je již zahrnuta spotřeba energií.",
+    "info3" : "Cena nezahrnuje vratnou kauci 5.000 Kč.",
+    "info4" : "Základní úklid při ukončení pobytu provádí klient sám."
+  },
+
+  "reservation" : {
+    "turnus" : "V zimní sezóně (od 20. prosince do 30. března) je možný pouze pronájem celé vily v týdenních turnusech (od soboty do soboty), v ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a na libovolný počet dní.",
+    "deposit" : "Při rezervaci zvoleného termínu se skládá vratná kauce 5.000 Kč. Rezervace se stává závaznou až po uhrazení zálohy - zálohu je nutné uhradit do 5 dnů od provedení předběžné rezervace.",
+    "wanted" : "Chcete si zarezerovat svůj termín ve Vile Montaně? Použijte náš kontaktní formulář.",
+    "button" : "Zobrazit kontantní formulář"
+  },
+
+  "contact" : {
+    "address" : "Die Anschrift",
+    "address1" : "Horní Rokytnice 26",
+    "address2" : "512 44 Rokytnice nad Jizerou",
+    "email" : "Der Email",
+    "emailAddress" : "alter@alter.cz",
+    "mobile" : "das Telefon",
+    "mobileNumber" : "+420 272 760 329",
+    "formHeader" : "Schreib uns",
+    "submit" : "Eine Nachricht schicken"
+  },
+
+  "popup" : {
+    "success" : "Vaše zpráva byla odeslána",
+    "failed" : "Odeslání zprávy selhalo",
+    "failedInfo" : "Zkuste to prosím znovu nebo nám napište email."
   }
 }

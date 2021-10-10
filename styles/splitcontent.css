@@ -4,6 +4,12 @@
     width: 90%;
     background-color: rgb(255, 255, 255);
   }
+
+  .split-content-icons {
+    flex-flow: row wrap;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  }
   
   .left-content, .right-content {
     width: 100%;
@@ -11,6 +17,16 @@
   
   .split-content-image {
     width: 100%;
+  }
+
+  .text-section, .split-content-image {
+    margin-bottom: 1rem;
+  }
+
+  @media screen and (min-width: 992px) {
+    .text-section {
+      padding: 7% 12%;
+    }    
   }
 
   @media screen and (min-width: 1025px) {
@@ -22,11 +38,17 @@
     .left-content, .right-content {
         width: 50%;
     }
+
+    .text-section, .split-content-image {
+      margin-bottom: 0;
+    }
 }
   @media screen and (min-width: 1200px) {
     .split-content {
         width: 70%;
         margin: 1rem 0;
     }
+
+
 }
   

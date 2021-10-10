@@ -21,7 +21,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/i18next-http-backend.js"></script>
     <script src="js/loc-i18next.min.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="js/main.js"></script>
 </head>
 
 <body onload="init()">
@@ -38,13 +38,13 @@
                         <a href="index.html" class="nav-link" data-i18n="menu.about"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="okoli.html" class="nav-link" data-i18n="menu.tipsaround"></a>
+                        <a href="tipsaround.html" class="nav-link" data-i18n="menu.tipsaround"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="rezervace.html" class="nav-link" data-i18n="menu.reservation"></a>
+                        <a href="reservation.html" class="nav-link" data-i18n="menu.reservation"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="kontakty.html" class="nav-link" data-i18n="menu.contact"></a>
+                        <a href="contacts.html" class="nav-link" data-i18n="menu.contact"></a>
                     </li>
                     <li class="nav-item lang-switch">
                         <div class="column switcher">
@@ -81,64 +81,46 @@
             </nav>
         </div>
 
-        <div class="center">
-            <img class="banner-image" src="images/montana_baner.jpg">
-            <div class="section-primary">
+        <div class="column center">
+            <img class="banner-image" src="images/montana_baner1.jpg">
+            <div class="small-container">
                 <h1 data-i18n="title.main"></h1>
                 <h2 data-i18n="title.sub"></h2>
-                <p data-i18n="title.quote"></p>
+                <!-- <p data-i18n="title.quote"></p> -->
             </div>
         </div>
-        <div class="column container section-primary">
+        <div class="column small-container section-primary">
             <h2 data-i18n="info.header">
                 
             </h2>
-            <div class="row split-content">
+            <div class="row split-content-icons">
                 <div class="left-content row-icon">
                     <div class="column center section-small">
                         <img class="info-icon" src="images/icon_smoke-free.png">
-                        <p data-i18n="info.noSmoking"></p>
+                        <p class="bold" data-i18n="info.noSmoking"></p>
                     </div>
                     <div class="column center section-small">
                         <img class="info-icon" src="images/icon_pet.png">
-                        <p data-i18n="info.petFriendly"></p>
+                        <p class="bold" data-i18n="info.petFriendly"></p>
                     </div>
                 </div>
                 <div class="right-content row-icon">
                     <div class="column center section-small">
                         <img class="info-icon" src="images/icon_wifi.png">
-                        <p data-i18n="info.wifi"></p>
+                        <p class="bold" data-i18n="info.wifi"></p>
                     </div>
                     <div class="column center section-small">
                         <img class="info-icon" src="images/icon_car.png">
-                        <p data-i18n="info.parking"></p>
+                        <p class="bold" data-i18n="info.parking"></p>
                     </div>
                 </div>
             </div>
-            <!-- <div class="row center wrapper-small-gallery">
-                <div class="column center section-small">
-                    <img class="info-icon" src="images/icon_smoke-free.png">
-                    <p data-i18n="info.noSmoking"></p>
-                </div>
-                <div class="column center section-small">
-                    <img class="info-icon" src="images/icon_pet.png">
-                    <p data-i18n="info.petFriendly"></p>
-                </div>
-                <div class="column center section-small">
-                    <img class="info-icon" src="images/icon_wifi.png">
-                    <p data-i18n="info.wifi"></p>
-                </div>
-                <div class="column center section-small">
-                    <img class="info-icon" src="images/icon_car.png">
-                    <p data-i18n="info.parking"></p>
-                </div>
-            </div> -->
         </div>
         <div class="column container section-primary light-blue">
             <h2 data-i18n="details.header">
                 
             </h2>
-            <div class="row split-content light-blue">
+            <div class="row split-content ">
                 <div class="left-content">
                     <div class="text-section" >
                         <h3 data-i18n="details.placement"></h3>
@@ -155,7 +137,7 @@
                 </div>
                 <div class="right-content">
                     <div class="text-section" >
-                        <h3 data-i18n="details."></h3>
+                        <h3 data-i18n="details.accomodation"></h3>
                         <p data-i18n="details.prgrph2"></p>
                     </div>
                 </div>
@@ -163,7 +145,7 @@
             <div class="row split-content ">
                 <div class="left-content">
                     <div class="text-section" >
-                        <h3 data-i18n="details."></h3>
+                        <!-- <h3 data-i18n="details."></h3> -->
                         <p data-i18n="details.prgrph3"></p>
                     </div>
                 </div>
@@ -175,28 +157,28 @@
         <div class="row small-container section-primary wrapper-small-gallery">
             <div class="column small-gallery">
                 <div>
-                    <img class="small-image"  src="images/parking_place.JPG"> 
+                    <img class="small-image" src="images/montana_zima.jpg"> 
                 </div>
                 <div class="text-section">
-                    <h3 data-i18n="details.parking"></h3>
+                    <h3 data-i18n="details.rent"></h3>
                     <p data-i18n="details.prgrph4"></p>
                 </div>
             </div>
             <div class="column small-gallery">
                 <div>
-                    <img class="small-image" src="images/parking_place.JPG"> 
+                    <img class="small-image"  src="images/parking_place.JPG"> 
                 </div>
                 <div class="text-section">
-                    <h3 data-i18n="details."></h3>
+                    <h3 data-i18n="details.parking"></h3>
                     <p data-i18n="details.prgrph5"></p>
                 </div>
             </div>
             <div class="column small-gallery">
                 <div>
-                    <img class="small-image"  src="images/parking_place.JPG"> 
+                    <img class="small-image"  src="images/mesto.jpeg"> 
                 </div>
                 <div class="text-section">
-                    <h3 data-i18n="details."></h3>
+                    <h3 data-i18n="details.town"></h3>
                     <p data-i18n="details.prgrph6"></p>
                 </div>
             </div>
@@ -204,11 +186,10 @@
         <div class="column container section-primary light-blue">
             <div class="row split-content ">
                 <div class="left-content">
-                    <img class="split-content-image" src="images/loznice2.jpg">
+                    <img class="split-content-image" src="images/vylety.jpeg">
                 </div>
                 <div class="right-content">
                     <div class="text-section" >
-                        <h3 data-i18n="details."></h3>
                         <p data-i18n="details.prgrph7"></p>
                     </div>
                 </div>

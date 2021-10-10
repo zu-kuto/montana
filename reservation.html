@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Krkonošská vila Montana</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/navigation.css">
+    <link rel="stylesheet" href="styles/switcher.css">
+    <link rel="stylesheet" href="styles/reservation.css">
+    <link rel="stylesheet" href="styles/buttons.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/20.4.0/i18next.min.js"
+        integrity="sha512-6aFqg0ZOAUhCb0OhX3GMEvIbv7lR1fkjveiR1YLBMChmtMcvW6UiIkpSOS6/smY75Uak77zgG6X/sPbJDg1rag=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/i18next-browser-languagedetector/6.1.2/i18nextBrowserLanguageDetector.min.js"
+        integrity="sha512-lHKx8SXD7tK/Wczwf1mv7U1BPKt/p/28k1z7aB9piBho/421DihqrNK5GquW+9keY0PYcl0mjTJnEC72aQS1QA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/i18next-http-backend.js"></script>
+    <script src="js/loc-i18next.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body onload="init()">
+    <div class="column container" id="translation-initialization">
+        <div class="row header">
+            <nav class="row navbar">
+                <div>
+                    <a href="index.html" class="navigation-logo">
+                        <img class="logo" src="images/vilaMontana_logo.png" alt="Vila Montana logo" />
+                    </a>
+                </div>
+                <ul class="row nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link" data-i18n="menu.about"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="tipsaround.html" class="nav-link" data-i18n="menu.tipsaround"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="reservation.html" class="nav-link" data-i18n="menu.reservation"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contacts.html" class="nav-link" data-i18n="menu.contact"></a>
+                    </li>
+                    <li class="nav-item lang-switch">
+                        <div class="column switcher">
+                            <!-- zobrazovaci komponenta (stavova) -->
+                            <div onclick="toggleLangStatus()" class="switcher-top">
+                                <span id="lang-state">
+                                    DEFAULT
+                                </span>
+                                <img class="arrow" src="images/icon_arrow_down.png" />
+                            </div>
+                            <!-- rozbalovaci list -->
+                            <ul id="lang-list">
+                                <li id="lang-cs" class="lang" lang="cs">
+                                    <img class="flag" src="images/flag_cze.png" alt="CZ flag" />
+                                    Čeština
+                                </li>
+                                <li id="lang-en" class="lang" lang="en">
+                                    <img class="flag" src="images/flag_gbr.png" alt="CZ flag" />
+                                    English
+                                </li>
+                                <li id="lang-de" class="lang" lang="de">
+                                    <img class="flag" src="images/flag_ger.png" alt="CZ flag" />
+                                    Deutsch
+                                </li>
+                                <li id="lang-pl" class="lang" lang="pl">
+                                    <img class="flag" src="images/flag_pol.png" alt="CZ flag" />
+                                    Polskie
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+        <div class="column container section-primary">
+            <h1 data-i18n="title.pricing"></h1>
+            <div class="pricing-table section-primary mini-container">
+                <div class="table-row title-row">
+                    <div class="column">
+                        <div class="term" data-i18n="pricingTable.term"></div>
+                    </div>
+                    <div class="column">
+                        <div class="price" data-i18n="pricingTable.price"></div>
+                    </div>
+                </div>
+                <div class="table-row odd-row">
+                    <div class="column">
+                        <div class="term" data-i18n="pricingTable.term1"></div>
+                    </div>
+                    <div class="column">
+                        <div class="price" data-i18n="pricingTable.price1"></div>
+                    </div>
+                </div>
+                <div class="table-row even-row">
+                    <div class="column">
+                        <div class="term" data-i18n="pricingTable.term2"></div>
+                    </div>
+                    <div class="column">
+                        <div class="price" data-i18n="pricingTable.price2"></div>
+                    </div>
+                </div>
+                <div class="table-row odd-row">
+                    <div class="column">
+                        <div class="term" data-i18n="pricingTable.term3"></div>
+                    </div>
+                    <div class="column">
+                        <div class="price" data-i18n="pricingTable.price3"></div>
+                    </div>
+                </div>
+                <div class="table-row even-row">
+                    <div class="column">
+                        <div class="term" data-i18n="pricingTable.term4"></div>
+                    </div>
+                    <div class="column">
+                        <div class="price" data-i18n="pricingTable.price4"></div>
+                    </div>
+                </div>
+                <div class="table-row odd-row">
+                    <div class="column">
+                        <div class="term" data-i18n="pricingTable.term5"></div>
+                    </div>
+                    <div class="column">
+                        <div class="price" data-i18n="pricingTable.price5"></div>
+                    </div>
+                </div>
+                <div class="table-row even-row">
+                    <div class="column">
+                        <div class="term" data-i18n="pricingTable.term6"></div>
+                    </div>
+                    <div class="column">
+                        <div class="price" data-i18n="pricingTable.price6"></div>
+                    </div>
+                </div>
+                <div class="table-row odd-row">
+                    <div class="column">
+                        <div class="term" data-i18n="pricingTable.term7"></div>
+                    </div>
+                    <div class="column">
+                        <div class="price" data-i18n="pricingTable.price7"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="column mini-container section-primary dog">
+                <div class="dog-pricing">
+                    <img class="info-icon" src="images/icon_pet.png">
+                </div>
+                <div>
+                    <p class="bold" data-i18n="pricing.chargeForDog"></p>
+                    <p data-i18n="pricing.dog"></p>
+                </div>
+            </div>
+            <div class="mini-container section-primary">
+                <p data-i18n="pricing.info1"></p>
+                <p data-i18n="pricing.info2"></p>
+                <p  class="bold" data-i18n="pricing.info3"></p>
+                <p data-i18n="pricing.info4"></p>
+            </div>
+            <div class="column container section-primary light-blue">
+                <div class="column small-container">
+                    <h1 data-i18n="title.reservation"></h1>
+                    <div>
+                        <p class="bold" data-i18n="reservation.turnus"></p>
+                        <p data-i18n="reservation.deposit"></p>
+                    </div>
+                    <div class="column center">
+                        <h4 data-i18n="reservation.wanted"></h4>
+                        <div class="primary-button small"><a class="link" href="/kontakty.html#napistenam">Zobrazit kontaktní formulář</a></div>
+                    </div>
+                    <!-- <div class="section-primary">
+                        <div class="reservanto-iframe" data-id="17416" ></div>
+                        <script type="text/javascript" src="https://booking.reservanto.cz/Script/reservanto-iframe.js"></script>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
