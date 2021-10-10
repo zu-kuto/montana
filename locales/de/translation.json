@@ -99,10 +99,14 @@
     "email" : "Der Email",
     "emailAddress" : "alter@alter.cz",
     "mobile" : "das Telefon",
-    "mobileNumber" : "+420 272 760 329",
-    "formHeader" : "Schreib uns",
+    "mobileNumber" : "+420 272 760 329"
+  },
+  
+  "form" : {
+    "header" : "Schreib uns",
     "submit" : "Eine Nachricht schicken"
   },
+
 
   "popup" : {
     "success" : "Vaše zpráva byla odeslána",

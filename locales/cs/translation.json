@@ -99,8 +99,11 @@
     "email" : "E-mail",
     "emailAddress" : "alter@alter.cz",
     "mobile" : "Mobil",
-    "mobileNumber" : "+420 272 760 329",
-    "formHeader" : "Napište nám",
+    "mobileNumber" : "+420 272 760 329"
+  },
+
+  "form" : {
+    "header" : "Napište nám",
     "submit" : "Odeslat zprávu"
   },
 
