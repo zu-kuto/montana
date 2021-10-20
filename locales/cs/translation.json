@@ -2,7 +2,7 @@
   "menu": {
     "about": "O chatě",
     "gallery" : "Galerie",
-    "tipsaround": "Tipy v okolí",
+    "tipsaround": "Tipy v\u00a0okolí",
     "reservation": "Rezervace",
     "contact": "Kontakty"
   },
@@ -10,8 +10,8 @@
   "title": {
     "main": "Chata Montana",
     "sub": "Rokytnice nad Jizerou",
-    "quote": "Pronajměte si chatu Montanu v Krkonoších a\u00a0prožijte nezapomenutelnou dovolenou společně s\u00a0rodinou nebo přáteli.",
-    "tipsaround": "Tipy v okolí",
+    "quote": "Pronajměte si chatu Montanu v\u00a0Krkonoších a\u00a0prožijte nezapomenutelnou dovolenou společně s\u00a0rodinou nebo přáteli.",
+    "tipsaround": "Tipy v\u00a0okolí",
     "pricing" : "Ceník pro rok 2021/2022",
     "reservation": "Rezervace",
     "location" : "Kde nás najdete",
@@ -29,17 +29,17 @@
   "details": {
     "header": "Základní informace",
     "placement": "Lokace",
-    "prgrph1": "Montana leží ve svahu Sachrova hřebenu na polosamotě zvané Horní ves. Montana se nachází v nedaleko lyžařských vleků a\u00a0v těsné blízkosti lesů a\u00a0turistických tras. Z\u00a0Dolního náměstí Rokytnice vede k\u00a0chatě strmá silnice (cca 700m), která se v zimě udržuje a\u00a0která je dále průjezdná až k\u00a0Hornímu náměstí a\u00a0ke skiareálu Modrá Hvězda (cca 1km).",
+    "prgrph1": "Montana leží ve svahu Sachrova hřebenu na polosamotě zvané Horní ves. Montana se nachází v\u00a0nedaleko lyžařských vleků a\u00a0v těsné blízkosti lesů a\u00a0turistických tras. Z\u00a0Dolního náměstí Rokytnice vede k\u00a0chatě strmá silnice (cca 700m), která se v\u00a0zimě udržuje a\u00a0která je dále průjezdná až k\u00a0Hornímu náměstí a\u00a0ke skiareálu Modrá Hvězda (cca 1km).",
     "accomodation": "Ubytování",
-    "prgrph2": "V chatě se čtyřmi pokoji a\u00a0čtyřmi koupelnami je možno pohodlně ubytovat 13 osob. V nejspodnějším patře se nachází plně vybavená kuchyň, která umožňuje plnohodnotné vlastní stravování. K\u00A0dispozici je lednička s\u00a0mrazákem, elektrický sporák s\u00a0troubou a\u00a0myčka. Prostorná jídelna, která slouží zároveň jako společenská místnost, vás zve k\u00a0společnému posezení a\u00a0zábavným večerům při hrách se třemi stoly, velkou pohovkou a\u00a0krbem.",
-    "prgrph3": "Z jídelny je přímý východ na venkovní terasu a\u00a0zahradu, kde můžete v létě grilovat a\u00a0v zimě třeba stavět sněhuláky nebo jezdit ze svahu na bobech. V časných ranních hodinách přicházejí nezřídka na zahradu plaché srny. Z\u00a0terasy i\u00a0z oken pokojů je fascinující výhled do údolí a\u00a0na protější svahy Krkonoš.",
+    "prgrph2": "V chatě se čtyřmi pokoji a\u00a0čtyřmi koupelnami je možno pohodlně ubytovat 13 osob. V\u00a0nejspodnějším patře se nachází plně vybavená kuchyň, která umožňuje plnohodnotné vlastní stravování. K\u00A0dispozici je lednička s\u00a0mrazákem, elektrický sporák s\u00a0troubou a\u00a0myčka. Prostorná jídelna, která slouží zároveň jako společenská místnost, vás zve k\u00a0společnému posezení a\u00a0zábavným večerům při hrách se třemi stoly, velkou pohovkou a\u00a0krbem.",
+    "prgrph3": "Z jídelny je přímý východ na venkovní terasu a\u00a0zahradu, kde můžete v\u00a0létě grilovat a\u00a0v zimě třeba stavět sněhuláky nebo jezdit ze svahu na bobech. V\u00a0časných ranních hodinách přicházejí nezřídka na zahradu plaché srny. Z\u00a0terasy i\u00a0z oken pokojů je fascinující výhled do údolí a\u00a0na protější svahy Krkonoš.",
     "rent" : "Pronájem",
-    "prgrph4": "V zimní sezóně (od 20.\u00a0prosince do 30.\u00a0března) je možný pouze pronájem celé chaty v týdenních turnusech (od soboty do soboty), v ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a\u00a0na libovolný počet dní.",
+    "prgrph4": "V zimní sezóně (od 20.\u00a0prosince do 30.\u00a0března) je možný pouze pronájem celé chaty v\u00a0týdenních turnusech (od soboty do soboty), v\u00a0ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a\u00a0na libovolný počet dní.",
     "parking" : "Parkování",
     "prgrph5": "Soukromé parkoviště pro dvě až tři auta se nachází přímo u\u00a0domu.",
     "town": "Občanská vybavenost",
     "prgrph6": "V Rokytnici najdete vše, co byste mohli potřebovat. Četné nákupní a\u00a0stravovací možnosti jsou jen pár minut chůze, město disponuje také lékarnou a\u00a0několika půjčovnami sportovního vybavení.",
-    "prgrph7" : "Montana je ideálním výchozím bodem pro mnoho sportovních a\u00a0relaxačních aktivit. Malebné okolí nabízí velké množství výletních cílů pro celou rodinu - ať už jde o\u00a0krátké procházky, delší túry nebo cyklovýlety na vrcholky Krkonoš v létě nebo běžecké tratě a\u00a0sjezdovky v blízkých lyžařských oblastech (například Rokytnice nad Jizerou, Studenov, Paseky nad Jizerou, Harrachov) v zimě."
+    "prgrph7" : "Montana je ideálním výchozím bodem pro mnoho sportovních a\u00a0relaxačních aktivit. Malebné okolí nabízí velké množství výletních cílů pro celou rodinu - ať už jde o\u00a0krátké procházky, delší túry nebo cyklovýlety na vrcholky Krkonoš v\u00a0létě nebo běžecké tratě a\u00a0sjezdovky v\u00a0blízkých lyžařských oblastech (například Rokytnice nad Jizerou, Studenov, Paseky nad Jizerou, Harrachov) v\u00a0zimě."
   },
 
   "tag" : {
@@ -89,9 +89,9 @@
   },
 
   "reservation" : {
-    "turnus" : "V zimní sezóně (od 20.\u00a0prosince do 30.\u00a0března) je možný pouze pronájem celé chaty v týdenních turnusech (od soboty do soboty), v ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a\u00a0na libovolný počet dní.",
+    "turnus" : "V zimní sezóně (od 20.\u00a0prosince do 30.\u00a0března) je možný pouze pronájem celé chaty v\u00a0týdenních turnusech (od soboty do soboty), v\u00a0ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a\u00a0na libovolný počet dní.",
     "deposit" : "Při rezervaci zvoleného termínu se skládá vratná kauce 5.000\u00a0Kč. Rezervace se stává závaznou až po uhrazení zálohy - zálohu je nutné uhradit do 5 dnů od provedení předběžné rezervace.",
-    "wanted" : "Chcete si zarezerovat svůj termín v chatě Montaně? Kontaktujte nás.",
+    "wanted" : "Chcete si zarezerovat svůj termín v\u00a0chatě Montaně? Kontaktujte nás.",
     "button" : "Zobrazit kontaktní údaje"
   },
 
