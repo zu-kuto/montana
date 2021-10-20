@@ -34,7 +34,7 @@
       "prgrph2": "Willa z czterema pokojami i czterema łazienkami może wygodnie pomieścić 13 osób. Na najniższej kondygnacji znajduje się w pełni wyposażona kuchnia, która umożliwia pełne samodzielne przygotowywanie posiłków. Jest lodówka z zamrażarką, kuchenka elektryczna z piekarnikiem i zmywarka. Przestronna jadalnia, która służy również jako świetlica, zaprasza do wspólnego siedzenia i zabawy wieczorami przy grach z trzema stołami, dużą sofą i kominkiem.",
       "prgrph3": "Z jadalni jest bezpośrednie wyjście na zewnętrzny taras i do ogrodu, gdzie latem można grillować, a zimą lepić bałwanki lub zjeżdżać na bobslejach ze stoku. We wczesnych godzinach porannych do ogrodu często przychodzą nieśmiałe jelenie. Z tarasu oraz z okien pokoi roztacza się fascynujący widok na dolinę i przeciwległe zbocza Karkonoszy.",
       "rent" : "Dzierżawić",
-      "prgrph4": "W sezonie zimowym (od 20 grudnia do 30 marca) możliwe jest wynajęcie całej willi tylko w tygodniowych zmianach (od soboty do soboty), w pozostałych terminach możliwe jest indywidualne uzgodnienie wynajmu poszczególnych pokoi i dowolnej ilości dni.",
+      "prgrph4": "W sezonie zimowym (od 20\u00a0grudnia do 30\u00a0marca) możliwe jest wynajęcie całej willi tylko w tygodniowych zmianach (od soboty do soboty), w pozostałych terminach możliwe jest indywidualne uzgodnienie wynajmu poszczególnych pokoi i dowolnej ilości dni.",
       "parking" : "Parkowanie",
       "prgrph5": "Obok domu znajduje się prywatny parking na dwa do trzech samochodów.",
       "town": "Udogodnienia miejskie",
@@ -61,36 +61,36 @@
     "pricingTable" : {
       "term" : "Data",
       "price" : "Cena wynajmu za tydzień",
-      "term1" : "1 grudnia - 20 grudnia",
-      "price1" : "17.500 Kč",
-      "term2" : "20 grudnia - 26 grudnia",
-      "price2" : "23.000 Kč",
-      "term3" : "26 grudnia - 2 stycznia",
-      "price3" : "35.000 Kč",
-      "term4" : "2 stycznia - 8 stycznia",
-      "price4" : "20.000 Kč",
-      "term5" : "8 stycznia - 15 stycznia",
-      "price5" : "28.000 Kč",
-      "term6" : "15 stycznia - 26 lutego",
-      "price6" : "23.000 Kč",
-      "term7" : "26 lutego - 2 kwietnia",
-      "price7" : "14.000 Kč",
-      "term8" : "2 kwietnia - 30 listopada",
-      "price8" : "14.000 Kč"
+      "term1" : "1\u00a0grudnia - 20\u00a0grudnia",
+      "price1" : "17.500\u00a0CZK",
+      "term2" : "20\u00a0grudnia - 26\u00a0grudnia",
+      "price2" : "23.000\u00a0CZK",
+      "term3" : "26\u00a0grudnia - 2\u00a0stycznia",
+      "price3" : "35.000\u00a0CZK",
+      "term4" : "2\u00a0stycznia - 8\u00a0stycznia",
+      "price4" : "20.000\u00a0CZK",
+      "term5" : "8\u00a0stycznia - 15\u00a0stycznia",
+      "price5" : "28.000\u00a0CZK",
+      "term6" : "15\u00a0stycznia - 26\u00a0lutego",
+      "price6" : "23.000\u00a0CZK",
+      "term7" : "26\u00a0lutego - 2\u00a0kwietnia",
+      "price7" : "14.000\u00a0CZK",
+      "term8" : "2\u00a0kwietnia - 30\u00a0listopada",
+      "price8" : "14.000\u00a0CZK"
     },
   
     "pricing" : {
-      "chargeForDog" : "Opłata za psa wynosi 50 CZK / noc.",
+      "chargeForDog" : "Opłata za psa wynosi 50\u00a0CZK / noc.",
       "dog": "Należy pamiętać, że teren wsi Rokytnice nad Jizerou jest częścią Karkonoskiego Parku Narodowego (KRNAP) z określoną strefą ochronną i strefami stopniowej ochrony przyrody. Po czeskiej stronie gór smycz nie jest konieczna, ale trzeba mieć wyraźną kontrolę nad psem.",
       "info1" : "Willa wynajmowana jest w całości za powyższą cenę - cena konkretna uzależniona jest od wybranego terminu.",
       "info2" : "Cena zawiera już zużycie energii.",
-      "info3" : "Cena nie obejmuje kaucji zwrotnej w wysokości 5.000 CZK.",
+      "info3" : "Cena nie obejmuje kaucji zwrotnej w wysokości 5.000\u00a0CZK.",
       "info4" : "Podstawowe sprzątanie na koniec pobytu wykonuje sam klient."
     },
   
     "reservation" : {
-      "turnus" : "W sezonie zimowym (od 20 grudnia do 30 marca) możliwe jest wynajęcie całej willi tylko w tygodniowych zmianach (od soboty do soboty), w pozostałych terminach możliwe jest indywidualne uzgodnienie wynajmu poszczególnych pokoi i dowolnej ilości dni.",
-      "deposit" : "Przy rezerwacji wybranego terminu wymagana jest kaucja zwrotna w wysokości 5000 CZK. Rezerwacja staje się wiążąca dopiero po wpłaceniu zadatku - zaliczkę należy wpłacić w ciągu 5 dni od dokonania rezerwacji wstępnej.",
+      "turnus" : "W sezonie zimowym (od 20\u00a0grudnia do 30\u00a0marca) możliwe jest wynajęcie całej willi tylko w tygodniowych zmianach (od soboty do soboty), w pozostałych terminach możliwe jest indywidualne uzgodnienie wynajmu poszczególnych pokoi i dowolnej ilości dni.",
+      "deposit" : "Przy rezerwacji wybranego terminu wymagana jest kaucja zwrotna w wysokości 5000\u00a0CZK. Rezerwacja staje się wiążąca dopiero po wpłaceniu zadatku - zaliczkę należy wpłacić w ciągu 5 dni od dokonania rezerwacji wstępnej.",
       "wanted" : "Chcesz zarezerwować termin w Chata Montana? Skontaktuj się z nami.",
       "button" : "Pokaż dane kontaktowe"
     },
@@ -102,7 +102,7 @@
       "email" : "E-mail",
       "emailAddress" : "montana@alter.cz",
       "mobile" : "Telefon",
-      "mobileNumber" : "+420 272 760 329"
+      "mobileNumber" : "+420\u00a0272\u00a0760\u00a0329"
     },
 
     "form" : {
