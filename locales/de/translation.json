@@ -1,15 +1,16 @@
 {
   "menu": {
-    "about": "Über die Villa",
-    "tipsaround": "Tipps rund um",
+    "about": "Über die Hütte",
+    "gallery" : "Galerie",
+    "tipsaround": "Tipps",
     "reservation": "Reservierung",
     "contact": "Kontakten"
   },
 
   "title": {
-    "main": "Vila Montana",
+    "main": "Hütte Montana",
     "sub": "Rokytnice nad Jizerou",
-    "quote": "Erleben Sie einen unvergesslichen Urlaub mit Freunden und Familie in der Villa Montana im schönen Riesengebirge Krkonoše.",
+    "quote": "Erleben Sie einen unvergesslichen Urlaub mit Freunden und Familie in der Hütte Montana im schönen Riesengebirge Krkonoše.",
     "tipsaround": "Tipps rund um",
     "pricing" : "Preisliste",
     "reservation": "Reservierung",
@@ -19,26 +20,26 @@
     
   "info": {
     "header": "Dinge, die Sie wissen sollten:",
-    "noSmoking": "Villa Montana ist rauchfrei",
+    "noSmoking": "Hütte Montana ist rauchfrei",
     "petFriendly": "Haustiere sind willkommen",
     "wifi": "Wifi ist frei verfügbar",
     "parking": "Sie können direkt am Gebäude parken"
   },
 
   "details": {
-    "header": "Grundlegende Informationen zur Villa",
-    "placement": "Lage der Villa Montana",
-    "prgrph1": "Die Villa Montana liegt an einem dünn besiedelten Hang des Sachr Berges (Sachrův hřeben) mit schönem Blick ins Tal und die Umgebung. Sie ist nur wenige Wegeminuten über eine auch im Winter geräumte Asphaltstraße vom Unteren Platz (Dolní Náměstí) Rokytnice nad Jizerou zu erreichen. Folgt man der Straße weiter, gelangt man zum Oberen Platz (Horní Náměstí) Rokytnice nad Jizerou und zum nächstgelegenen Skiareal Modrá Hvězda (ca. 1km).",
+    "header": "Grundlegende Informationen zur Hütte",
+    "placement": "Lokation",
+    "prgrph1": "Montana liegt an einem dünn besiedelten Hang des Sachr Berges (Sachrův hřeben) mit schönem Blick ins Tal und die Umgebung. Sie ist nur wenige Wegeminuten über eine auch im Winter geräumte Asphaltstraße vom Unteren Platz (Dolní Náměstí) Rokytnice nad Jizerou zu erreichen. Folgt man der Straße weiter, gelangt man zum Oberen Platz (Horní Náměstí) Rokytnice nad Jizerou und zum nächstgelegenen Skiareal Modrá Hvězda (ca. 1km).",
     "accomodation": "Unterkunft",
-    "prgrph2": "Die Villa bietet mit vier Zimmern Platz für 10 bis 13 Personen und eignet sich somit ideal für Gruppen oder größere und mehrere Familien. Gästen der Villa Montana steht eine voll ausgestattete Küche mit Kühlschrank (mit Gefrierfach), Elektroherd (mit Backofen) und Geschirrspüler zur Verfügung. Das geräumige Esszimmer, das gleichzeitig als Gemeinschaftsraum dient, lädt mit 3 Tischen, einem großen Sofa und einem Kaminofen zum geselligen Zusammensitzen und zu lustigen Spielabenden ein.",
-    "prgrph3": "Hinter dem Haus befindet sich eine Terrasse mit Blick ins Tal, wo zum Beispiel im Sommer gegrillt werden kann. Die Villa verfügt über einen eigenen Stellplatz für bis zu drei Autos direkt neben dem Haus. Zahlreiche Einkaufs- und Einkehrmöglichkeiten befinden sich nur wenige Gehminuten sowohl auf dem Unteren Platz (Dolní Náměstí) als auch auf dem Oberen Platz (Horní Náměstí)  Rokytnice nad Jizerou.",
+    "prgrph2": "Der Hütte bietet mit vier Zimmern Platz für 10 bis 13 Personen und eignet sich somit ideal für Gruppen oder größere und mehrere Familien. Gästen der Hütte Montana steht eine voll ausgestattete Küche mit Kühlschrank (mit Gefrierfach), Elektroherd (mit Backofen) und Geschirrspüler zur Verfügung. Das geräumige Esszimmer, das gleichzeitig als Gemeinschaftsraum dient, lädt mit 3 Tischen, einem großen Sofa und einem Kaminofen zum geselligen Zusammensitzen und zu lustigen Spielabenden ein.",
+    "prgrph3": "Hinter dem Haus befindet sich eine Terrasse mit Blick ins Tal, wo zum Beispiel im Sommer gegrillt werden kann. Die Hütte verfügt über einen eigenen Stellplatz für bis zu drei Autos direkt neben dem Haus. Zahlreiche Einkaufs- und Einkehrmöglichkeiten befinden sich nur wenige Gehminuten sowohl auf dem Unteren Platz (Dolní Náměstí) als auch auf dem Oberen Platz (Horní Náměstí)  Rokytnice nad Jizerou.",
     "rent" : "Vermietung",
-    "prgrph4": "In der Wintersaison (vom 20. Dezember bis zum 30. März) und in der Sommersaison (vom 01. Juli bis zum 31. August) sind nur wöchentliche Aufenthalte in der Villa Montana möglich. Außerhalb dieser Zeiträume können einzelne Zimmer oder das ganze Haus gemietet werden.",
+    "prgrph4": "In der Wintersaison (vom 20. Dezember bis zum 30. März) und in der Sommersaison (vom 01. Juli bis zum 31. August) sind nur wöchentliche Aufenthalte in der Hütte Montana möglich. Außerhalb dieser Zeiträume können einzelne Zimmer oder das ganze Haus gemietet werden.",
     "parking" : "Parkplatz",
     "prgrph5": "Privater Parkplatz für zwei bis drei Autos befindet sich neben dem Haus.",
     "town": "Öffentliche Einrichtungen",
     "prgrph6": "In Rokytnice finden Sie alles, was Sie brauchen. Zahlreiche Einkaufsmöglichkeiten und gastronomische Einrichtungen sind nur wenige Gehminuten entfernt und in der Stadt gibt es auch eine Apotheke und mehrere Sportgeräteverleihe.",
-    "prgrph7" : "Die Villa Montana ist ein idealer Ausgangspunkt für zahlreiche sportliche und erholsame Aktivitäten. Die malerische Umgebung bietet zahlreiche Ausflugsziele für die ganze Familie an – seien es im Sommer kürzere Spaziergänge, längere Wanderungen oder Radtouren bis zu den Gipfeln des Riesengebirges oder im Winter Langlaufskirouten und Skipisten der nahegelegenen Skigebiete (zum Beispiel Rokytnice nad Jizerou, Studenov, Paseky nad Jizerou, Harrachov)."
+    "prgrph7" : "Der Hütte Montana ist ein idealer Ausgangspunkt für zahlreiche sportliche und erholsame Aktivitäten. Die malerische Umgebung bietet zahlreiche Ausflugsziele für die ganze Familie an – seien es im Sommer kürzere Spaziergänge, längere Wanderungen oder Radtouren bis zu den Gipfeln des Riesengebirges oder im Winter Langlaufskirouten und Skipisten der nahegelegenen Skigebiete (zum Beispiel Rokytnice nad Jizerou, Studenov, Paseky nad Jizerou, Harrachov)."
   },
 
   "tag" : {
@@ -58,38 +59,40 @@
   },
 
   "pricingTable" : {
-    "term" : "Datieren",
+    "term" : "Datum",
     "price" : "Mietpreis pro Woche",
-    "term1" : "01. Dezember - 20. Dezember",
-    "price1" : "17.500 CZK",
-    "term2" : "20. Dezember - 27. Dezember",
-    "price2" : "23.000 CZK",
-    "term3" : "27. Dezember - 03. Januar",
-    "price3" : "35.000 CZK",
-    "term4" : "03. Januar - 17. Januar",
-    "price4" : "21.000 CZK",
-    "term5" : "17. Januar - 28. Februar",
-    "price5" : "28.000 CZK",
-    "term6" : "28. Februar - 31. März",
-    "price6" : "23.000 CZK",
-    "term7" : "31. März - 30. November",
-    "price7" : "14.000 CZK"
+    "term1" : "1. Dezember - 20. Dezember",
+    "price1" : "17.500 Kč",
+    "term2" : "20. Dezember - 26. Dezember",
+    "price2" : "23.000 Kč",
+    "term3" : "26. Dezember - 2. Januar",
+    "price3" : "35.000 Kč",
+    "term4" : "2. Januar - 8. Januar",
+    "price4" : "20.000 Kč",
+    "term5" : "8. Januar - 15. Januar",
+    "price5" : "28.000 Kč",
+    "term6" : "15. Januar - 26. Februar",
+    "price6" : "23.000 Kč",
+    "term7" : "26. Februar - 2. April",
+    "price7" : "14.000 Kč",
+    "term8" : "2. April - 30. November",
+    "price8" : "14.000 Kč"
   },
 
   "pricing" : {
     "chargeForDog" : "Die Gebühr für einen Hund beträgt 50 CZK / Nacht.",
     "dog": "Bitte beachten Sie, dass das Gebiet des Dorfes Rokytnice nad Jizerou Teil des Nationalparks Riesengebirge (KRNAP) mit einer definierten Schutzzone und Zonen mit abgestuftem Naturschutz ist. Auf der tschechischen Seite des Gebirges ist eine Leine nicht erforderlich, aber Sie müssen den Hund gut unter Kontrolle haben.",
-    "info1" : "Die Villa wird als Ganzes zum oben genannten Preis vermietet - der konkrete Preis hängt vom gewählten Datum ab.",
+    "info1" : "Die Hütte wird als Ganzes zum oben genannten Preis vermietet - der konkrete Preis hängt vom gewählten Datum ab.",
     "info2" : "Der Preis beinhaltet bereits den Energieverbrauch.",
     "info3" : "Der Preis beinhaltet keine rückzahlbare Kaution von 5.000 CZK.",
     "info4" : "Die Grundreinigung am Ende des Aufenthaltes wird vom Kunden selbst durchgeführt."
     },
   
     "reservation" : {
-    "turnus" : "In der Wintersaison (vom 20. Dezember bis 30. März) ist die Anmietung der gesamten Villa nur in Wochenschichten (von Samstag bis Samstag) möglich, ansonsten kann die Anmietung einzelner Zimmer und beliebiger Anzahl individuell vereinbart werden Tage.",
+    "turnus" : "In der Wintersaison (vom 20. Dezember bis 30. März) ist die Anmietung der gesamten Hütte nur in Wochenschichten (von Samstag bis Samstag) möglich, ansonsten kann die Anmietung einzelner Zimmer und beliebiger Anzahl individuell vereinbart werden Tage.",
     "deposit" : "Bei der Buchung des ausgewählten Datums ist eine erstattbare Anzahlung in Höhe von 5.000 CZK erforderlich. Die Reservierung wird erst nach Eingang der Anzahlung verbindlich - die Anzahlung muss innerhalb von 5 Tagen nach der Vorreservierung erfolgen.",
-    "wanted" : "Möchten Sie Ihren Termin in der Villa Montana buchen? Nutzen Sie unser Kontaktformular.",
-    "button" : "Kontaktformular anzeigen"
+    "wanted" : "Möchten Sie Ihren Termin in der Hütte Montana buchen? Kontaktiere uns.",
+    "button" : "Kontaktdaten anzeigen"
     },
 
   "contact" : {
@@ -97,7 +100,7 @@
     "address1" : "Horní Rokytnice 26",
     "address2" : "512 44 Rokytnice nad Jizerou",
     "email" : "Der Email",
-    "emailAddress" : "alter@alter.cz",
+    "emailAddress" : "montana@alter.cz",
     "mobile" : "das Telefon",
     "mobileNumber" : "+420 272 760 329"
   },

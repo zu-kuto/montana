@@ -1,15 +1,16 @@
 {
   "menu": {
-    "about": "The villa",
+    "about": "The cabin",
+    "gallery" : "Gallery",
     "tipsaround": "Tips around",
     "reservation": "Reservation",
     "contact": "Contacts"
   },
 
   "title": {
-    "main": "Vila Montana",
+    "main": "The Montana Cabin",
     "sub": "Rokytnice nad Jizerou",
-    "quote": "Rent a Villa Montana in the Giant Mountains and spend an unforgettable vacation with zour family or friends.",
+    "quote": "Rent the Montana Cabin in the Giant Mountains and spend an unforgettable vacation with your family or friends.",
     "tipsaround": "Tips around",
     "pricing" : "Price list",
     "reservation": "Reservation",
@@ -19,26 +20,26 @@
     
   "info": {
     "header": "Things you should know:",
-    "noSmoking": "Vila Montana is non-smoking",
+    "noSmoking": "Montana is non-smoking",
     "petFriendly": "Pets are welcomed",
     "wifi": "Wifi is freely available",
     "parking": "Parking places are right next to the building"
   },
 
   "details": {
-    "header": "Basic information about the villa",
-    "placement": "Location of Villa Montana",
-    "prgrph1": "Villa Montana is located on the slope of Sachrov ridge in semi-solitude called Horní ves. Montana is located near the ski lifts and close to forests and hiking trails. From Dolní náměstí Rokytnice, a steep road leads to the villa (approx. 700 m), which is maintained in winter and which is further passable to Horní náměstí and to the Modrá Hvězda ski resort (approx. 1 km).",
+    "header": "Basic information",
+    "placement": "Location of Montana",
+    "prgrph1": "Cabin Montana is located on the slope of Sachrov ridge in semi-solitude called Horní ves. Montana is located near the ski lifts and close to forests and hiking trails. From Dolní náměstí Rokytnice, a steep road leads to the cabin (approx. 700 m), which is maintained in winter and which is further passable to Horní náměstí and to the Modrá Hvězda ski resort (approx. 1 km).",
     "accomodation": "Accommodation",
-    "prgrph2": "The villa with four rooms and four bathrooms can comfortably accommodate 13 people. On the lowest floor there is a fully equipped kitchen, which allows full self-catering. There is a refrigerator with freezer, electric stove with oven and dishwasher. The spacious dining room, which also serves as a common room, invites you to sit together and have fun evenings at games with three tables, a large sofa and a fireplace.",
+    "prgrph2": "The cabin with four rooms and four bathrooms can comfortably accommodate 13 people. On the lowest floor there is a fully equipped kitchen, which allows full self-catering. There is a refrigerator with freezer, electric stove with oven and dishwasher. The spacious dining room, which also serves as a common room, invites you to sit together and have fun evenings at games with three tables, a large sofa and a fireplace.",
     "prgrph3": "From the dining room there is a direct exit to the outdoor terrace and garden, where you can grill in summer and build snowmen in winter or ride bobsleigh from the slope. In the early morning hours, shy deer often come to the garden. From the terrace and from the windows of the rooms there is a fascinating view of the valley and the opposite slopes of the Giant Mountains.",
     "rent" : "House rental",
-    "prgrph4": "In the winter season (from December 20 to March 30) it is possible to rent the whole villa in weekly shifts (from Saturday to Saturday), in other terms it is possible to individually agree on the rental of individual rooms and any number of days.",
+    "prgrph4": "In the winter season (from December 20 to March 30) it is possible to rent the whole cabin in weekly shifts (from Saturday to Saturday), in other terms it is possible to individually agree on the rental of individual rooms and any number of days.",
     "parking" : "Parking",
     "prgrph5": "Private parking for two to three cars is located next to the house.",
     "town": "Civic facilities",
     "prgrph6": "In Rokytnice you will find everything you could need. Numerous shopping and dining options are just a few minutes' walk away, and the city also has a pharmacy and several sports equipment rentals.",
-    "prgrph7" : "Villa Montana is an ideal starting point for many sports and relaxation activities. The picturesque surroundings offer a large number of excursion destinations for the whole family - whether it is short walks, longer hikes or bike trips to the Giant Mountains in summer or cross-country trails and slopes in nearby ski areas (eg Rokytnice nad Jizerou, Studenov, Paseky nad Jizerou, Harrachov) in winter."
+    "prgrph7" : "Montana is an ideal starting point for many sports and relaxation activities. The picturesque surroundings offer a large number of excursion destinations for the whole family - whether it is short walks, longer hikes or bike trips to the Giant Mountains in summer or cross-country trails and slopes in nearby ski areas (eg Rokytnice nad Jizerou, Studenov, Paseky nad Jizerou, Harrachov) in winter."
   },
 
   "tag" : {
@@ -58,38 +59,40 @@
   },
 
   "pricingTable" : {
-    "term" : "Term",
-    "price" : "Price per week",
-    "term1" : "December 1 - December 20",
-    "price1" : "17.500 CZK",
-    "term2" : "December 20 - December 27",
-    "price2" : "23.000 CZK",
-    "term3" : "December 20 - January 3",
-    "price3" : "35.000 CZK",
-    "term4" : "January 3 - January 17",
-    "price4" : "21.000 CZK",
-    "term5" : "January 17 - February 28",
-    "price5" : "28.000 CZK",
-    "term6" : "February 28 - March 31",
-    "price6" : "23.000 CZK",
-    "term7" : "March 31 - November 30",
-    "price7" : "14.000 CZK"
+    "term" : "Date",
+    "price" : "Rental price per week",
+    "term1" : "December 1st - December 20th",
+    "price1" : "17.500 Kč",
+    "term2" : "December 20th - December 26th",
+    "price2" : "23.000 Kč",
+    "term3" : "December 26th - January 2nd",
+    "price3" : "35.000 Kč",
+    "term4" : "January 2nd - January 8th",
+    "price4" : "20.000 Kč",
+    "term5" : "January 8th - January 15th",
+    "price5" : "28.000 Kč",
+    "term6" : "January 15th - February 26th",
+    "price6" : "23.000 Kč",
+    "term7" : "February 26th - April 2nd",
+    "price7" : "14.000 Kč",
+    "term8" : "April 2nd - November 30th",
+    "price8" : "14.000 Kč"
   },
 
   "pricing" : {
     "chargeForDog" : "The fee for a dog is 50 CZK / night.",
     "dog": "Please note that the territory of the village Rokytnice nad Jizerou is part of the Krkonoše National Park (KRNAP) with a defined protection zone and zones of graded nature protection. On the Czech side of the mountains, a leash is not necessary, but you must have a clear control of the dog.",
-    "info1" : "The villa is rented as a whole for the above price - the specific price depends on the selected date.",
+    "info1" : "The cabin is rented as a whole for the above price - the specific price depends on the selected date.",
     "info2" : "The price already includes energy consumption.",
     "info3" : "The price does not include a refundable deposit of 5,000 CZK.",
-    "info4" : "The basic cleaning at the end of the stay is performed by the client himself."
+    "info4" : "The basic clean up at the end of the stay is performed by the client himself."
     },
   
     "reservation" : {
-    "turnus" : "In the winter season (from December 20 to March 30) it is possible to rent the whole villa in weekly shifts (from Saturday to Saturday), in other terms it is possible to individually agree on the rental of individual rooms and any number of days.",
+    "turnus" : "In the winter season (from December 20 to March 30) it is only possible to rent the whole cabin in weekly shifts (from Saturday to Saturday), in other terms it is possible to individually agree on the rental of individual rooms and any number of days.",
     "deposit" : "When booking the selected date, a refundable deposit of CZK 5,000 is required. The reservation becomes binding only after the deposit has been paid - the deposit must be paid within 5 days of making the preliminary reservation.",
-    "wanted" : "Would you like to book your date at Villa Montana? Use our contact form.",
-    "button" : "View contact form"
+    "wanted" : "Would you like to book your date at Montana? Contact us.",
+    "button" : "Show contact details"
     },
 
   "contact" : {
@@ -97,8 +100,8 @@
     "address1" : "Horní Rokytnice 26",
     "address2" : "512 44 Rokytnice nad Jizerou",
     "email" : "E-mail",
-    "emailAddress" : "alter@alter.cz",
-    "mobile" : "Mobile",
+    "emailAddress" : "montana@alter.cz",
+    "mobile" : "Telephone",
     "mobileNumber" : "+420 272 760 329"
   },
 

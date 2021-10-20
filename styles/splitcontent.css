@@ -19,14 +19,14 @@
     width: 100%;
   }
 
-  .text-section, .split-content-image {
+  .text-section, .text-section-small, .split-content-image {
     margin-bottom: 1rem;
   }
 
   @media screen and (min-width: 992px) {
-    .text-section {
-      padding: 7% 12%;
-    }    
+    .text-section-small {
+      padding: 5% 8%;
+    } 
   }
 
   @media screen and (min-width: 1025px) {
@@ -39,9 +39,13 @@
         width: 50%;
     }
 
-    .text-section, .split-content-image {
+    .text-section, .text-section-small, .split-content-image {
       margin-bottom: 0;
     }
+
+    .text-section {
+      padding: 8% 12%;
+    } 
 }
   @media screen and (min-width: 1200px) {
     .split-content {

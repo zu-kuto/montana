@@ -1,17 +1,18 @@
 {
   "menu": {
-    "about": "O vile",
-    "tipsaround": "Tipy v okolí",
+    "about": "O chatě",
+    "gallery" : "Galerie",
+    "tipsaround": "Tipy v&nbsp;okolí",
     "reservation": "Rezervace",
     "contact": "Kontakty"
   },
 
   "title": {
-    "main": "Vila Montana",
+    "main": "Chata Montana",
     "sub": "Rokytnice nad Jizerou",
-    "quote": "Pronajměte si vilu Montanu v Krkonoších a prožijte nezapomenutelnou dovolenou společně s rodinou nebo přáteli.",
-    "tipsaround": "Tipy v okolí",
-    "pricing" : "Ceník",
+    "quote": "Pronajměte si chatu Montanu v&nbsp;Krkonoších a&nbsp;prožijte nezapomenutelnou dovolenou společně s&nbsp;rodinou nebo přáteli.",
+    "tipsaround": "Tipy v&nbsp;okolí",
+    "pricing" : "Ceník pro rok 2021/2022",
     "reservation": "Rezervace",
     "location" : "Kde nás najdete",
     "contactUs": "Kontaktujte nás"
@@ -19,26 +20,26 @@
     
   "info": {
     "header": "Co byste měli vědět:",
-    "noSmoking": "Vila Montana je nekuřácká",
+    "noSmoking": "Chata Montana je nekuřácká",
     "petFriendly": "Domácí mazlíčci jsou vítáni",
     "wifi": "Wifi připojení máte volně k dispozici",
-    "parking": "Parkovat můžete přímo u objektu"
+    "parking": "Parkovat můžete přímo u&nbsp;objektu"
   },
 
   "details": {
-    "header": "Základní informace o vile",
-    "placement": "Umístění Vily Montany",
-    "prgrph1": "Vila Montana leží ve svahu Sachrova hřebenu na polosamotě zvané Horní ves. Montana se nachází v nedaleko lyžařských vleků a v těsné blízkosti lesů a turistických tras. Z Dolního náměstí Rokytnice vede k vile strmá silnice (cca 700m), která se v zimě udržuje a která je dále průjezdná až k Hornímu náměstí a ke skiareálu Modrá Hvězda (cca 1km).",
+    "header": "Základní informace",
+    "placement": "Lokace",
+    "prgrph1": "Montana leží ve svahu Sachrova hřebenu na polosamotě zvané Horní ves. Montana se nachází v&nbsp;nedaleko lyžařských vleků a&nbsp;v těsné blízkosti lesů a&nbsp;turistických tras. Z Dolního náměstí Rokytnice vede k chatě strmá silnice (cca 700m), která se v&nbsp;zimě udržuje a&nbsp;která je dále průjezdná až k Hornímu náměstí a&nbsp;ke skiareálu Modrá Hvězda (cca 1km).",
     "accomodation": "Ubytování",
-    "prgrph2": "Ve vile se čtyřmi pokoji a čtyřmi koupelnami je možno pohodlně ubytovat 13 osob. V nejspodnějším patře se nachází plně vybavená kuchyň, která umožňuje plnohodnotné vlastní stravování. K dispozici je lednička s mrazákem, elektrický sporák s troubou a myčka. Prostorná jídelna, která slouží zároveň jako společenská místnost, vás zve k společnému posezení a zábavným večerům při hrách se třemi stoly, velkou pohovkou a krbem.",
-    "prgrph3": "Z jídelny je přímý východ na venkovní terasu a zahradu, kde můžete v létě grilovat a v zimě třeba stavět sněhuláky nebo jezdit ze svahu na bobech. V časných ranních hodinách přicházejí nezřídka na zahradu plaché srny. Z terasy i z oken pokojů je fascinující výhled do údolí a na protější svahy Krkonoš.",
+    "prgrph2": "V chatě se čtyřmi pokoji a&nbsp;čtyřmi koupelnami je možno pohodlně ubytovat 13 osob. V&nbsp;nejspodnějším patře se nachází plně vybavená kuchyň, která umožňuje plnohodnotné vlastní stravování. K dispozici je lednička s&nbsp;mrazákem, elektrický sporák s&nbsp;troubou a&nbsp;myčka. Prostorná jídelna, která slouží zároveň jako společenská místnost, vás zve k společnému posezení a&nbsp;zábavným večerům při hrách se třemi stoly, velkou pohovkou a&nbsp;krbem.",
+    "prgrph3": "Z jídelny je přímý východ na venkovní terasu a&nbsp;zahradu, kde můžete v&nbsp;létě grilovat a&nbsp;v zimě třeba stavět sněhuláky nebo jezdit ze svahu na bobech. V&nbsp;časných ranních hodinách přicházejí nezřídka na zahradu plaché srny. Z terasy i&nbsp;z oken pokojů je fascinující výhled do údolí a&nbsp;na protější svahy Krkonoš.",
     "rent" : "Pronájem",
-    "prgrph4": "V zimní sezóně (od 20. prosince do 30. března) je možný pouze pronájem celé vily v týdenních turnusech (od soboty do soboty), v ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a na libovolný počet dní.",
+    "prgrph4": "V zimní sezóně (od 20. prosince do 30. března) je možný pouze pronájem celé chaty v&nbsp;týdenních turnusech (od soboty do soboty), v&nbsp;ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a&nbsp;na libovolný počet dní.",
     "parking" : "Parkování",
-    "prgrph5": "Soukromé parkoviště pro dvě až tři auta se nachází přímo u domu.",
+    "prgrph5": "Soukromé parkoviště pro dvě až tři auta se nachází přímo u&nbsp;domu.",
     "town": "Občanská vybavenost",
-    "prgrph6": "V Rokytnici najdete vše, co byste mohli potřebovat. Četné nákupní a stravovací možnosti jsou jen pár minut chůze, město disponuje také lékarnou a několika půjčovnami sportovního vybavení.",
-    "prgrph7" : "Vila Montana je ideálním výchozím bodem pro mnoho sportovních a relaxačních aktivit. Malebné okolí nabízí velké množství výletních cílů pro celou rodinu - ať už jde o krátké procházky, delší túry nebo cyklovýlety na vrcholky Krkonoš v létě nebo běžecké tratě a sjezdovky v blízkých lyžařských oblastech (například Rokytnice nad Jizerou, Studenov, Paseky nad Jizerou, Harrachov) v zimě."
+    "prgrph6": "V Rokytnici najdete vše, co byste mohli potřebovat. Četné nákupní a&nbsp;stravovací možnosti jsou jen pár minut chůze, město disponuje také lékarnou a&nbsp;několika půjčovnami sportovního vybavení.",
+    "prgrph7" : "Montana je ideálním výchozím bodem pro mnoho sportovních a&nbsp;relaxačních aktivit. Malebné okolí nabízí velké množství výletních cílů pro celou rodinu - ať už jde o&nbsp;krátké procházky, delší túry nebo cyklovýlety na vrcholky Krkonoš v&nbsp;létě nebo běžecké tratě a&nbsp;sjezdovky v&nbsp;blízkých lyžařských oblastech (například Rokytnice nad Jizerou, Studenov, Paseky nad Jizerou, Harrachov) v&nbsp;zimě."
   },
 
   "tag" : {
@@ -49,47 +50,49 @@
 
   "tip1" : {
     "title": "Bikepark Rock-it-nice",
-    "info": "Bikepark Rokytnice nad Jizerou nebo také Rock it nice využívá svahů lyžařského areálu Horní Domky. Připraveny jsou tři tratě o celkové délce 7 kilometrů, sjezdová T-line trať pro zkušené bikery, Freeride trail i pro méně zdatné a nově lesem od vleků vedoucí Kaprun sjízdný pro všechny. K dispozici je kromě lanovky cykloservis, půjčovna kol, občerstvení a parkoviště."
+    "info": "Bikepark Rokytnice nad Jizerou nebo také Rock it nice využívá svahů lyžařského areálu Horní Domky. Připraveny jsou tři tratě o&nbsp;celkové délce 7 kilometrů, sjezdová T-line trať pro zkušené bikery, Freeride trail i&nbsp;pro méně zdatné a&nbsp;nově lesem od vleků vedoucí Kaprun sjízdný pro všechny. K dispozici je kromě lanovky cykloservis, půjčovna kol, občerstvení a&nbsp;parkoviště."
   },
 
   "tip2" : {
     "title" : "Poznávací okruh okolo Rokytnice",
-    "info" : "Jaro, léto a podzim jsou ideální období, kdy můžete objevovat krásy a zajímavosti Rokytnice nad Jizerou a našich nejvyšších hor - Krkonoš. Stezka Vás provede malebnou krajinou s nádhernými výhledy na celé údolí Rokytnice. Dozvíte se informace o její historii, přírodních krásách i kulturních zajímavostech. Poznávací okruh nemusíte projít celý, ale kdekoliv si ho můžete zkrátit a pokračovat druhý den. Okruh si rovněž můžete prodloužit o další zajímavá zastavení na skalní vyhlídce Stráž nebo na Dvoračkách."
+    "info" : "Jaro, léto a&nbsp;podzim jsou ideální období, kdy můžete objevovat krásy a&nbsp;zajímavosti Rokytnice nad Jizerou a&nbsp;našich nejvyšších hor - Krkonoš. Stezka Vás provede malebnou krajinou s&nbsp;nádhernými výhledy na celé údolí Rokytnice. Dozvíte se informace o&nbsp;její historii, přírodních krásách i&nbsp;kulturních zajímavostech. Poznávací okruh nemusíte projít celý, ale kdekoliv si ho můžete zkrátit a&nbsp;pokračovat druhý den. Okruh si rovněž můžete prodloužit o&nbsp;další zajímavá zastavení na skalní vyhlídce Stráž nebo na Dvoračkách."
   },
 
   "pricingTable" : {
     "term" : "Termín",
     "price" : "Cena pronájmu za týden",
-    "term1" : "01. prosince - 20. prosince",
+    "term1" : "1. prosince - 20. prosince",
     "price1" : "17.500 Kč",
-    "term2" : "20. prosince - 27. prosince",
+    "term2" : "20. prosince - 26. prosince",
     "price2" : "23.000 Kč",
-    "term3" : "27. prosince - 03. ledna",
+    "term3" : "26. prosince - 2. ledna",
     "price3" : "35.000 Kč",
-    "term4" : "03. ledna - 17. ledna",
-    "price4" : "21.000 Kč",
-    "term5" : "17. ledna - 28. února",
+    "term4" : "2. ledna - 8. ledna",
+    "price4" : "20.000 Kč",
+    "term5" : "8. ledna - 15. ledna",
     "price5" : "28.000 Kč",
-    "term6" : "28. února - 31. března",
+    "term6" : "15. ledna - 26. února",
     "price6" : "23.000 Kč",
-    "term7" : "31. března - 30. listopadu",
-    "price7" : "14.000 Kč"
+    "term7" : "26. února - 2. dubna",
+    "price7" : "14.000 Kč",
+    "term8" : "2. dubna - 30. listopadu",
+    "price8" : "14.000 Kč"
   },
 
   "pricing" : {
     "chargeForDog" : "Poplatek za psa je 50 Kč/noc.",
-    "dog": "Vezměte prosím na vědomí, že území obce Rokytnice nad Jizerou je součástí Krkonošského národního parku (KRNAP) s vymezeným ochranným pásmem a zónami odstupňované ochrany přírody. Na české straně hor není vodítko nutné, psa ale musíte mít pod jednoznačnou kontrolou.",
-    "info1" : "Vila se pronajímá jako celek za výše uvedenou cenu - konkrétní výše ceny závisí na zvoleném termínu.",
+    "dog": "Vezměte prosím na vědomí, že území obce Rokytnice nad Jizerou je součástí Krkonošského národního parku (KRNAP) s&nbsp;vymezeným ochranným pásmem a&nbsp;zónami odstupňované ochrany přírody. Na české straně hor není vodítko nutné, psa ale musíte mít pod jednoznačnou kontrolou.",
+    "info1" : "Chata se pronajímá jako celek za výše uvedenou cenu - konkrétní výše ceny závisí na zvoleném termínu.",
     "info2" : "V ceně je již zahrnuta spotřeba energií.",
     "info3" : "Cena nezahrnuje vratnou kauci 5.000 Kč.",
     "info4" : "Základní úklid při ukončení pobytu provádí klient sám."
   },
 
   "reservation" : {
-    "turnus" : "V zimní sezóně (od 20. prosince do 30. března) je možný pouze pronájem celé vily v týdenních turnusech (od soboty do soboty), v ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a na libovolný počet dní.",
+    "turnus" : "V zimní sezóně (od 20. prosince do 30. března) je možný pouze pronájem celé chaty v&nbsp;týdenních turnusech (od soboty do soboty), v&nbsp;ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a&nbsp;na libovolný počet dní.",
     "deposit" : "Při rezervaci zvoleného termínu se skládá vratná kauce 5.000 Kč. Rezervace se stává závaznou až po uhrazení zálohy - zálohu je nutné uhradit do 5 dnů od provedení předběžné rezervace.",
-    "wanted" : "Chcete si zarezerovat svůj termín ve Vile Montaně? Použijte náš kontaktní formulář.",
-    "button" : "Zobrazit kontaktní formulář"
+    "wanted" : "Chcete si zarezerovat svůj termín v&nbsp;chatě Montaně? Kontaktujte nás.",
+    "button" : "Zobrazit kontaktní údaje"
   },
 
   "contact" : {
@@ -97,8 +100,8 @@
     "address1" : "Horní Rokytnice 26",
     "address2" : "512 44 Rokytnice nad Jizerou",
     "email" : "E-mail",
-    "emailAddress" : "alter@alter.cz",
-    "mobile" : "Mobil",
+    "emailAddress" : "montana@alter.cz",
+    "mobile" : "Telefon",
     "mobileNumber" : "+420 272 760 329"
   },
 
