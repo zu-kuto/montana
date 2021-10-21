@@ -1,6 +1,14 @@
 {
+  "pagetitle" : {
+    "home" : "Chata Montana - Krkonoše",
+    "gallery" : "Chata Montana Galerie",
+    "tipsaround": "Chata Montana Tipy v okolí",
+    "reservation": "Chata Montana Rezervace",
+    "contact": "Chata Montana Kontakty"
+  },
+
   "menu": {
-    "about": "O chatě",
+    "about": "O\u00a0chatě",
     "gallery" : "Galerie",
     "tipsaround": "Tipy v\u00a0okolí",
     "reservation": "Rezervace",
@@ -29,16 +37,16 @@
   "details": {
     "header": "Základní informace",
     "placement": "Lokace",
-    "prgrph1": "Montana leží ve svahu Sachrova hřebenu na polosamotě zvané Horní ves. Montana se nachází v\u00a0nedaleko lyžařských vleků a\u00a0v těsné blízkosti lesů a\u00a0turistických tras. Z\u00a0Dolního náměstí Rokytnice vede k\u00a0chatě strmá silnice (cca 700m), která se v\u00a0zimě udržuje a\u00a0která je dále průjezdná až k\u00a0Hornímu náměstí a\u00a0ke skiareálu Modrá Hvězda (cca 1km).",
+    "prgrph1": "Montana leží ve svahu Sachrova hřebenu na polosamotě zvané Horní ves. Montana se nachází nedaleko lyžařských vleků a\u00a0v těsné blízkosti lesů a\u00a0turistických tras. Z\u00a0Dolního náměstí Rokytnice vede k\u00a0chatě strmá silnice (cca 700m), která se v\u00a0zimě udržuje a\u00a0která je dále průjezdná až k\u00a0Hornímu náměstí a\u00a0ke skiareálu Modrá Hvězda (cca 1km).",
     "accomodation": "Ubytování",
-    "prgrph2": "V chatě se čtyřmi pokoji a\u00a0čtyřmi koupelnami je možno pohodlně ubytovat 13 osob. V\u00a0nejspodnějším patře se nachází plně vybavená kuchyň, která umožňuje plnohodnotné vlastní stravování. K\u00A0dispozici je lednička s\u00a0mrazákem, elektrický sporák s\u00a0troubou a\u00a0myčka. Prostorná jídelna, která slouží zároveň jako společenská místnost, vás zve k\u00a0společnému posezení a\u00a0zábavným večerům při hrách se třemi stoly, velkou pohovkou a\u00a0krbem.",
-    "prgrph3": "Z jídelny je přímý východ na venkovní terasu a\u00a0zahradu, kde můžete v\u00a0létě grilovat a\u00a0v zimě třeba stavět sněhuláky nebo jezdit ze svahu na bobech. V\u00a0časných ranních hodinách přicházejí nezřídka na zahradu plaché srny. Z\u00a0terasy i\u00a0z oken pokojů je fascinující výhled do údolí a\u00a0na protější svahy Krkonoš.",
+    "prgrph2": "V\u00a0chatě se čtyřmi pokoji a\u00a0čtyřmi koupelnami se pohodlně ubytuje 13 osob. V\u00a0nejspodnějším patře se nachází plně vybavená kuchyň, která umožňuje vlastní stravování. K\u00A0dispozici je lednička s\u00a0mrazákem, elektrický sporák s\u00a0troubou a\u00a0myčka. Prostorná jídelna se třemi stoly, velkou pohovkou a\u00a0krbem slouží zároveň jako společenská místnost. Lze ji využít ke\u00a0společnému posezení a\u00a0zábavným večerům při hrách.",
+    "prgrph3": "Z\u00a0jídelny je přímý východ na venkovní terasu a\u00a0zahradu, kde můžete v\u00a0létě grilovat a\u00a0v zimě třeba stavět sněhuláky nebo jezdit ze svahu na bobech. V\u00a0časných ranních hodinách přicházejí nezřídka na zahradu plaché srny. Z\u00a0terasy i\u00a0z oken pokojů je fascinující výhled do údolí a\u00a0na protější svahy Krkonoš.",
     "rent" : "Pronájem",
-    "prgrph4": "V zimní sezóně (od 20.\u00a0prosince do 30.\u00a0března) je možný pouze pronájem celé chaty v\u00a0týdenních turnusech (od soboty do soboty), v\u00a0ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a\u00a0na libovolný počet dní.",
+    "prgrph4": "V\u00a0zimní sezóně (od 20.\u00a0prosince do 30.\u00a0března) je možný pouze pronájem celé chaty v\u00a0týdenních turnusech (od soboty do soboty), v\u00a0ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a\u00a0na libovolný počet dní.",
     "parking" : "Parkování",
     "prgrph5": "Soukromé parkoviště pro dvě až tři auta se nachází přímo u\u00a0domu.",
     "town": "Občanská vybavenost",
-    "prgrph6": "V Rokytnici najdete vše, co byste mohli potřebovat. Četné nákupní a\u00a0stravovací možnosti jsou jen pár minut chůze, město disponuje také lékarnou a\u00a0několika půjčovnami sportovního vybavení.",
+    "prgrph6": "V\u00a0Rokytnici najdete vše, co byste mohli potřebovat. Četné nákupní a\u00a0stravovací možnosti jsou jen pár minut chůze, město disponuje také lékarnou a\u00a0několika půjčovnami sportovního vybavení.",
     "prgrph7" : "Montana je ideálním výchozím bodem pro mnoho sportovních a\u00a0relaxačních aktivit. Malebné okolí nabízí velké množství výletních cílů pro celou rodinu - ať už jde o\u00a0krátké procházky, delší túry nebo cyklovýlety na vrcholky Krkonoš v\u00a0létě nebo běžecké tratě a\u00a0sjezdovky v\u00a0blízkých lyžařských oblastech (například Rokytnice nad Jizerou, Studenov, Paseky nad Jizerou, Harrachov) v\u00a0zimě."
   },
 
@@ -83,13 +91,13 @@
     "chargeForDog" : "Poplatek za psa je 50\u00a0Kč/noc.",
     "dog": "Vezměte prosím na vědomí, že území obce Rokytnice nad Jizerou je součástí Krkonošského národního parku (KRNAP) s\u00a0vymezeným ochranným pásmem a\u00a0zónami odstupňované ochrany přírody. Na české straně hor není vodítko nutné, psa ale musíte mít pod jednoznačnou kontrolou.",
     "info1" : "Chata se pronajímá jako celek za výše uvedenou cenu - konkrétní výše ceny závisí na zvoleném termínu.",
-    "info2" : "V ceně je již zahrnuta spotřeba energií.",
+    "info2" : "V\u00a0ceně je již zahrnuta spotřeba energií.",
     "info3" : "Cena nezahrnuje vratnou kauci 5.000\u00a0Kč.",
     "info4" : "Základní úklid při ukončení pobytu provádí klient sám."
   },
 
   "reservation" : {
-    "turnus" : "V zimní sezóně (od 20.\u00a0prosince do 30.\u00a0března) je možný pouze pronájem celé chaty v\u00a0týdenních turnusech (od soboty do soboty), v\u00a0ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a\u00a0na libovolný počet dní.",
+    "turnus" : "V\u00a0zimní sezóně (od 20.\u00a0prosince do 30.\u00a0března) je možný pouze pronájem celé chaty v\u00a0týdenních turnusech (od soboty do soboty), v\u00a0ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a\u00a0na libovolný počet dní.",
     "deposit" : "Při rezervaci zvoleného termínu se skládá vratná kauce 5.000\u00a0Kč. Rezervace se stává závaznou až po uhrazení zálohy - zálohu je nutné uhradit do 5 dnů od provedení předběžné rezervace.",
     "wanted" : "Chcete si zarezerovat svůj termín v\u00a0chatě Montaně? Kontaktujte nás.",
     "button" : "Zobrazit kontaktní údaje"

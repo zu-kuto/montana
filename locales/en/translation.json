@@ -1,4 +1,12 @@
 {
+  "pagetitle" : {
+    "home" : "The Montana Cabin - Giant Mountains",
+    "gallery" : "The Montana Cabin Gallery",
+    "tipsaround": "The Montana Cabin Tips around",
+    "reservation": "The Montana Cabin Reservation",
+    "contact": "The Montana Cabin Contacts"
+  },
+
   "menu": {
     "about": "The cabin",
     "gallery" : "Gallery",
@@ -39,7 +47,7 @@
     "prgrph5": "Private parking for two to three cars is located next to the house.",
     "town": "Civic facilities",
     "prgrph6": "In Rokytnice you will find everything you could need. Numerous shopping and dining options are just a few minutes' walk away, and the city also has a pharmacy and several sports equipment rentals.",
-    "prgrph7" : "Montana is an ideal starting point for many sports and relaxation activities. The picturesque surroundings offer a large number of excursion destinations for the whole family - whether it is short walks, longer hikes or bike trips to the Giant Mountains in summer or cross-country trails and slopes in nearby ski areas (eg Rokytnice nad Jizerou, Studenov, Paseky nad Jizerou, Harrachov) in winter."
+    "prgrph7" : "Montana is an perfect starting point for many sports and relaxation activities. The picturesque surroundings offer a large number of trip destinations for the whole family - whether it is short walks, longer hikes or bike trips to the Giant Mountains in summer or cross-country trails and slopes in nearby ski areas (eg Rokytnice nad Jizerou, Studenov, Paseky nad Jizerou, Harrachov) in winter."
   },
 
   "tag" : {

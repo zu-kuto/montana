@@ -1,4 +1,12 @@
 {
+  "pagetitle" : {
+    "home" : "Hütte Montana - Riesengebirge",
+    "gallery" : "Hütte Montana Galerie",
+    "tipsaround": "Hütte Montana Tipps",
+    "reservation": "Hütte Montana Reservierung",
+    "contact": "Hütte Montana Kontakten"
+  },
+
   "menu": {
     "about": "Über die Hütte",
     "gallery" : "Galerie",
@@ -10,7 +18,7 @@
   "title": {
     "main": "Hütte Montana",
     "sub": "Rokytnice nad Jizerou",
-    "quote": "Erleben Sie einen unvergesslichen Urlaub mit Freunden und Familie in der Hütte Montana im schönen Riesengebirge Krkonoše.",
+    "quote": "Mieten Sie ein Hütte in Montana im Riesengebirge und verbringen Sie einen unvergesslichen Urlaub mit Familie oder Freunden.",
     "tipsaround": "Tipps rund um",
     "pricing" : "Preisliste",
     "reservation": "Reservierung",
@@ -27,12 +35,12 @@
   },
 
   "details": {
-    "header": "Grundlegende Informationen zur Hütte",
+    "header": "Grundlegende Informationen",
     "placement": "Lokation",
     "prgrph1": "Montana liegt an einem dünn besiedelten Hang des Sachr Berges (Sachrův hřeben) mit schönem Blick ins Tal und die Umgebung. Sie ist nur wenige Wegeminuten über eine auch im Winter geräumte Asphaltstraße vom Unteren Platz (Dolní Náměstí) Rokytnice nad Jizerou zu erreichen. Folgt man der Straße weiter, gelangt man zum Oberen Platz (Horní Náměstí) Rokytnice nad Jizerou und zum nächstgelegenen Skiareal Modrá Hvězda (ca. 1km).",
     "accomodation": "Unterkunft",
     "prgrph2": "Der Hütte bietet mit vier Zimmern Platz für 10 bis 13 Personen und eignet sich somit ideal für Gruppen oder größere und mehrere Familien. Gästen der Hütte Montana steht eine voll ausgestattete Küche mit Kühlschrank (mit Gefrierfach), Elektroherd (mit Backofen) und Geschirrspüler zur Verfügung. Das geräumige Esszimmer, das gleichzeitig als Gemeinschaftsraum dient, lädt mit 3 Tischen, einem großen Sofa und einem Kaminofen zum geselligen Zusammensitzen und zu lustigen Spielabenden ein.",
-    "prgrph3": "Hinter dem Haus befindet sich eine Terrasse mit Blick ins Tal, wo zum Beispiel im Sommer gegrillt werden kann. Die Hütte verfügt über einen eigenen Stellplatz für bis zu drei Autos direkt neben dem Haus. Zahlreiche Einkaufs- und Einkehrmöglichkeiten befinden sich nur wenige Gehminuten sowohl auf dem Unteren Platz (Dolní Náměstí) als auch auf dem Oberen Platz (Horní Náměstí)  Rokytnice nad Jizerou.",
+    "prgrph3": "Hinter dem Haus befindet sich eine Terrasse mit Blick ins Tal, wo zum Beispiel im Sommer gegrillt werden kann. Der Hütte verfügt über einen eigenen Stellplatz für bis zu drei Autos direkt neben dem Haus. Zahlreiche Einkaufs- und Einkehrmöglichkeiten befinden sich nur wenige Gehminuten sowohl auf dem Unteren Platz (Dolní Náměstí) als auch auf dem Oberen Platz (Horní Náměstí)  Rokytnice nad Jizerou.",
     "rent" : "Vermietung",
     "prgrph4": "In der Wintersaison (vom 20.\u00a0Dezember bis zum 30.\u00a0März) und in der Sommersaison (vom 01. Juli bis zum 31. August) sind nur wöchentliche Aufenthalte in der Hütte Montana möglich. Außerhalb dieser Zeiträume können einzelne Zimmer oder das ganze Haus gemietet werden.",
     "parking" : "Parkplatz",
@@ -82,7 +90,7 @@
   "pricing" : {
     "chargeForDog" : "Die Gebühr für einen Hund beträgt 50\u00a0CZK / Nacht.",
     "dog": "Bitte beachten Sie, dass das Gebiet des Dorfes Rokytnice nad Jizerou Teil des Nationalparks Riesengebirge (KRNAP) mit einer definierten Schutzzone und Zonen mit abgestuftem Naturschutz ist. Auf der tschechischen Seite des Gebirges ist eine Leine nicht erforderlich, aber Sie müssen den Hund gut unter Kontrolle haben.",
-    "info1" : "Die Hütte wird als Ganzes zum oben genannten Preis vermietet - der konkrete Preis hängt vom gewählten Datum ab.",
+    "info1" : "Der Hütte wird als Ganzes zum oben genannten Preis vermietet - der konkrete Preis hängt vom gewählten Datum ab.",
     "info2" : "Der Preis beinhaltet bereits den Energieverbrauch.",
     "info3" : "Der Preis beinhaltet keine rückzahlbare Kaution von 5.000\u00a0CZK.",
     "info4" : "Die Grundreinigung am Ende des Aufenthaltes wird vom Kunden selbst durchgeführt."
@@ -101,7 +109,7 @@
     "address2" : "512 44 Rokytnice nad Jizerou",
     "email" : "Der Email",
     "emailAddress" : "montana@alter.cz",
-    "mobile" : "das Telefon",
+    "mobile" : "Das Telefon",
     "mobileNumber" : "+420\u00a0272\u00a0760\u00a0329"
   },
   
