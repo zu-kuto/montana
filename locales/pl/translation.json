@@ -97,7 +97,8 @@
   
     "reservation" : {
       "turnus" : "W sezonie zimowym (od 20\u00a0grudnia do 30\u00a0marca) możliwe jest wynajęcie cały domek tylko w tygodniowych zmianach (od soboty do soboty), w pozostałych terminach możliwe jest indywidualne uzgodnienie wynajmu poszczególnych pokoi i dowolnej ilości dni.",
-      "deposit" : "Przy rezerwacji wybranego terminu wymagana jest kaucja zwrotna w wysokości 5000\u00a0CZK (lub 200\u00a0EUR lub 900\u00a0PLN). Rezerwacja staje się wiążąca dopiero po wpłaceniu zadatku - warunki płatności i regulamin zakwaterowania",
+      "deposit" : "Po przyjeździe jest kaucja zwrotna w wysokości 5000\u00a0CZK (lub 200\u00a0EUR lub 900\u00a0PLN) i opłata uzdrowiskowa.",
+      "binding" : "Rezerwacja staje się wiążąca dopiero po wpłaceniu zadatku - warunki płatności i regulamin zakwaterowania",
       "link" : "można znaleźć tutaj",
       "wanted" : "Chcesz zarezerwować termin w Chata Montana? Skontaktuj się z nami.",
       "button" : "Pokaż dane kontaktowe"

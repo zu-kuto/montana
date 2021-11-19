@@ -95,13 +95,14 @@
     "info3" : "The basic clean up at the end of the stay is performed by the client himself."
     },
   
-    "reservation" : {
+  "reservation" : {
     "turnus" : "In the winter season (from December\u00a020 to March\u00a030) it is only possible to rent the whole cabin in weekly shifts (from Saturday to Saturday), in other terms it is possible to individually agree on the rental of individual rooms and any number of days.",
-    "deposit" : "When booking the selected date, a refundable deposit of\u00a0CZK 5,000 (or 200\u00a0EUR or 900\u00a0PLN) is required. The reservation becomes binding only after the deposit has been paid - the payment policy and accommodation regulations",
+    "deposit" : "After arrival a refundable deposit of\u00a0CZK 5,000 (or 200\u00a0EUR or 900\u00a0PLN) and spa fee is required.",
+    "binding" : "The reservation becomes binding only after the deposit has been paid - the payment policy and accommodation regulations",
     "link" : "can be found here",
     "wanted" : "Would you like to book your date at Montana? Contact us.",
     "button" : "Show contact details"
-    },
+  },
 
   "contact" : {
     "address" : "Address",
