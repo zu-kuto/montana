@@ -92,13 +92,13 @@
     "dog": "Please note that the territory of the village Rokytnice nad Jizerou is part of the Krkonoše National Park (KRNAP) with a defined protection zone and zones of graded nature protection. On the Czech side of the mountains, a leash is not necessary, but you must have a clear control of the dog.",
     "info1" : "The cabin is rented as a whole for the above price - the specific price depends on the selected date.",
     "info2" : "The price already includes energy consumption.",
-    "info3" : "The price does not include a refundable deposit of 5,000\u00a0CZK.",
-    "info4" : "The basic clean up at the end of the stay is performed by the client himself."
+    "info3" : "The basic clean up at the end of the stay is performed by the client himself."
     },
   
     "reservation" : {
     "turnus" : "In the winter season (from December\u00a020 to March\u00a030) it is only possible to rent the whole cabin in weekly shifts (from Saturday to Saturday), in other terms it is possible to individually agree on the rental of individual rooms and any number of days.",
-    "deposit" : "When booking the selected date, a refundable deposit of\u00a0CZK 5,000 is required. The reservation becomes binding only after the deposit has been paid - the deposit must be paid within 5 days of making the preliminary reservation.",
+    "deposit" : "When booking the selected date, a refundable deposit of\u00a0CZK 5,000 (or 200 EUR or 900 PLN) is required. The reservation becomes binding only after the deposit has been paid - the payment policy and accommodation regulations",
+    "link" : "can be found here",
     "wanted" : "Would you like to book your date at Montana? Contact us.",
     "button" : "Show contact details"
     },

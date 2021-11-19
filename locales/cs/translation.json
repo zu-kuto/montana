@@ -92,13 +92,13 @@
     "dog": "Vezměte prosím na vědomí, že území obce Rokytnice nad Jizerou je součástí Krkonošského národního parku (KRNAP) s\u00a0vymezeným ochranným pásmem a\u00a0zónami odstupňované ochrany přírody. Na české straně hor není vodítko nutné, psa ale musíte mít pod jednoznačnou kontrolou.",
     "info1" : "Chata se pronajímá jako celek za výše uvedenou cenu - konkrétní výše ceny závisí na zvoleném termínu.",
     "info2" : "V\u00a0ceně je již zahrnuta spotřeba energií.",
-    "info3" : "Cena nezahrnuje vratnou kauci 5.000\u00a0Kč.",
-    "info4" : "Základní úklid při ukončení pobytu provádí klient sám."
+    "info3" : "Základní úklid při ukončení pobytu provádí klient sám."
   },
 
   "reservation" : {
     "turnus" : "V\u00a0zimní sezóně (od 20.\u00a0prosince do 30.\u00a0března) je možný pouze pronájem celé chaty v\u00a0týdenních turnusech (od soboty do soboty), v\u00a0ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a\u00a0na libovolný počet dní.",
-    "deposit" : "Při rezervaci zvoleného termínu se skládá vratná kauce 5.000\u00a0Kč. Rezervace se stává závaznou až po uhrazení zálohy - zálohu je nutné uhradit do 5 dnů od provedení předběžné rezervace.",
+    "deposit" : "Při rezervaci zvoleného termínu se skládá vratná kauce 5.000\u00a0Kč (nebo 200 EUR nebo 900 PLN). Rezervace se stává závaznou až po uhrazení platby - platební podmínky a ubytovací řád najdete",
+    "link" : "ke stažení zde",
     "wanted" : "Chcete si zarezerovat svůj termín v\u00a0chatě Montaně? Kontaktujte nás.",
     "button" : "Zobrazit kontaktní údaje"
   },
