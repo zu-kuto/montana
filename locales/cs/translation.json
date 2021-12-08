@@ -42,7 +42,7 @@
     "prgrph2": "V\u00a0chatě se čtyřmi pokoji a\u00a0čtyřmi koupelnami se pohodlně ubytuje 13 osob. V\u00a0nejspodnějším patře se nachází plně vybavená kuchyň, která umožňuje vlastní stravování. K\u00A0dispozici je lednička s\u00a0mrazákem, elektrický sporák s\u00a0troubou a\u00a0myčka. Prostorná jídelna se třemi stoly, velkou pohovkou a\u00a0krbem slouží zároveň jako společenská místnost. Lze ji využít ke\u00a0společnému posezení a\u00a0zábavným večerům při hrách.",
     "prgrph3": "Z\u00a0jídelny je přímý východ na venkovní terasu a\u00a0zahradu, kde můžete v\u00a0létě grilovat a\u00a0v zimě třeba stavět sněhuláky nebo jezdit ze svahu na bobech. V\u00a0časných ranních hodinách přicházejí nezřídka na zahradu plaché srny. Z\u00a0terasy i\u00a0z oken pokojů je fascinující výhled do údolí a\u00a0na protější svahy Krkonoš.",
     "rent" : "Pronájem",
-    "prgrph4": "V\u00a0zimní sezóně (od 20.\u00a0prosince do 30.\u00a0března) je možný pouze pronájem celé chaty v\u00a0týdenních turnusech (od soboty do soboty), v\u00a0ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a\u00a0na libovolný počet dní.",
+    "prgrph4": "V\u00a0zimní sezóně (od 20.\u00a0prosince do 30.\u00a0března) je možný pouze pronájem celé chaty v\u00a0týdenních turnusech (od neděle do neděle), v\u00a0ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a\u00a0na libovolný počet dní.",
     "parking" : "Parkování",
     "prgrph5": "Soukromé parkoviště pro dvě až tři auta se nachází přímo u\u00a0domu.",
     "town": "Občanská vybavenost",
@@ -69,26 +69,22 @@
   "pricingTable" : {
     "term" : "Termín",
     "price" : "Cena pronájmu za týden",
-    "term1" : "1.\u00a0prosince - 20.\u00a0prosince",
-    "price1" : "17.500\u00a0Kč",
-    "term2" : "20.\u00a0prosince - 26.\u00a0prosince",
-    "price2" : "23.000\u00a0Kč",
-    "term3" : "26.\u00a0prosince - 2.\u00a0ledna",
-    "price3" : "35.000\u00a0Kč",
-    "term4" : "2.\u00a0ledna - 8.\u00a0ledna",
-    "price4" : "20.000\u00a0Kč",
-    "term5" : "8.\u00a0ledna - 15.\u00a0ledna",
-    "price5" : "28.000\u00a0Kč",
-    "term6" : "15.\u00a0ledna - 26.\u00a0února",
-    "price6" : "23.000\u00a0Kč",
-    "term7" : "26.\u00a0února - 2.\u00a0dubna",
-    "price7" : "14.000\u00a0Kč",
-    "term8" : "2.\u00a0dubna - 30.\u00a0listopadu",
-    "price8" : "14.000\u00a0Kč"
+    "term1" : "19.\u00a0prosince - 26.\u00a0prosince",
+    "price1" : "24.000\u00a0Kč",
+    "term2" : "26.\u00a0prosince - 9.\u00a0ledna",
+    "price2" : "37.000\u00a0Kč",
+    "term3" : "9.\u00a0ledna - 16.\u00a0ledna",
+    "price3" : "22.000\u00a0Kč",
+    "term4" : "16.\u00a0ledna - 27.\u00a0února",
+    "price4" : "24.500\u00a0Kč",
+    "term5" : "27.\u00a0února - 3.\u00a0dubna",
+    "price5" : "22.000\u00a0Kč",
+    "term6" : "3.\u00a0dubna - 1.\u00a0prosince",
+    "price6" : "15.000\u00a0Kč"
   },
 
   "pricing" : {
-    "chargeForDog" : "Poplatek za psa je 50\u00a0Kč/noc.",
+    "chargeForDog" : "Poplatek za psa je 200\u00a0Kč/noc.",
     "dog": "Vezměte prosím na vědomí, že území obce Rokytnice nad Jizerou je součástí Krkonošského národního parku (KRNAP) s\u00a0vymezeným ochranným pásmem a\u00a0zónami odstupňované ochrany přírody. Na české straně hor není vodítko nutné, psa ale musíte mít pod jednoznačnou kontrolou.",
     "info1" : "Chata se pronajímá jako celek za výše uvedenou cenu - konkrétní výše ceny závisí na zvoleném termínu.",
     "info2" : "V\u00a0ceně je již zahrnuta spotřeba energií.",
@@ -96,11 +92,11 @@
   },
 
   "reservation" : {
-    "turnus" : "V\u00a0zimní sezóně (od 20.\u00a0prosince do 30.\u00a0března) je možný pouze pronájem celé chaty v\u00a0týdenních turnusech (od soboty do soboty), v\u00a0ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a\u00a0na libovolný počet dní.",
+    "turnus" : "V\u00a0zimní sezóně (od 20.\u00a0prosince do 30.\u00a0března) je možný pouze pronájem celé chaty v\u00a0týdenních turnusech (od neděle oty do neděle), v\u00a0ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a\u00a0na libovolný počet dní.",
     "deposit" : "Po příjezdu se skládá vratná kauce 5.000\u00a0Kč (nebo 200\u00a0EUR nebo 900\u00a0PLN) a lázeňský poplatek.",
     "binding" : "Rezervace se stává závaznou až po uhrazení platby - platební podmínky a ubytovací řád najdete",
     "link" : "ke stažení zde",
-    "wanted" : "Chcete si zarezerovat svůj termín v\u00a0chatě Montaně? Kontaktujte nás.",
+    "wanted" : "Chcete si zarezervovat svůj termín v\u00a0chatě Montaně? Kontaktujte nás.",
     "button" : "Zobrazit kontaktní údaje"
   },
 

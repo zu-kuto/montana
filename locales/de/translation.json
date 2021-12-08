@@ -69,26 +69,22 @@
   "pricingTable" : {
     "term" : "Datum",
     "price" : "Mietpreis pro Woche",
-    "term1" : "1.\u00a0Dezember - 20.\u00a0Dezember",
-    "price1" : "17.500\u00a0CZK",
-    "term2" : "20.\u00a0Dezember - 26.\u00a0Dezember",
-    "price2" : "23.000\u00a0CZK",
-    "term3" : "26.\u00a0Dezember - 2.\u00a0Januar",
-    "price3" : "35.000\u00a0CZK",
-    "term4" : "2.\u00a0Januar - 8.\u00a0Januar",
-    "price4" : "20.000\u00a0CZK",
-    "term5" : "8.\u00a0Januar - 15.\u00a0Januar",
-    "price5" : "28.000\u00a0CZK",
-    "term6" : "15.\u00a0Januar - 26.\u00a0Februar",
-    "price6" : "23.000\u00a0CZK",
-    "term7" : "26.\u00a0Februar - 2.\u00a0April",
-    "price7" : "14.000\u00a0CZK",
-    "term8" : "2.\u00a0April - 30.\u00a0November",
-    "price8" : "14.000\u00a0CZK"
+    "term1" : "19.\u00a0Dezember - 26.\u00a0Dezember",
+    "price1" : "24.000\u00a0Kč",
+    "term2" : "26.\u00a0Dezember - 9.\u00a0Januar",
+    "price2" : "37.000\u00a0Kč",
+    "term3" : "9.\u00a0Januar - 16.\u00a0Januar",
+    "price3" : "22.000\u00a0Kč",
+    "term4" : "16.\u00a0Januar - 27.\u00a0Februar",
+    "price4" : "24.500\u00a0Kč",
+    "term5" : "27.\u00a0Februar - 3.\u00a0April",
+    "price5" : "22.000\u00a0Kč",
+    "term6" : "3.\u00a0April - 1.\u00a0Dezember",
+    "price6" : "15.000\u00a0Kč"
   },
 
   "pricing" : {
-    "chargeForDog" : "Die Gebühr für einen Hund beträgt 50\u00a0CZK / Nacht.",
+    "chargeForDog" : "Die Gebühr für einen Hund beträgt 200\u00a0CZK / Nacht.",
     "dog": "Bitte beachten Sie, dass das Gebiet des Dorfes Rokytnice nad Jizerou Teil des Nationalparks Riesengebirge (KRNAP) mit einer definierten Schutzzone und Zonen mit abgestuftem Naturschutz ist. Auf der tschechischen Seite des Gebirges ist eine Leine nicht erforderlich, aber Sie müssen den Hund gut unter Kontrolle haben.",
     "info1" : "Der Hütte wird als Ganzes zum oben genannten Preis vermietet - der konkrete Preis hängt vom gewählten Datum ab.",
     "info2" : "Der Preis beinhaltet bereits den Energieverbrauch.",
@@ -96,7 +92,7 @@
     },
   
   "reservation" : {
-    "turnus" : "In der Wintersaison (vom 20.\u00a0Dezember bis 30.\u00a0März) ist die Anmietung der gesamten Hütte nur in Wochenschichten (von Samstag bis Samstag) möglich, ansonsten kann die Anmietung einzelner Zimmer und beliebiger Anzahl individuell vereinbart werden Tage.",
+    "turnus" : "In der Wintersaison (vom 20.\u00a0Dezember bis 30.\u00a0März) ist die Anmietung der gesamten Hütte nur in Wochenschichten (von Sonntag bis Sonntag) möglich, ansonsten kann die Anmietung einzelner Zimmer und beliebiger Anzahl individuell vereinbart werden Tage.",
     "deposit" : "Nach der Ankunft eine Anzahlung ist erstattbare in Höhe von 5.000\u00a0CZK (oder 200\u00a0EUR oder 900\u00a0PLN) und Spa-Gebühr erforderlich.",
     "binding" : "Die Reservierung wird erst nach Eingang der Anzahlung verbindlich - Zahlungsbedingungen und Unterkunftsregeln",
     "link" : "finden Sie hier",
