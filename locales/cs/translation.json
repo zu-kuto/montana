@@ -92,8 +92,8 @@
   },
 
   "reservation" : {
-    "turnus" : "V\u00a0zimní sezóně (od 20.\u00a0prosince do 30.\u00a0března) je možný pouze pronájem celé chaty v\u00a0týdenních turnusech (od neděle oty do neděle), v\u00a0ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a\u00a0na libovolný počet dní.",
-    "deposit" : "Po příjezdu se skládá vratná kauce 5.000\u00a0Kč (nebo 200\u00a0EUR nebo 900\u00a0PLN) a lázeňský poplatek.",
+    "turnus" : "V\u00a0zimní sezóně (od 20.\u00a0prosince do 30.\u00a0března) je možný pouze pronájem celé chaty v\u00a0týdenních turnusech (od neděle do neděle), v\u00a0ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a\u00a0na libovolný počet dní.",
+    "deposit" : "Po příjezdu se skládá vratná kauce 4.000\u00a0Kč (nebo 150\u00a0EUR) a lázeňský poplatek.",
     "binding" : "Rezervace se stává závaznou až po uhrazení platby - platební podmínky a ubytovací řád najdete",
     "link" : "ke stažení zde",
     "wanted" : "Chcete si zarezervovat svůj termín v\u00a0chatě Montaně? Kontaktujte nás.",
