@@ -29,7 +29,7 @@
 
   .small-gallery {
     margin: 0 1rem;
-    box-shadow: 0 0 10px rgba(15, 31, 44, .1);
+    box-shadow: 0 0 20px rgba(15, 31, 44, .1);
   }
 }
 
