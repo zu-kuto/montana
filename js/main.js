@@ -1,6 +1,6 @@
 function init() {
   const hamburger = document.querySelector(".hamburger");
-  const navMenu = document.querySelector(".nav-menu");
+  const navMenu = document.querySelector(".navigation");
   const navLink = document.querySelectorAll(".nav-link");
 
   hamburger.addEventListener("click", mobileMenu);
@@ -33,7 +33,7 @@ i18next
     },
     function (err, t) {
       localize = locI18next.init(i18next);
-      localize(".container");
+      localize(".content");
     }
   );
 

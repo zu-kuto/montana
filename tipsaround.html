@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 
 <head>
-    <title data-i18n="pagetitle.tipsaround"></title>
+    <title data-i18n="pagetitle.home"></title>
     <meta charset="UTF-8">
     <link rel="icon" href="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/navigation.css">
-    <link rel="stylesheet" href="styles/switcher.css">
-    <link rel="stylesheet" href="styles/splitcontent.css">
-    <link rel="stylesheet" href="styles/buttons.css">
+    <link rel="stylesheet" href="styles/buttons.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/homepage.css" />
+    <link rel="stylesheet" href="styles/navigation.css" />
+    <link rel="stylesheet" href="styles/switcher.css" />
+    <link rel="stylesheet" href="styles/splitcontent.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/20.4.0/i18next.min.js"
         integrity="sha512-6aFqg0ZOAUhCb0OhX3GMEvIbv7lR1fkjveiR1YLBMChmtMcvW6UiIkpSOS6/smY75Uak77zgG6X/sPbJDg1rag=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -25,18 +27,21 @@
 </head>
 
 <body onload="init()">
-    <div class="column container" id="translation-initialization">
-        <div class="row header">
-            <nav class="row navbar">
+    <div class="column content">
+        <nav class="column">
+            <div class="row navbar">
                 <div>
-                    <a href="index.html" class="navigation-logo">
+                    <a href="index.html">
                         <img class="logo" src="images/vilaMontana_logo.png" alt="Vila Montana logo." />
                     </a>
                 </div>
-                <ul class="row nav-menu">
+                <ul class="navigation">
                     <li class="nav-item">
                         <a href="index.html" class="nav-link" data-i18n="menu.about"></a>
                     </li>
+                    <!-- <li class="nav-item">
+                        <a href="gallery.html" class="nav-link" data-i18n="menu.gallery"></a>
+                    </li> -->
                     <li class="nav-item">
                         <a href="tipsaround.html" class="nav-link" data-i18n="menu.tipsaround"></a>
                     </li>
@@ -53,7 +58,7 @@
                                 <span id="lang-state">
                                     Vyberte jazyk
                                 </span>
-                                <img class="arrow" src="images/icon_arrow_down.png" alt="Icon of arrow." />
+                                <img class="arrow" src="images/icon_arrow_down.png"alt="Icon of arrow." />
                             </div>
                             <!-- rozbalovaci list -->
                             <ul id="lang-list">
@@ -78,40 +83,59 @@
                     <span class="bar"></span>
                     <span class="bar"></span>
                 </div>
-            </nav>
-        </div>
-        <div class="column container section-primary">
+            </div>
+        </nav>
+        <content class="column">
             <h1 data-i18n="title.tipsaround"></h1>
-            <div class="column container  light-orange">
-                <div class="row split-content">
-                    <div class="left-content">
-                        <div class="text-section" >
-                            <div class="tag summer" data-i18n="tag.summer"></div>
-                            <h3 data-i18n="tip1.title"></h3>
-                            <p data-i18n="tip1.info"></p>
-                        </div>
-                    </div>
-                    <div class="right-content">
-                        <img class="split-content-image" src="images/rockitnice.jpg" alt="Three bikers on the trail.">
-                    </div>
-                </div>
-            </div>
-            <div class="column container light-brown">
-                <div class="row split-content ">
-                    <div class="left-content">
-                        <img class="split-content-image" src="images/kaplicka.jpg" alt="Chapel of the Virgin Mary in Rokytnice.">
-                    </div>
-                    <div class="right-content">
-                        <div class="text-section" >
-                            <div class="tag trip" data-i18n="tag.trip"></div>
-                            <h3 data-i18n="tip2.title"></h3>
-                            <p data-i18n="tip2.info"></p>
+            <div class="column light-orange">
+                <div class="column container">
+                    <div class="row main-content">
+                        <div class="row split">
+                            <div class="column split65 text-section">
+                                <div class="tag summer" data-i18n="tag.summer"></div>
+                                <h3 data-i18n="tip1.title"></h3>
+                                <p data-i18n="tip1.info"></p>
+                            </div>
+                            <div class="column split35">
+                                <div class="img-wrapper">
+                                    <img class="split-content-image" src="images/rockitnice.jpg" alt="Biker on the trail.">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="column light-brown">
+                <div class="column container">
+                    <div class="row main-content">
+                        <div class="row row-reverse split">
+                            <div class="column split65 text-section">
+                                <div class="tag trip" data-i18n="tag.trip"></div>
+                                <h3 data-i18n="tip2.title"></h3>
+                                <p data-i18n="tip2.info"></p>
+                            </div>
+                            <div class="column split35">
+                                <div class="img-wrapper">
+                                    <img class="split-content-image" src="images/kaplicka.jpg" alt="Chapel of the Virgin Mary in Rokytnice.">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </content>
+        <!--website footer-->
+        <footer class="column ">
+            <div class="row footer-top">
+                <div class="column footer-content third divider">
+                    <img src="images/vilaMontana_logo.png"></img>
+                </div>
+            </div>
+            <div class="row footer-bottom">
+                <p><a href="index.html" >&#169; Chata Montana 2022</a> | </p>
+                <p><a href="https://zuzanakutova.com/" target="_blank">Designed and Developed by ZK</a></p>
+            </div>
+        </footer>
     </div>
 </body>
-
 </html>

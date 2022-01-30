@@ -1,0 +1,31 @@
+.quote-container {
+  align-items: center;
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.quote-container p {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.wave {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.foreground {
+  position: absolute;
+  z-index: 2;
+  color: rgb(255, 255, 255);
+}
+
+@media only screen and (min-width: 1024px) {
+  .wave object {
+    width: 100%;
+  }
+}
+

@@ -3,7 +3,7 @@
 .switcher {
   display: flex;
   align-items: center;
-  color: #0f1f2c;
+  color: rgb(14, 31, 44);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   cursor: pointer;
@@ -22,7 +22,7 @@
   justify-content: flex-end;
   position: absolute;
   box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
   padding: 0 1rem;
   margin-top: 1.4rem;
   width: 100%;
@@ -38,7 +38,7 @@
   display: flex;
   align-items: baseline;
   margin: 1rem 0;
-  color: #0f1f2c;
+  color: rgb(14, 31, 44);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   text-align: left;

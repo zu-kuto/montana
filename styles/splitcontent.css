@@ -1,58 +1,70 @@
+.split {
+  width: 100%;
+}
 
-.split-content {
-    flex-flow: row wrap;
-    width: 90%;
+.quater {
+  width: 50%;
+  padding: 1rem;
+  margin: 1rem 0;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.text-section {
+  text-align: start;
+  padding: .5rem 0;
+}
+
+.split50 img, .split35 img, .third img {
+  width: 100%;
+}
+
+.split65 {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 500px) {
+  .quater {
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .split {
+    margin: .8rem 0;
     background-color: rgb(255, 255, 255);
   }
 
-  .split-content-icons {
-    flex-flow: row wrap;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-  }
-  
-  .left-content, .right-content {
-    width: 100%;
-  }
-  
-  .split-content-image {
-    width: 100%;
+  .third {
+    width: 33.3%;
   }
 
-  .text-section, .text-section-small, .split-content-image {
-    margin-bottom: 1rem;
+  .split65 {
+    width: 65%;
+    margin-bottom: 0;
   }
 
-  @media screen and (min-width: 992px) {
-    .text-section-small {
-      padding: 5% 8%;
-    } 
+  .split50 {
+    width: 50%;
   }
 
-  @media screen and (min-width: 1025px) {
-    .split-content {
-        width: 90%;
-        margin: 1rem 0;
-    }
+  .split35 {
+    width: 35%;
+  }
 
-    .left-content, .right-content {
-        width: 50%;
-    }
-
-    .text-section, .text-section-small, .split-content-image {
-      margin-bottom: 0;
-    }
-
-    .text-section {
-      padding: 8% 12%;
-    } 
-}
-  @media screen and (min-width: 1200px) {
-    .split-content {
-        width: 70%;
-        margin: 1rem 0;
-    }
-
+  .text-section {
+    padding: 1.5rem 2rem;
+  }
 
 }
-  
+
+@media only screen and (min-width: 870px) {
+  .split40 {
+    width: 40%;
+  }
+
+  .split60 {
+    width: 60%;
+  }
+}
+

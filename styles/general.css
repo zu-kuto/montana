@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap);
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 
 * {
   box-sizing: border-box;
@@ -10,13 +9,20 @@
 
 body {
   height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
-  position: relative;
-  color: #0f1f2c;
+  color: rgb(14, 31, 44);
   font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  position: relative;
   top: 72px;
+}
+
+content {
+  align-items: center;
+  width: 100%;
 }
 
 .row {
@@ -29,53 +35,34 @@ body {
 .column {
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
-}
-
-.container {
-  justify-content: center;
-  align-items: center;
   width: 100%;
 }
 
-.small-container {
+.container {
+  width: 100%;
+  padding: 0 .5rem;
+  margin: 1rem 0;
   justify-content: center;
   align-items: center;
-  width: 90%;
-}
-
-.mini-container {
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-}
-
-.center {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
 h1 {
   font-family: "Playfair Display", serif;
-  /* font-family: 'Poppins', sans-serif; */
   font-weight: 600;
   font-size: 36px;
-  margin: 1.5rem 0;
+  margin: 1rem 0 1.5rem 0;
   padding: 0;
 }
 
 h2 {
   font-family: "Playfair Display", serif;
-  /* font-family: 'Poppins', sans-serif; */
   font-weight: 600;
   font-size: 26px;
-  margin: 2rem 0;
+  margin: .5rem 0;
   padding: 0;
 }
 
 h3 {
-  /* font-family: "Playfair Display", serif; */
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 22px;
@@ -83,17 +70,20 @@ h3 {
 }
 
 h4 {
-  /* font-family: "Playfair Display", serif; */
   font-family: "Roboto", sans-serif;
   font-weight: 600;
-  width: 350px;
   font-size: 18px;
   margin: 3rem 0 1.5rem 0;
 }
 
-li {
-    font-family: "Playfair Display", serif; 
-    font-weight: 300;
+/* motto */
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 22px;
+  margin: 3rem 0 2rem 0;
+  text-align: center;
 }
 
 p {
@@ -118,72 +108,52 @@ p {
   font-weight: 600;
 }
 
-.light-blue, .light-orange, .light-brown {
+.light-blue {
+  background-color: rgba(50, 145, 239, .1);
+}
+
+.light-orange {
+  background-color: rgba(239, 144, 50, .1);
+}
+
+.light-brown {
+  background-color: rgba(121, 76, 57, .1);
+}
+
+.white {
   background-color: rgb(255, 255, 255);
 }
 
-.section-primary {
-  margin: 1rem 0;
+
+.img-wrapper {
+  display: inline-block;
+  overflow: hidden;
 }
 
-.section-small {
-  margin: 1rem .5rem;
-  padding: 0;
+.img-wrapper img:hover {
+  transition: all .8s ease;
+  transform:scale(1.1);
+  -ms-transform:scale(1.1); /* IE 9 */
+  -moz-transform:scale(1.1); /* Firefox */
+  -webkit-transform:scale(1.1); /* Safari and Chrome */
+  -o-transform:scale(1.1); /* Opera */
 }
 
-@media screen and (min-width: 992px) {
-  .row {
-    flex-wrap: nowrap;
-    width: 80%;
+
+@media only screen and (min-width: 768px) {
+  .row-reverse {
+    flex-direction: row-reverse;
   }
+}
 
-  .small-container {
+@media only screen and (min-width: 1024px) {
+  .main-content {
     width: 90%;
   }
-
-  .mini-container {
-    width: 60%;
-  }
-
-  .section-small {
-    margin: 1rem;
-    padding: 0 1rem;
-  }
 }
 
-@media screen and (min-width: 1025px) {
-.h3 {
-  margin: 1.5rem 0;
-}
-
-  .row {
-    width: 60%;
-  }
-
-  .small-container {
-    width: 60%;
-  }
-
-  .mini-container {
-    width: 40%;
-  }
-
-  .light-blue {
-    background-color: rgba(50, 145, 239, .1);
-  }
-
-  .light-orange {
-    background-color: rgba(239, 144, 50, .1);
-  }
-
-  .light-brown {
-    background-color: rgba(121, 76, 57, .1);
+@media only screen and (min-width: 1200px) {
+  .main-content {
+    width: 70%;
   }
 }
-
-@media screen and (min-width: 1981px) {
-  .container {
-    max-width: 1980px;
-    margin: 0 auto;
-  }
-} 

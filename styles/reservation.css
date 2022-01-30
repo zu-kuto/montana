@@ -1,65 +1,83 @@
 @import url(https://fonts.googleapis.com/?family=Playfair+Display:wght@600&family=Roboto&display=swap);
 
+.pricing-info,
+.reservation-info {
+  text-align: start;
+}
+
 .pricing-table {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  width: 100%;
 }
 
 .table-row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
-.title-row {
-    background-color: rgb(50, 145, 239);
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 550;
+.table-title {
+  background-color: rgb(50, 145, 239);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 550;
 }
 
-.odd-row {
-    background-color: rgba(50, 145, 239, 0.05);
+.term,
+.price {
+  padding: 1rem;
 }
 
-.even-row {
-    background-color: rgb(255, 255, 255);
+.reservation-info {
+  margin-top: 2rem;
 }
 
-.term, .price {
-    padding: .4rem .5rem;
-}
-
-.dog-pricing {
-    text-align: center;
-    margin-bottom: 2rem;
-    margin-right: 0;
-}
-
-.info-icon {
-    width: 4rem;
-    margin-bottom: .5rem;
+.dog {
+    padding-top: 2rem;
   }
 
-@media screen and (min-width: 640px) {
-    .dog {
-        flex-direction: row;
-        align-items: center;
-        margin: 1.5rem 0;
-    }
+  .info-icon {
+    width: 4rem;
+    margin-bottom: 1rem;
+  }
 
-    .dog-pricing {
-        margin-right: 1.5rem;
-    }
+.contact-redirect-section {
+  align-self: center;
+  align-items: center;
 }
 
-@media screen and (min-width: 992px) {
-    .table-row {
-      flex-wrap: nowrap;
-    }
+@media only screen and (min-width: 768px) {
+  .pricing-info .split50 {
+    width: 100%;
+  }
 
-    .term, .price {
-        padding: 1rem;
-    }
+  .contact-redirect-section {
+    width: 60%;
+  }
+
+  .contact-redirect-section .primary-button {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 820px) {
+  .pricing-info .split50 {
+    width: 50%;
+  }
+
+  .dog {
+    padding-left: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+    
+  .contact-redirect-section {
+    width: 50%;
+  }
+
+  .contact-redirect-section .primary-button {
+    width: 60%;
+  }
 }

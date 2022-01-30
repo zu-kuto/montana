@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap);
 
 .primary-button {
-    border-radius: 8px;
+    border-radius: 10px;
     margin: 1rem 0 1.5rem 0;
     padding: 12px 24px;
     background-color: rgb(50, 145, 239);
@@ -18,13 +18,9 @@
     box-shadow:  0 0 7px rgba(47, 71, 95, 0.5);
 }
 
-.small {
-    width: 250px;
-}
-
 .tag {
-    border-radius: 8px;
-    margin: 2rem 0 ;
+    border-radius: 0 10px ;
+    margin: 1rem 0;
     padding: 5px 15px;
     border: none;
     color: rgb(255, 255, 255);
@@ -45,11 +41,4 @@
 
 .trip {
     background-color: rgb(121, 76, 57);
-    /* background-color: rgb(57, 102, 121); */
-}
-
-@media screen and (min-width: 992px) {
-    .small {
-        width: 300px;
-    }
 }

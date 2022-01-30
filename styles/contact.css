@@ -1,7 +1,8 @@
 .google-map {
   overflow: hidden;
-  height: 400px;
-  width: 90%;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 3rem;
 }
 
 .map-responsive iframe {
@@ -9,36 +10,18 @@
   top: 0;
   height: 100%;
   width: 100%;
-  position: absolute;
 }
 
-.contact-split {
-  flex-flow: row wrap;
-  width: 90%;
-  
-  justify-content: center;
-  align-content: center;
-}
-
-.contact-info {
-  margin-bottom: .5rem;
+.contact-page {
   width: 100%;
 }
 
-.formular {
-  background-color: #ffffff;
-  padding: 1rem;
-  width: 100%;
-  margin: .5rem 0 0;
-  border-radius: 8px;
-}
-
-.details {
-  background-color: #ffffff;
-  border-radius: 8px;
+.contact-info-unit {
+  border-radius: 10px;
   margin: .5rem 0;
   line-height: 2;
   align-items: center;
+  text-align: start;
   width: 100%;
 }
 
@@ -47,14 +30,22 @@
   padding-right: .5rem;
 }
 
-.contact-form-icon {
+.info-icon {
   width: 4rem;
   margin: 1rem;
 }
 
-form {
-  text-align: center;
-  
+.contact-page .split {
+    background-color: rgba(50, 145, 239, .0);
+    /* delete when form is working: */
+    justify-content: center;
+}
+
+.formular {
+  padding: 1rem;
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 10px;
 }
 
 input {
@@ -66,6 +57,7 @@ input {
   padding: 0;
   border-radius: 4px;
 }
+
 #firstname, #lastname, #inputemail, #inputsubject, #inputmessage {
   padding: .7rem .5rem;
   width: 100%;
@@ -82,42 +74,61 @@ input {
   border-radius: 4px;
 }
 
-.blue-bg {
-  background-color: rgba(50, 145, 239, .1);
-}
-
-@media screen and (min-width: 992px) {
-  .contact-split {
-      width: 90%;
-      margin: 1rem 0;
-  }
-
-  .contact-info{
-      width: 40%;
-  }
-
-  .formular {
-    width: 60%;
-}
-
-  .details {
-    width: 95%;
-  }
-
+@media screen and (min-width: 768px) {
   #firstname, #lastname {
     width: 49.5%;
   }
 }
-@media screen and (min-width: 1200px) {
-  .contact-split {
-      width: 70%;
-      margin: 1rem 0;
+
+/* delete when form is working: */
+@media screen and (min-width: 600px) {
+  .contact-page .split40 {
+    width: 90% !important;
   }
 }
 
-@media screen and (min-width: 1392px) {
-  .google-map {
-    height: 600px;
-    width: 70%;
+@media screen and (min-width: 800px) {
+  .contact-page .split40 {
+    width: 70% !important;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .contact-page .split40 {
+    width: 60% !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contact-page .split40 {
+    width: 50% !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contact-page .split40 {
+    width: 30% !important;
+  }
+}
+
+/* @media screen and (min-width: 870px) {
+  .contact-page .split40 {
+    padding-right: 1rem;
+  }
+
+  .formular {
+    margin: .5rem 0;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .contact-page {
+    width: 80% !important;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .contact-page {
+    width: 80% !important;
+  }
+} */

@@ -1,47 +1,75 @@
-
 .banner-image {
   width: 100%;
   margin-bottom: 1rem;
 }
 
-.row-icon {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: flex-start;
+.info-icons {
+  width: 100%;
+  align-items: stretch;
+  justify-content: center;
 }
 
 .info-icon {
-  width: 2.5rem;
-  margin-bottom: .5rem;
+  width: 4rem;
+  margin-bottom: 1rem;
 }
 
-.small-image {
+.info-card img {
   width: 100%;
 }
 
+.text-section-small {
+  text-align: start;
+  padding: .5rem 0;
+}
 
-@media screen and (min-width: 992px) {
-  .wrapper-small-gallery {
-    align-items: stretch;
-    width: 93%;
+@media only screen and (min-width: 768px) {
+  .light-blue h2 {
+    margin: 1.5rem 0 2rem 0;
+  }
+  
+  .text-section-small {
+    text-align: start;
+    padding: .5rem 1rem;
   }
 
-  .small-gallery {
-    margin: 0 1rem;
+  .light-blue .split50 h3, .text-section-small h3 {
+    text-align: center;
+  }
+
+  .info-cards {
+    width: 100%;
+    justify-content: space-between;
+    margin: 1rem 0;
+  }
+
+  .info-card {
     box-shadow: 0 0 20px rgba(15, 31, 44, .1);
+    width: 31%;
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+  .info-icons {
+    width: 70%;
   }
 }
 
-@media screen and (min-width: 1025px) {
-  .info-icon {
-    width: 3.5rem;
-    margin-bottom: 1rem;
+@media only screen and (min-width: 1024px) {
+  .info-icons {
+    width: 60%;
+  }
+
+  .info-cards {
+    width: 80%;
+    margin: 1rem 0;
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .wrapper-small-gallery {
-    width: 63%;
+@media only screen and (min-width: 1200px) {
+  .info-cards {
+    width: 60%;
+    margin: 1rem 0;
   }
 }
