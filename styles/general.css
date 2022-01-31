@@ -82,7 +82,7 @@ h5 {
   font-weight: 400;
   font-style: italic;
   font-size: 22px;
-  margin: 1rem 0;
+  margin: 1rem 0 .3rem 0;
   text-align: center;
   color: rgb(255, 255, 255);
 }
@@ -96,6 +96,10 @@ p {
   padding: 0;
 }
 
+a {
+  cursor: pointer;
+}
+
 .link {
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -103,6 +107,19 @@ p {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
+}
+
+.pdf {
+  color: rgb(14, 31, 44);
+  font-weight: 600;
+}
+
+.pdf:hover {
+  color: rgb(239, 144, 50);
+}
+
+.pdf:active{
+  color: rgb(50, 145, 239);
 }
 
 .bold {
@@ -152,7 +169,7 @@ p {
   }
 
   h5 {
-    margin: 2rem 0;
+    margin: 2rem 0 1rem 0;
     width: 700px;
   }
 }

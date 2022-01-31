@@ -42,7 +42,7 @@
       "prgrph2": "Willa z czterema pokojami i czterema łazienkami może wygodnie pomieścić 13 osób. Na najniższej kondygnacji znajduje się w pełni wyposażona kuchnia, która umożliwia pełne samodzielne przygotowywanie posiłków. Jest lodówka z zamrażarką, kuchenka elektryczna z piekarnikiem i zmywarka. Przestronna jadalnia, która służy również jako świetlica, zaprasza do wspólnego siedzenia i zabawy wieczorami przy grach z trzema stołami, dużą sofą i kominkiem.",
       "prgrph3": "Z jadalni jest bezpośrednie wyjście na zewnętrzny taras i do ogrodu, gdzie latem można grillować, a zimą lepić bałwanki lub zjeżdżać na bobslejach ze stoku. We wczesnych godzinach porannych do ogrodu często przychodzą nieśmiałe jelenie. Z tarasu oraz z okien pokoi roztacza się fascynujący widok na dolinę i przeciwległe zbocza Karkonoszy.",
       "rent" : "Dzierżawić",
-      "prgrph4": "W sezonie zimowym (od 20\u00a0grudnia do 30\u00a0marca) możliwe jest wynajęcie cały domek tylko w tygodniowych zmianach (od niedzieli do niedzieli), w pozostałych terminach możliwe jest indywidualne uzgodnienie wynajmu poszczególnych pokoi i dowolnej ilości dni.",
+      "prgrph4": "W sezonie zimowym (od 19\u00a0grudnia do 3\u00a0kwietnia) możliwe jest wynajęcie cały domek tylko w tygodniowych zmianach (od niedzieli do niedzieli), w pozostałych terminach możliwe jest indywidualne uzgodnienie wynajmu poszczególnych pokoi i dowolnej ilości dni.",
       "parking" : "Parkowanie",
       "prgrph5": "Obok domu znajduje się prywatny parking na dwa do trzech samochodów.",
       "town": "Udogodnienia miejskie",
@@ -70,17 +70,13 @@
       "term" : "Data",
       "price" : "Cena wynajmu za tydzień",
       "term1" : "19.\u00a0grudnia - 26.\u00a0grudnia",
-      "price1" : "24.000\u00a0Kč",
+      "price1" : "28.000\u00a0Kč",
       "term2" : "26.\u00a0grudnia - 9.\u00a0stycznia",
       "price2" : "37.000\u00a0Kč",
-      "term3" : "9.\u00a0stycznia - 16.\u00a0stycznia",
-      "price3" : "22.000\u00a0Kč",
-      "term4" : "16.\u00a0stycznia - 27.\u00a0lutego",
-      "price4" : "24.500\u00a0Kč",
-      "term5" : "27.\u00a0lutego - 3.\u00a0kwietnia",
-      "price5" : "22.000\u00a0Kč",
-      "term6" : "3.\u00a0kwietnia - 1.\u00a0grudnia",
-      "price6" : "15.000\u00a0Kč"
+      "term3" : "9.\u00a0stycznia - 3.\u00a0kwietnia",
+      "price3" : "25.000\u00a0Kč",
+      "term4" : "3.\u00a0kwietnia - 1.\u00a0grudnia",
+      "price4" : "18.000\u00a0Kč"
     },
   
     "pricing" : {
@@ -92,7 +88,7 @@
     },
   
     "reservation" : {
-      "turnus" : "W sezonie zimowym (od 20\u00a0grudnia do 30\u00a0marca) możliwe jest wynajęcie cały domek tylko w tygodniowych zmianach (od niedzieli do niedzieli), w pozostałych terminach możliwe jest indywidualne uzgodnienie wynajmu poszczególnych pokoi i dowolnej ilości dni.",
+      "turnus" : "W sezonie zimowym (od 19\u00a0grudnia do 3\u00a0kwietnia) możliwe jest wynajęcie cały domek tylko w tygodniowych zmianach (od niedzieli do niedzieli), w pozostałych terminach możliwe jest indywidualne uzgodnienie wynajmu poszczególnych pokoi i dowolnej ilości dni.",
       "deposit" : "Po przyjeździe jest kaucja zwrotna w wysokości 5000\u00a0CZK (lub 150\u00a0EUR) i opłata uzdrowiskowa.",
       "binding" : "Rezerwacja staje się wiążąca dopiero po wpłaceniu zadatku - warunki płatności i regulamin zakwaterowania",
       "link" : "można znaleźć tutaj",

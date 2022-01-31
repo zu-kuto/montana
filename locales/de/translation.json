@@ -42,7 +42,7 @@
     "prgrph2": "Der Hütte bietet mit vier Zimmern Platz für 10 bis 13 Personen und eignet sich somit ideal für Gruppen oder größere und mehrere Familien. Gästen der Hütte Montana steht eine voll ausgestattete Küche mit Kühlschrank (mit Gefrierfach), Elektroherd (mit Backofen) und Geschirrspüler zur Verfügung. Das geräumige Esszimmer, das gleichzeitig als Gemeinschaftsraum dient, lädt mit 3 Tischen, einem großen Sofa und einem Kaminofen zum geselligen Zusammensitzen und zu lustigen Spielabenden ein.",
     "prgrph3": "Hinter dem Haus befindet sich eine Terrasse mit Blick ins Tal, wo zum Beispiel im Sommer gegrillt werden kann. Der Hütte verfügt über einen eigenen Stellplatz für bis zu drei Autos direkt neben dem Haus. Zahlreiche Einkaufs- und Einkehrmöglichkeiten befinden sich nur wenige Gehminuten sowohl auf dem Unteren Platz (Dolní Náměstí) als auch auf dem Oberen Platz (Horní Náměstí)  Rokytnice nad Jizerou.",
     "rent" : "Vermietung",
-    "prgrph4": "In der Wintersaison (vom 20.\u00a0Dezember bis zum 30.\u00a0März) und in der Sommersaison (vom 01. Juli bis zum 31. August) sind nur wöchentliche Aufenthalte in der Hütte Montana möglich. Außerhalb dieser Zeiträume können einzelne Zimmer oder das ganze Haus gemietet werden.",
+    "prgrph4": "In der Wintersaison (vom 19.\u00a0Dezember bis 3.\u00a0April) und in der Sommersaison (vom 01. Juli bis zum 31. August) sind nur wöchentliche Aufenthalte in der Hütte Montana möglich. Außerhalb dieser Zeiträume können einzelne Zimmer oder das ganze Haus gemietet werden.",
     "parking" : "Parkplatz",
     "prgrph5": "Privater Parkplatz für zwei bis drei Autos befindet sich neben dem Haus.",
     "town": "Öffentliche Einrichtungen",
@@ -70,17 +70,13 @@
     "term" : "Datum",
     "price" : "Mietpreis pro Woche",
     "term1" : "19.\u00a0Dezember - 26.\u00a0Dezember",
-    "price1" : "24.000\u00a0Kč",
+    "price1" : "28.000\u00a0Kč",
     "term2" : "26.\u00a0Dezember - 9.\u00a0Januar",
     "price2" : "37.000\u00a0Kč",
-    "term3" : "9.\u00a0Januar - 16.\u00a0Januar",
-    "price3" : "22.000\u00a0Kč",
-    "term4" : "16.\u00a0Januar - 27.\u00a0Februar",
-    "price4" : "24.500\u00a0Kč",
-    "term5" : "27.\u00a0Februar - 3.\u00a0April",
-    "price5" : "22.000\u00a0Kč",
-    "term6" : "3.\u00a0April - 1.\u00a0Dezember",
-    "price6" : "15.000\u00a0Kč"
+    "term3" : "9.\u00a0Januar - 3.\u00a0April",
+    "price3" : "25.000\u00a0Kč",
+    "term4" : "3.\u00a0April - 1.\u00a0Dezember",
+    "price4" : "18.000\u00a0Kč"
   },
 
   "pricing" : {
@@ -92,7 +88,7 @@
     },
   
   "reservation" : {
-    "turnus" : "In der Wintersaison (vom 20.\u00a0Dezember bis 30.\u00a0März) ist die Anmietung der gesamten Hütte nur in Wochenschichten (von Sonntag bis Sonntag) möglich, ansonsten kann die Anmietung einzelner Zimmer und beliebiger Anzahl individuell vereinbart werden Tage.",
+    "turnus" : "In der Wintersaison (vom 19.\u00a0Dezember bis 3.\u00a0April) ist die Anmietung der gesamten Hütte nur in Wochenschichten (von Sonntag bis Sonntag) möglich, ansonsten kann die Anmietung einzelner Zimmer und beliebiger Anzahl individuell vereinbart werden Tage.",
     "deposit" : "Nach der Ankunft eine Anzahlung ist erstattbare in Höhe von 4.000\u00a0CZK (oder 150\u00a0EUR) und Spa-Gebühr erforderlich.",
     "binding" : "Die Reservierung wird erst nach Eingang der Anzahlung verbindlich - Zahlungsbedingungen und Unterkunftsregeln",
     "link" : "finden Sie hier",

@@ -25,6 +25,10 @@
   width: 100%;
 }
 
+.contact-link {
+  text-decoration: none;
+}
+
 .personal-detail {
   margin: .5rem 0;
   padding-right: .5rem;
