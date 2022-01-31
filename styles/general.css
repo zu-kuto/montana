@@ -145,6 +145,7 @@ a {
 .img-wrapper {
   display: inline-block;
   overflow: hidden;
+  width: 100%;
 }
 
 .img-wrapper img:hover {
