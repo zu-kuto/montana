@@ -82,8 +82,9 @@ h5 {
   font-weight: 400;
   font-style: italic;
   font-size: 22px;
-  margin: 3rem 0 2rem 0;
+  margin: 1rem 0;
   text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 p {
@@ -124,7 +125,6 @@ p {
   background-color: rgb(255, 255, 255);
 }
 
-
 .img-wrapper {
   display: inline-block;
   overflow: hidden;
@@ -150,10 +150,19 @@ p {
   .main-content {
     width: 90%;
   }
+
+  h5 {
+    margin: 2rem 0;
+    width: 700px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   .main-content {
     width: 70%;
+  }
+
+  h5 {
+    width: 900px;
   }
 }
