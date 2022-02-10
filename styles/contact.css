@@ -17,8 +17,8 @@
 }
 
 .contact-info-unit {
-  border-radius: 10px;
-  margin: .5rem 0;
+  border-radius: 8px;
+  margin: 0;
   line-height: 2;
   align-items: center;
   text-align: start;
@@ -49,7 +49,7 @@
   padding: 1rem;
   width: 100%;
   margin: 1rem 0;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 input {

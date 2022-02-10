@@ -6,6 +6,7 @@ nav {
   position: fixed;
   z-index: 10;
   top: 0;
+  padding: 0 1rem;
 }
 
 .navbar {
@@ -19,7 +20,7 @@ nav {
   display: block;
   height: 3rem;
   margin: 0.5rem 0;
-  padding-left: 1.5rem;
+  
 }
 
 .navigation {
@@ -79,7 +80,6 @@ nav {
 .hamburger {
   display: block;
   cursor: pointer;
-  padding-right: 1.5rem;
 }
 
 .bar {
@@ -89,8 +89,12 @@ nav {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: rgb(50, 145, 239);
+  background-color: rgb(47, 71, 95);
   cursor: pointer;
+}
+
+.bar:hover, .bar:active {
+  background-color: rgb(50, 145, 239);
 }
 
 .hamburger.active .bar:nth-child(2) {
@@ -108,17 +112,12 @@ nav {
 }
 
 @media only screen and (min-width: 1024px) {
-  .navbar {
-    padding: 0 0.5rem;
-  }
-
   .logo {
-    padding-left: 0;
     height: 2.7rem;
   }
 
   .navigation {
-    right: 0.5rem;
+    right: 1rem;
     top: 0;
     flex-direction: row;
     width: auto;
@@ -136,5 +135,15 @@ nav {
 
   .hamburger {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .navbar {
+    padding: 0 5rem;
+  }
+
+  .navigation {
+    right: 5rem;
   }
 }

@@ -15,7 +15,11 @@
   padding: .5rem 0;
 }
 
-.split50 img, .split35 img, .third img {
+.split30 {
+  align-items: center;
+}
+
+.split50 img, .split35 img {
   width: 100%;
 }
 
@@ -35,8 +39,9 @@
     background-color: rgb(255, 255, 255);
   }
 
-  .third {
+  .split30 {
     width: 33.3%;
+
   }
 
   .split65 {

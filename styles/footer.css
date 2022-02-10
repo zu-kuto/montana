@@ -16,22 +16,8 @@ footer p, a {
     margin: 1rem 0;
 }
 
-.footer-content {
-    align-items: center;
-    padding: 1rem 0;
-}
-
-.social-icons, .contact-info {
-    justify-content: center;
-    text-align: start;
-}
-
-.social-icons img {
-    height: 3rem;
-} 
-
-.contact-info img {
-    width: 2rem;
+.footer-logo {
+    width: 7rem;
 }
 
 .footer-top a {
@@ -59,26 +45,8 @@ footer p, a {
 }
 
 @media only screen and (min-width: 900px) {
-    .footer-content {
-        padding: .5rem;
-    }
-
-    .divider {
-        justify-content: center;
-    }
-
-    .footer-bottom p {
+       .footer-bottom p {
         width: auto;
     }
 }
 
-@media only screen and (min-width: 1200px) {
-    .footer-contact {
-        align-items: stretch;
-        padding-left: 5rem;
-    }
-
-    .contact-info {
-        justify-content: flex-start;
-    }
-}
