@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+  <g id="No_smoking" data-name="No smoking" transform="translate(-32 -445)">
+    <path id="Icon_material-smoke-free" data-name="Icon material-smoke-free" d="M3,8.714l9.986,10H3V23H17.271l10,10,1.8-1.786L4.786,6.929Zm26.429,10h2.143V23H29.429Zm-3.571,0H28V23H25.857Zm1.214-11.6a4.748,4.748,0,0,0,1.429-3.4H26.357a2.646,2.646,0,0,1-2.643,2.643V8.5a5.744,5.744,0,0,1,5.714,5.814v2.971h2.143V14.314a7.939,7.939,0,0,0-4.5-7.2Zm-6.214,5.457h2.186A2.753,2.753,0,0,1,25.857,15.5v1.786H28V15.014A4.741,4.741,0,0,0,23.043,10.5H20.857a2.838,2.838,0,0,1-2.643-2.857,2.528,2.528,0,0,1,2.643-2.5V3a4.786,4.786,0,1,0,0,9.571ZM24.429,22.9V18.714H20.243Z" transform="translate(42 454.5)" fill="#3291ef"/>
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(32 445)" fill="none" stroke="#3291ef" stroke-width="2">
+      <circle cx="27.5" cy="27.5" r="27.5" stroke="none"/>
+      <circle cx="27.5" cy="27.5" r="26.5" fill="none"/>
+    </g>
+  </g>
+</svg>
