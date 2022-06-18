@@ -42,7 +42,9 @@
     "prgrph2": "V\u00a0chatě se čtyřmi pokoji a\u00a0čtyřmi koupelnami se pohodlně ubytuje 13 osob. V\u00a0nejspodnějším patře se nachází plně vybavená kuchyň, která umožňuje vlastní stravování. K\u00A0dispozici je lednička s\u00a0mrazákem, elektrický sporák s\u00a0troubou a\u00a0myčka. Prostorná jídelna se třemi stoly, velkou pohovkou a\u00a0krbem slouží zároveň jako společenská místnost. Lze ji využít ke\u00a0společnému posezení a\u00a0zábavným večerům při hrách.",
     "prgrph3": "Z\u00a0jídelny je přímý východ na venkovní terasu a\u00a0zahradu, kde můžete v\u00a0létě grilovat a\u00a0v zimě třeba stavět sněhuláky nebo jezdit ze svahu na bobech. V\u00a0časných ranních hodinách přicházejí nezřídka na zahradu plaché srny. Z\u00a0terasy i\u00a0z oken pokojů je fascinující výhled do údolí a\u00a0na protější svahy Krkonoš.",
     "rent" : "Pronájem",
-    "prgrph4": "V\u00a0zimní sezóně (od 19.\u00a0prosince do 3.\u00a0dubna) je možný pouze pronájem celé chaty v\u00a0týdenních turnusech (od neděle do neděle), v\u00a0ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a\u00a0na libovolný počet dní.",
+    "prgrph4A": "Týdenní pobyty (7 nocí, výhradně od neděle do neděle) je možné objednat skrze e-mail",
+    "prgrph4B": "Krátkodobé pobyty je možné objednat přes",
+    "prgrph4C": ".",
     "parking" : "Parkování",
     "prgrph5": "Soukromé parkoviště pro dvě až tři auta se nachází přímo u\u00a0domu.",
     "town": "Občanská vybavenost",
@@ -66,25 +68,35 @@
     "info" : "Jaro, léto a\u00a0podzim jsou ideální období, kdy můžete objevovat krásy a\u00a0zajímavosti Rokytnice nad Jizerou a\u00a0našich nejvyšších hor - Krkonoš. Stezka Vás provede malebnou krajinou s\u00a0nádhernými výhledy na celé údolí Rokytnice. Dozvíte se informace o\u00a0její historii, přírodních krásách i\u00a0kulturních zajímavostech. Poznávací okruh nemusíte projít celý, ale kdekoliv si ho můžete zkrátit a\u00a0pokračovat druhý den. Okruh si rovněž můžete prodloužit o\u00a0další zajímavá zastavení na skalní vyhlídce Stráž nebo na Dvoračkách."
   },
 
-  "pricingTable" : {
-    "term" : "Termín",
-    "price" : "Cena pronájmu za týden",
-    "term1" : "19.\u00a0prosince - 26.\u00a0prosince",
-    "price1" : "28.000\u00a0Kč",
-    "term2" : "26.\u00a0prosince - 9.\u00a0ledna",
-    "price2" : "37.000\u00a0Kč",
-    "term3" : "9.\u00a0ledna - 3.\u00a0dubna",
-    "price3" : "25.000\u00a0Kč",
-    "term4" : "3.\u00a0dubna - 1.\u00a0prosince",
-    "price4" : "22.500\u00a0Kč"
+  "pricingTable1" : {
+    "title" : "Týdenní pobyt - 7 nocí od neděle do neděle *)",
+    "term1" : "1.\u00a06.\u00a02022 -\u00a020.\u00a012.\u00a02022",
+    "price1" : "27\u00a0000 Kč **)",
+    "term2" : "2.\u00a01.\u00a02023 -\u00a015.\u00a012.\u00a02023",
+    "price2" : "27\u00a0000 Kč **)"
+  },
+
+  "pricingTableChristmas" : {
+    "title" : "Vánoce - 7 nocí od úterý do úterý *)",
+    "term" : "20.\u00a012.\u00a02022 -\u00a027.\u00a012.\u00a02023",
+    "price" : "30\u00a0500 Kč"
+  },
+
+  "pricingTableNewYear" : {
+    "title" : "Silvestr - 6 nocí od úterý do pondělí *)",
+    "term" : "27.\u00a012.\u00a02022 -\u00a002.\u00a001.\u00a02023",
+    "price" : "35\u00a0000 Kč"
   },
 
   "pricing" : {
     "chargeForDog" : "Poplatek za psa je 200\u00a0Kč/noc.",
     "dog": "Vezměte prosím na vědomí, že území obce Rokytnice nad Jizerou je součástí Krkonošského národního parku (KRNAP) s\u00a0vymezeným ochranným pásmem a\u00a0zónami odstupňované ochrany přírody. Na české straně hor není vodítko nutné, psa ale musíte mít pod jednoznačnou kontrolou.",
-    "info1" : "Chata se pronajímá jako celek za výše uvedenou cenu - konkrétní výše ceny závisí na zvoleném termínu.",
-    "info2" : "V\u00a0ceně je již zahrnuta spotřeba energií.",
-    "info3" : "Základní úklid při ukončení pobytu provádí klient sám."
+    "info1" : "*) Lze objednat na adrese",
+    "info2" : "**) Krátkodobé pobyty (4 – 6 nocí) lze objednat pouze přes",
+    "info2B" : "",
+    "info3" : "Chata se pronajímá jako celek za výše uvedenou cenu - konkrétní výše ceny závisí na zvoleném termínu.",
+    "info4" : "V\u00a0ceně je již zahrnuta spotřeba energií.",
+    "info5" : "Základní úklid při ukončení pobytu provádí klient sám."
   },
 
   "reservation" : {

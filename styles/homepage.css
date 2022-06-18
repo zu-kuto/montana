@@ -1,6 +1,5 @@
 .banner {
   width: 100%;
-  max-width: 1600px;
 }
 
 .banner-image {
@@ -65,7 +64,8 @@
 
   .info-cards {
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1rem;
     margin: 1rem 0;
   }
 
@@ -94,13 +94,11 @@
 
   .info-cards {
     width: 80%;
-    margin: 1rem 0;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .info-cards {
     width: 60%;
-    margin: 1rem 0;
   }
 }

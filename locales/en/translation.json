@@ -42,7 +42,9 @@
     "prgrph2": "The cabin with four rooms and four bathrooms can comfortably accommodate 13 people. On the lowest floor there is a fully equipped kitchen, which allows full self-catering. There is a refrigerator with freezer, electric stove with oven and dishwasher. The spacious dining room, which also serves as a common room, invites you to sit together and have fun evenings at games with three tables, a large sofa and a fireplace.",
     "prgrph3": "From the dining room there is a direct exit to the outdoor terrace and garden, where you can grill in summer and build snowmen in winter or ride bobsleigh from the slope. In the early morning hours, shy deer often come to the garden. From the terrace and from the windows of the rooms there is a fascinating view of the valley and the opposite slopes of the Giant Mountains.",
     "rent" : "House rental",
-    "prgrph4": "In the winter season (from December\u00a019 to April\u00a03) it is possible to rent the whole cabin in weekly shifts (from Sunday to Sunday), in other terms it is possible to individually agree on the rental of individual rooms and any number of days.",
+    "prgrph4A": "One-week stays (7 nights, from Sunday to Sunday) can be booked via",
+    "prgrph4B": "Short stays can be booked via",
+    "prgrph4C": ".",
     "parking" : "Parking",
     "prgrph5": "Private parking for two to three cars is located next to the house.",
     "town": "Civic facilities",
@@ -66,25 +68,35 @@
     "info" : "Spring, summer and autumn are the ideal times when you can discover the beauty and attractions of Rokytnice nad Jizerou and our highest mountains - the Giant Mountains. The trail will take you through a picturesque landscape with beautiful views of the entire Rokytnice valley. You will learn about its history, natural beauty and cultural attractions. You don't have to go through the whole tour, but you can shorten it anywhere and continue the next day. You can also extend the circuit with other interesting stops at the rock lookout Stráž or at Dvoračky."
   },
 
-  "pricingTable" : {
-    "term" : "Date",
-    "price" : "Rental price per week",
-    "term1" : "December\u00a019th - December\u00a026th",
-    "price1" : "28.000\u00a0Kč",
-    "term2" : "December\u00a026th - January\u00a09th",
-    "price2" : "37.000\u00a0Kč",
-    "term3" : "January\u00a09th - April\u00a03rd",
-    "price3" : "25.000\u00a0Kč",
-    "term4" : "April\u00a03rd - December\u00a01st",
-    "price4" : "22.500\u00a0Kč"
+  "pricingTable1" : {
+    "title" : "One week - 7 nights from Sunday to Sunday *)",
+    "term1" : "1.\u00a06.\u00a02022 -\u00a020.\u00a012.\u00a02022",
+    "price1" : "27\u00a0000 Kč **)",
+    "term2" : "2.\u00a01.\u00a02023 -\u00a015.\u00a012.\u00a02023",
+    "price2" : "27\u00a0000 Kč **)"
+  },
+
+  "pricingTableChristmas" : {
+    "title" : "Christmas - 7 nights from Tuesday to Tuesday *)",
+    "term" : "20.\u00a012.\u00a02022 -\u00a027.\u00a012.\u00a02023",
+    "price" : "30\u00a0500 Kč"
+  },
+
+  "pricingTableNewYear" : {
+    "title" : "New Year's Eve - 6 nights from Tuesday to Monday *)",
+    "term" : "27.\u00a012.\u00a02022 -\u00a002.\u00a001.\u00a02023",
+    "price" : "35\u00a0000 Kč"
   },
 
   "pricing" : {
     "chargeForDog" : "The fee for a dog is 200\u00a0CZK / night.",
     "dog": "Please note that the territory of the village Rokytnice nad Jizerou is part of the Krkonoše National Park (KRNAP) with a defined protection zone and zones of graded nature protection. On the Czech side of the mountains, a leash is not necessary, but you must have a clear control of the dog.",
-    "info1" : "The cabin is rented as a whole for the above price - the specific price depends on the selected date.",
-    "info2" : "The price already includes energy consumption.",
-    "info3" : "The basic clean up at the end of the stay is performed by the client himself."
+    "info1" : "*) Bookable via",
+    "info2" : "**) Short stays (4 - 6 nights) can only be booked via",
+    "info2B" : "",
+    "info3" : "The cabin is rented as a whole for the above price - the specific price depends on the selected date.",
+    "info4" : "The price already includes energy consumption.",
+    "info5" : "The basic clean up at the end of the stay is performed by the client himself."
     },
   
   "reservation" : {
