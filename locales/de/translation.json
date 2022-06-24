@@ -78,7 +78,7 @@
 
   "pricingTableChristmas" : {
     "title" : "Weihnachten - 7 Nächte von Dienstag bis Dienstag *)",
-    "term" : "20.\u00a012.\u00a02022 -\u00a027.\u00a012.\u00a02023",
+    "term" : "20.\u00a012.\u00a02022 -\u00a027.\u00a012.\u00a02022",
     "price" : "30\u00a0500 Kč"
   },
 
@@ -100,7 +100,6 @@
     },
   
   "reservation" : {
-    "turnus" : "In der Wintersaison (vom 19.\u00a0Dezember bis 3.\u00a0April) ist die Anmietung der gesamten Hütte nur in Wochenschichten (von Sonntag bis Sonntag) möglich, ansonsten kann die Anmietung einzelner Zimmer und beliebiger Anzahl individuell vereinbart werden Tage.",
     "deposit" : "Nach der Ankunft eine Anzahlung ist erstattbare in Höhe von 4.000\u00a0CZK (oder 150\u00a0EUR) und Spa-Gebühr erforderlich.",
     "binding" : "Die Reservierung wird erst nach Eingang der Anzahlung verbindlich - Zahlungsbedingungen und Unterkunftsregeln",
     "link" : "finden Sie hier",

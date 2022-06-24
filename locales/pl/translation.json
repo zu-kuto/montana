@@ -78,7 +78,7 @@
 
   "pricingTableChristmas" : {
     "title" : "Boże Narodzenie - 7 nocy od wtorku do wtorku *)",
-    "term" : "20.\u00a012.\u00a02022 -\u00a027.\u00a012.\u00a02023",
+    "term" : "20.\u00a012.\u00a02022 -\u00a027.\u00a012.\u00a02022",
     "price" : "30\u00a0500 Kč"
   },
 
@@ -100,7 +100,6 @@
     },
   
     "reservation" : {
-      "turnus" : "W sezonie zimowym (od 19\u00a0grudnia do 3\u00a0kwietnia) możliwe jest wynajęcie cały domek tylko w tygodniowych zmianach (od niedzieli do niedzieli), w pozostałych terminach możliwe jest indywidualne uzgodnienie wynajmu poszczególnych pokoi i dowolnej ilości dni.",
       "deposit" : "Po przyjeździe jest kaucja zwrotna w wysokości 5000\u00a0CZK (lub 150\u00a0EUR) i opłata uzdrowiskowa.",
       "binding" : "Rezerwacja staje się wiążąca dopiero po wpłaceniu zadatku - warunki płatności i regulamin zakwaterowania",
       "link" : "można znaleźć tutaj",

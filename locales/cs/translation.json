@@ -20,7 +20,7 @@
     "sub": "Rokytnice nad Jizerou",
     "quote": "Pronajměte si chatu Montanu v\u00a0Krkonoších a\u00a0prožijte nezapomenutelnou dovolenou společně s\u00a0rodinou nebo přáteli.",
     "tipsaround": "Tipy v\u00a0okolí",
-    "pricing" : "Ceník pro rok 2021/2022",
+    "pricing" : "Ceník",
     "reservation": "Rezervace",
     "location" : "Kde nás najdete",
     "contactUs": "Kontaktujte nás"
@@ -78,7 +78,7 @@
 
   "pricingTableChristmas" : {
     "title" : "Vánoce - 7 nocí od úterý do úterý *)",
-    "term" : "20.\u00a012.\u00a02022 -\u00a027.\u00a012.\u00a02023",
+    "term" : "20.\u00a012.\u00a02022 -\u00a027.\u00a012.\u00a02022",
     "price" : "30\u00a0500 Kč"
   },
 
@@ -100,7 +100,6 @@
   },
 
   "reservation" : {
-    "turnus" : "V\u00a0zimní sezóně (od 19.\u00a0prosince do 3.\u00a0dubna) je možný pouze pronájem celé chaty v\u00a0týdenních turnusech (od neděle do neděle), v\u00a0ostatních termínech se lze individuálně dohodnout na pronájmu jednotlivých pokojů a\u00a0na libovolný počet dní.",
     "deposit" : "Po příjezdu se skládá vratná kauce 4.000\u00a0Kč (nebo 150\u00a0EUR) a lázeňský poplatek.",
     "binding" : "Rezervace se stává závaznou až po uhrazení platby - platební podmínky a ubytovací řád najdete",
     "link" : "ke stažení zde",
