@@ -73,19 +73,19 @@
     "term1" : "1.\u00a06.\u00a02022 -\u00a020.\u00a012.\u00a02022",
     "price1" : "27\u00a0000 Kč **)",
     "term2" : "2.\u00a01.\u00a02023 -\u00a015.\u00a012.\u00a02023",
-    "price2" : "27\u00a0000 Kč **)"
+    "price2" : "31\u00a0000 Kč **)"
   },
 
   "pricingTableChristmas" : {
     "title" : "Christmas - 7 nights from Tuesday to Tuesday *)",
     "term" : "20.\u00a012.\u00a02022 -\u00a027.\u00a012.\u00a02022",
-    "price" : "30\u00a0500 Kč"
+    "price" : "35\u00a0000 Kč"
   },
 
   "pricingTableNewYear" : {
     "title" : "New Year's Eve - 6 nights from Tuesday to Monday *)",
     "term" : "27.\u00a012.\u00a02022 -\u00a002.\u00a001.\u00a02023",
-    "price" : "35\u00a0000 Kč"
+    "price" : "40\u00a0000 Kč"
   },
 
   "pricing" : {
