@@ -91,12 +91,11 @@
     "pricing" : {
       "chargeForDog" : "Opłata za psa wynosi 200\u00a0CZK / noc.",
       "dog": "Należy pamiętać, że teren wsi Rokytnice nad Jizerou jest częścią Karkonoskiego Parku Narodowego (KRNAP) z określoną strefą ochronną i strefami stopniowej ochrony przyrody. Po czeskiej stronie gór smycz nie jest konieczna, ale trzeba mieć wyraźną kontrolę nad psem.",
-      "info1" : "*) Można zamówić w",
-      "info2" : "**) Krótkie pobyty (4 - 6 nocy) można rezerwować tylko przez",
-      "info2B" : "",
-      "info3" : "Willa wynajmowana jest w całości za powyższą cenę - cena konkretna uzależniona jest od wybranego terminu.",
-      "info4" : "Cena zawiera już zużycie energii.",
-      "info5" : "Podstawowe sprzątanie na koniec pobytu wykonuje sam klient."
+      "info1" : "Domek wynajmowany jest w całości",
+      "info2" : "Cena nie zależy od ilości osób (maksymalna pojemność domku to 13 osób).",
+      "info3" : "Krótkie pobyty (4 - 6 nocy) można rezerwować tylko przez",
+      "info4" : "Możliwość zamówienia pobytów tygodniowych pod wskazanym adresem",
+      "info5" : "Cena na konkretny termin ustalana jest na zapytanie."
     },
   
     "reservation" : {

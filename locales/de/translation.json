@@ -91,12 +91,11 @@
   "pricing" : {
     "chargeForDog" : "Die Gebühr für einen Hund beträgt 200\u00a0CZK / Nacht.",
     "dog": "Bitte beachten Sie, dass das Gebiet des Dorfes Rokytnice nad Jizerou Teil des Nationalparks Riesengebirge (KRNAP) mit einer definierten Schutzzone und Zonen mit abgestuftem Naturschutz ist. Auf der tschechischen Seite des Gebirges ist eine Leine nicht erforderlich, aber Sie müssen den Hund gut unter Kontrolle haben.",
-    "info1" : "*) Buchbar über",
-    "info2" : "**) Kurze Aufenthalte (4 - 6 Nächte) nur über",
-    "info2B" : "buchbar",
-    "info3" : "Der Hütte wird als Ganzes zum oben genannten Preis vermietet - der konkrete Preis hängt vom gewählten Datum ab.",
-    "info4" : "Der Preis beinhaltet bereits den Energieverbrauch.",
-    "info5" : "Die Grundreinigung am Ende des Aufenthaltes wird vom Kunden selbst durchgeführt."
+    "info1" : "Chat vermietet sie als Ganzes.",
+    "info2" : "Der Preis hängt nicht von der Anzahl der Personen ab (die maximale Kapazität des Ferienhauses beträgt 13 Personen).",
+    "info3" : "Kurze Aufenthalte (4 - 6 Nächte) nur über",
+    "info4" : "Wöchentliche Aufenthalte können unter der Adresse bestellt werden",
+    "info5" : "Der Preis für einen bestimmten Termin ist auf Anfrage erhältlich."
     },
   
   "reservation" : {

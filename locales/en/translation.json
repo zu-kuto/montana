@@ -91,12 +91,11 @@
   "pricing" : {
     "chargeForDog" : "The fee for a dog is 200\u00a0CZK / night.",
     "dog": "Please note that the territory of the village Rokytnice nad Jizerou is part of the Krkonoše National Park (KRNAP) with a defined protection zone and zones of graded nature protection. On the Czech side of the mountains, a leash is not necessary, but you must have a clear control of the dog.",
-    "info1" : "*) Bookable via",
-    "info2" : "**) Short stays (4 - 6 nights) can only be booked via",
-    "info2B" : "",
-    "info3" : "The cabin is rented as a whole for the above price - the specific price depends on the selected date.",
-    "info4" : "The price already includes energy consumption.",
-    "info5" : "The basic clean up at the end of the stay is performed by the client himself."
+    "info1" : "The cabin is rented as a whole.",
+    "info2" : "The price does not depend on the number of people (13 people is the maximum capacity of the cabin).",
+    "info3" : "Short stays (4 - 6 nights) can only be booked via",
+    "info4" : "Weekly stays can be ordered at the address",
+    "info5" : "The price for a specific date is on request."
     },
   
   "reservation" : {

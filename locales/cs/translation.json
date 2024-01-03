@@ -91,12 +91,11 @@
   "pricing" : {
     "chargeForDog" : "Poplatek za psa je 200\u00a0Kč/noc.",
     "dog": "Vezměte prosím na vědomí, že území obce Rokytnice nad Jizerou je součástí Krkonošského národního parku (KRNAP) s\u00a0vymezeným ochranným pásmem a\u00a0zónami odstupňované ochrany přírody. Na české straně hor není vodítko nutné, psa ale musíte mít pod jednoznačnou kontrolou.",
-    "info1" : "*) Lze objednat na adrese",
-    "info2" : "**) Krátkodobé pobyty (4 – 6 nocí) lze objednat pouze přes",
-    "info2B" : "",
-    "info3" : "Chata se pronajímá jako celek za výše uvedenou cenu - konkrétní výše ceny závisí na zvoleném termínu.",
-    "info4" : "V\u00a0ceně je již zahrnuta spotřeba energií.",
-    "info5" : "Základní úklid při ukončení pobytu provádí klient sám."
+    "info1" : "Chata se pronajímá jako celek.",
+    "info2" : "Cena se neodvíjí od počtu osob (13 osob je max. kapacita chaty).",
+    "info3" : "Krátkodobé pobyty (4 – 6 nocí) lze objednat pouze přes",
+    "info4" : "Týdenní pobyty lze objednat na adrese",
+    "info5" : "Cena pro konkrétní termín je na vyžádání."
   },
 
   "reservation" : {
